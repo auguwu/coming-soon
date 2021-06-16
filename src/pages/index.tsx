@@ -33,7 +33,7 @@ export default function Index() {
 
     <div style={{ bottom: 0, left: 0 }}>
       <p className='text-center text-indie text-white' style={{ fontSize: '1.6rem' }}>
-        Copyright &copy; 2021-present <a href='https://floofy.dev'>Noel 🥀</a> - Come back soon! :3
+        Copyright &copy; 2021-present <a href='https://floofy.dev'>Noel 🥀</a> - Come back soon! :3 (<a href='https://www.pixiv.net/en/artworks/56866134'>bg source</a>)
       </p>
     </div>
   </>;
