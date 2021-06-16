@@ -11,6 +11,6 @@ jobs:
       - name: Login to registry.floofy.dev
         run: echo "${{ secrets.REGISTRY_PASSWORD }}" | docker login registry.floofy.dev -u august --password-stdin
       - name: Build container
-        run: docker build --no-cache -t registry.floofy.dev/auguwu/coming-soon:${{github.sha}} .
+        run: docker build --no-cache -t registry.floofy.dev/auguwu/coming-soon:latest .
       - name: Push to the registry
-        run: docker push registry.floofy.dev/auguwu/coming-soon:${{github.sha}}
+        run: docker push registry.floofy.dev/auguwu/coming-soon:latest
