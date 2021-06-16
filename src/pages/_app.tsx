@@ -15,3 +15,18 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
+
+import type { AppProps } from 'next/app';
+import Head from 'next/head';
+
+import '../styles/globals.scss';
+
+export default function PolarboiApp({ Component, pageProps }: AppProps) {
+  return <>
+    <Head>
+      <title>~ ✨ in the works :3 ✨ ~</title>
+      <meta name='viewport' content='width=device-width, initial-scale=1' />
+    </Head>
+    <Component {...pageProps} />
+  </>;
+}

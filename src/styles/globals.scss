@@ -15,3 +15,92 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nunito&family=Quicksand:wght@500&display=swap');
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+
+$background-colour: #262336;
+$selection-colour: #D961A3;
+
+* {
+  box-sizing: border-box;
+}
+
+::-moz-selection {
+  background: $selection-colour;
+  color: white;
+}
+
+::selection {
+  background: $selection-colour;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url(https://cdn.floofy.dev/touhou-rain.jpg);
+  background-color: $background-colour;
+  background-size: cover;
+}
+
+.heading-1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 3.7rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .heading-1 {
+    font-size: 2.7rem;
+  }
+}
+
+.heading-2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.9rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .heading-2 {
+    font-size: 1.7rem;
+  }
+}
+
+.almost-full {
+  height: 85vh;
+}
+
+.text-indie {
+  font-family: 'Indie Flower', sans-serif;
+}
+
+a {
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}

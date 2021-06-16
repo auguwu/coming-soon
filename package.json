@@ -12,13 +12,15 @@
     "start": "next start",
     "build": "next build",
     "lint": "eslint src --ext .ts,.tsx --fix",
-    "dev": "npm run lint && next dev"
+    "dev": "npm run lint && next dev -p 3621"
   },
   "dependencies": {
     "autoprefixer": "10.2.6",
+    "next": "11.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "sass": "1.35.1",
+    "tailwindcss": "2.1.4",
     "twemoji": "13.1.0"
   },
   "devDependencies": {
