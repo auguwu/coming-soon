@@ -1,6 +1,6 @@
 <div align='center'>
   <h3>~ ✨ in the works ✨ ~</h3>
-  <blockquote>A simple "coming soon" site for projects under my work.</blockquote>
+  <blockquote>A simple "coming soon" site for projects under my work, made with React, TailwindCSS, and Next.js</blockquote>
 </div>
 
 <hr />
