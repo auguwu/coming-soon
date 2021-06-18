@@ -5,5 +5,7 @@
 
 <hr />
 
+![website example](https://cute.floofy.dev/images/f0419c08.png)
+
 ## License
 **coming-soon** is released under the **GPL-3.0** License. :3
