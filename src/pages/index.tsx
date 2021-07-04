@@ -19,7 +19,7 @@
 export default function Index() {
   return <>
     <div className='justify-center items-center flex almost-full text-white'>
-      <div className='lg:grid lg:text-center lg:relative mb-2 text-center gap-3 blur-sm'>
+      <div className='lg:grid lg:text-center lg:relative mb-2 text-center gap-3'>
         <div />
 
         <h1 className='heading-1'>~ ✨ Are you ready? ✨ ~</h1>
