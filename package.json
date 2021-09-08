@@ -20,7 +20,7 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "sass": "1.39.0",
-    "tailwindcss": "2.2.11",
+    "tailwindcss": "2.2.12",
     "twemoji": "13.1.0"
   },
   "devDependencies": {
