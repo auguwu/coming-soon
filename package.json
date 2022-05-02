@@ -15,7 +15,7 @@
     "dev": "npm run lint && next dev -p 3621"
   },
   "dependencies": {
-    "autoprefixer": "10.4.5",
+    "autoprefixer": "10.4.6",
     "next": "12.1.5",
     "react": "18.1.0",
     "react-dom": "18.1.0",
