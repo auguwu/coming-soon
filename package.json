@@ -29,8 +29,8 @@
     "@types/node": "16.11.56",
     "@types/react": "18.0.17",
     "@types/twemoji": "13.1.1",
-    "@typescript-eslint/eslint-plugin": "5.35.1",
-    "@typescript-eslint/parser": "5.35.1",
+    "@typescript-eslint/eslint-plugin": "5.36.0",
+    "@typescript-eslint/parser": "5.36.0",
     "eslint": "8.23.0",
     "typescript": "4.8.2"
   }
