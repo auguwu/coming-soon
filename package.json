@@ -26,7 +26,7 @@
   "devDependencies": {
     "@augu/eslint-config": "3.0.0",
     "@augu/tsconfig": "1.1.1",
-    "@types/node": "16.11.58",
+    "@types/node": "16.11.59",
     "@types/react": "18.0.20",
     "@types/twemoji": "13.1.1",
     "@typescript-eslint/eslint-plugin": "5.36.1",
