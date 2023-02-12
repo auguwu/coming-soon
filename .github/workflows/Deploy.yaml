@@ -74,7 +74,7 @@ jobs:
                   echo "${{secrets.KUBECONFIG}}" > ~/.kube/config
 
             - name: Set image
-              run: kubectl set image deployment/coming-soon coming-soon=registry.floofy.dev/noel/site:${{steps.tag.outputs.tag}}
+              run: kubectl set image deployment/coming-soon coming-soon=registry.floofy.dev/noel/coming-soon:${{steps.tag.outputs.version}}
 
             - name: Deploy!
               run: kubectl rollout status deployment/coming-soon
