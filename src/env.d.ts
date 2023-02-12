@@ -21,9 +21,4 @@
  * SOFTWARE.
  */
 
-module.exports = {
-    plugins: {
-        autoprefixer: {},
-        tailwindcss: {}
-    }
-};
+/// <reference types="astro/client" />

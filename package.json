@@ -1,37 +1,52 @@
 {
-  "name": "@noel/coming-soon",
-  "description": "~ ✨ in the works ✨ ~",
-  "version": "1.0.2",
-  "private": true,
-  "author": "August <cutie@floofy.dev>",
-  "homepage": "https://floofy.dev",
-  "repository": "https://github.com/coming-soon/paw",
-  "bugs": "https://github.com/auguwu/coming-soon/issues",
-  "license": "MIT",
-  "scripts": {
-    "start": "next start",
-    "build": "next build",
-    "lint": "eslint src --ext .ts,.tsx --fix",
-    "dev": "npm run lint && next dev -p 3621"
-  },
-  "dependencies": {
-    "autoprefixer": "10.4.13",
-    "next": "13.1.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "sass": "1.58.0",
-    "tailwindcss": "3.2.6",
-    "twemoji": "14.0.2"
-  },
-  "devDependencies": {
-    "@augu/eslint-config": "3.0.0",
-    "@augu/tsconfig": "1.1.1",
-    "@types/node": "18.13.0",
-    "@types/react": "18.0.28",
-    "@types/twemoji": "13.1.1",
-    "@typescript-eslint/eslint-plugin": "5.36.1",
-    "@typescript-eslint/parser": "5.36.1",
-    "eslint": "8.23.0",
-    "typescript": "4.9.5"
-  }
+    "name": "@noel/coming-soon",
+    "description": "🐻‍❄️✨ A simple \"coming soon\" site for my projects, made with Astro and Tailwind",
+    "version": "2.0.0",
+    "private": true,
+    "author": "Noel Miko <cutie@floofy.dev>",
+    "repository": "https://github.com/auguwu/coming-soon",
+    "bugs": "https://github.com/auguwu/coming-soon/issues/new",
+    "license": "MIT",
+    "packageManager": "yarn@3.4.1",
+    "scripts": {
+        "build": "yarn fmt && yarn lint && rimraf dist && astro build",
+        "lint": "tsx --tsconfig ./scripts/tsconfig.json scripts/eslint.ts",
+        "fmt": "prettier --config .prettierrc.json --write **/*.{ts,js,md,json,yaml,yml,astro}",
+        "dev": "astro dev"
+    },
+    "dependencies": {
+        "@astrojs/node": "5.0.3",
+        "@astrojs/tailwind": "3.0.1",
+        "@fontsource/cantarell": "4.5.10",
+        "@fontsource/inter": "4.5.15",
+        "@fontsource/jetbrains-mono": "4.5.12",
+        "astro": "2.0.10",
+        "astro-icon": "0.8.0",
+        "autoprefixer": "10.4.13",
+        "tailwindcss": "3.2.6"
+    },
+    "devDependencies": {
+        "@actions/core": "1.10.0",
+        "@augu/eslint-config": "4.0.1",
+        "@augu/tsconfig": "1.1.1",
+        "@types/eslint": "8.21.0",
+        "@types/node": "18.13.0",
+        "@types/prettier": "2.7.2",
+        "@types/signale": "1.4.4",
+        "@typescript-eslint/eslint-plugin": "5.51.0",
+        "@typescript-eslint/parser": "5.51.0",
+        "astro-eslint-parser": "0.11.0",
+        "eslint": "8.34.0",
+        "eslint-config-prettier": "8.6.0",
+        "eslint-plugin-astro": "0.23.0",
+        "eslint-plugin-jsx-a11y": "6.7.1",
+        "log-symbols": "5.1.0",
+        "prettier": "2.8.4",
+        "prettier-plugin-astro": "0.8.0",
+        "prettier-plugin-tailwindcss": "0.2.2",
+        "rimraf": "4.1.2",
+        "signale": "1.4.0",
+        "tsx": "3.12.3",
+        "typescript": "4.9.5"
+    }
 }
