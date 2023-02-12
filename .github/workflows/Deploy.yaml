@@ -46,7 +46,7 @@ jobs:
               with:
                   registry: registry.floofy.dev
                   username: august
-                  password: ${{secrets.DOCKER_PASSWORD}}
+                  password: ${{secrets.REGISTRY_PASSWORD}}
 
             - name: Build and push!
               uses: docker/build-push-action@v4
@@ -71,7 +71,7 @@ jobs:
             - name: Add kube config
               run: |
                   mkdir ~/.kube
-                  echo "${{secrets.KUBE_CONFIG}}" > ~/.kube/config
+                  echo "${{secrets.KUBECONFIG}}" > ~/.kube/config
 
             - name: Set image
               run: kubectl set image deployment/coming-soon coming-soon=registry.floofy.dev/noel/site:${{steps.tag.outputs.tag}}
