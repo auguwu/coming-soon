@@ -21,9 +21,37 @@
  * SOFTWARE.
  */
 
-module.exports = {
-    plugins: {
-        autoprefixer: {},
-        tailwindcss: {}
-    }
-};
+@import '@fontsource/jetbrains-mono';
+@import '@fontsource/cantarell';
+@import '@fontsource/inter';
+
+@tailwind components;
+@tailwind base;
+@tailwind utilities;
+
+::-moz-selection {
+    background: #d961a3;
+    color: white;
+}
+
+::selection {
+    background: #d961a3;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(https://cdn.floofy.dev/images/reira.jpg);
+    background-color: #262336;
+    background-size: cover;
+}

@@ -1,0 +1,44 @@
+---
+import '../styles/tailwind.css';
+
+const currentYear = new Date().getFullYear();
+const PIXIV_SOURCE = 'https://www.pixiv.net/en/artworks/102739569';
+---
+
+<html lang="en">
+    <head>
+        <title>✨ Are you ready? ✨</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" href="https://cdn.floofy.dev/images/August.png" />
+        <meta
+            property="og:description"
+            content="Sorry, this site is currently a work in progress! Stay tuned for updates!"
+        />
+
+        <meta name="description" content="Sorry, this site is currently a work in progress! Stay tuned for updates!" />
+        <meta name="theme-color" content="#896ae0" />
+        <meta property="og:title" content="✨ Are you ready? ✨" />
+        <meta property="og:image" content="https://cdn.floofy.dev/images/August.png" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={import.meta.env.BASE_URL} />
+        <meta name="language" content="English" />
+        <meta name="keywords" content="august, auguwu, noel, noelware" />
+    </head>
+    <body class="text-white">
+        <main class="grid min-h-screen place-content-center text-center">
+            <h1 class="font-mono text-xl lg:text-6xl">~ ✨ Are you ready? ✨ ~</h1>
+            <h2 class="mt-3 font-sans text-lg lg:text-4xl">
+                Sorry! This site is current a work-in-progress at the moment! :(
+            </h2>
+        </main>
+        <footer class="bottom-0 left-0 -mt-16 text-center">
+            <p class="font-sans text-xl">
+                Copyright (c) 2021-{currentYear}
+                <a href="https://floofy.dev" target="_blank">Noel</a> &bull;
+                <a href="https://github.com/auguwu/coming-soon" target="_blank">Source Code</a> &bull;
+                <a href={PIXIV_SOURCE} target="_blank">Background Source</a>
+            </p>
+        </footer>
+    </body>
+</html>

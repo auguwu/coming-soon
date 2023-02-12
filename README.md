@@ -1,11 +1,12 @@
 <div align='center'>
   <h3>~ ✨ in the works ✨ ~</h3>
-  <blockquote>A simple "coming soon" site for projects under my work, made with React, TailwindCSS, and Next.js</blockquote>
+  <blockquote>A simple "coming soon" site for my projects, made with Astro and Tailwind</blockquote>
 </div>
 
 <hr />
 
-![website example](https://cute.floofy.dev/images/f0419c08.png)
+**coming-soon** is my template for future projects that require a web UI. This is the default for Noelware's projects also.
 
 ## License
+
 **coming-soon** is released under the **GPL-3.0** License. :3
