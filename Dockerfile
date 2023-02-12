@@ -41,12 +41,12 @@ FROM node:19-alpine
 RUN apk update && apk add --no-cache tini
 WORKDIR /app/noel/coming-soon
 
-COPY --from=builder /_work/node_modules /app/noel/coming-soon/node_modules
-COPY --from=builder /_work/dist         /app/noel/coming-soon/dist
+COPY --from=builder /_build/node_modules /app/noel/coming-soon/node_modules
+COPY --from=builder /_build/dist         /app/noel/coming-soon/dist
 
 RUN addgroup -g 1001 noel && \
     adduser -DSH -u 1001 -G noel noel && \
-    chown -R noelware:noelware /app/noel/coming-soon
+    chown -R noel:noel /app/noel/coming-soon
 
 USER noel
 ENTRYPOINT ["tini", "-s"]
