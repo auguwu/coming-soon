@@ -100,16 +100,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/node@npm:5.0.4":
-  version: 5.0.4
-  resolution: "@astrojs/node@npm:5.0.4"
+"@astrojs/node@npm:5.1.0":
+  version: 5.1.0
+  resolution: "@astrojs/node@npm:5.1.0"
   dependencies:
-    "@astrojs/webapi": ^2.0.1
+    "@astrojs/webapi": ^2.1.0
     send: ^0.18.0
     server-destroy: ^1.0.1
   peerDependencies:
-    astro: ^2.0.15
-  checksum: 139298cf1b595bb7cfc0b91ef13348b97ed64a1fd85256addcfcbf4a351cdcb801698fc3828d654ffd88fca290ca6a9da901e3ca8d402d5d690816708226a4e3
+    astro: ^2.1.0
+  checksum: d72b11ae16472f7335d5f27d4b0a7ccff0a17fe89abf2f9fedc7e1fec6b12e650588539138c65f92d3debf75a85a9c5fbd276395d42eb88977a8f65bb0b175cd
   languageName: node
   linkType: hard
 
@@ -153,21 +153,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/webapi@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "@astrojs/webapi@npm:2.0.1"
-  dependencies:
-    undici: 5.18.0
-  checksum: 7e0db7f0540f6b71cdb70478737eb2acbb2eb6ece1069b677201ccce23292fd6f96181ee0876d18647d3d8a548cdbbdfc6cc8d42bc02785252e8abe8dcce6108
-  languageName: node
-  linkType: hard
-
 "@astrojs/webapi@npm:^2.0.3":
   version: 2.0.3
   resolution: "@astrojs/webapi@npm:2.0.3"
   dependencies:
     undici: 5.20.0
   checksum: a05921796da2e41748e78f42a809fcb8b17c425cee81f579a77d4b6af9a465092fbff6039539fdc8904f4d873c3ec8fbc2d1c6c12b855d27ddbf3d2746bc8aa9
+  languageName: node
+  linkType: hard
+
+"@astrojs/webapi@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "@astrojs/webapi@npm:2.1.0"
+  dependencies:
+    undici: 5.20.0
+  checksum: 49e398896c38ac630700262a6d88dabd974dbe4b3444f1e9eb6323033a3614eaa46d7f3748f08530c7d9f724d9170940110568cc14958a302652c21efd97ea55
   languageName: node
   linkType: hard
 
@@ -1030,7 +1030,7 @@ __metadata:
   resolution: "@noel/coming-soon@workspace:."
   dependencies:
     "@actions/core": 1.10.0
-    "@astrojs/node": 5.0.4
+    "@astrojs/node": 5.1.0
     "@astrojs/tailwind": 3.0.1
     "@augu/eslint-config": 4.0.1
     "@augu/tsconfig": 1.1.1
@@ -7501,15 +7501,6 @@ __metadata:
     has-symbols: ^1.0.3
     which-boxed-primitive: ^1.0.2
   checksum: b7a1cf5862b5e4b5deb091672ffa579aa274f648410009c81cca63fed3b62b610c4f3b773f912ce545bb4e31edc3138975b5bc777fc6e4817dca51affb6380e9
-  languageName: node
-  linkType: hard
-
-"undici@npm:5.18.0":
-  version: 5.18.0
-  resolution: "undici@npm:5.18.0"
-  dependencies:
-    busboy: ^1.6.0
-  checksum: 74e0f357c376c745fcca612481a5742866ae36086ad387e626255f4c4a15fc5357d9d0fa4355271b6a633d50f5556c3e85720844680c44861c66e23afca7245f
   languageName: node
   linkType: hard
 
