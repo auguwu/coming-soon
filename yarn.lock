@@ -1047,7 +1047,7 @@ __metadata:
     prettier: 2.8.4
     prettier-plugin-astro: 0.8.0
     prettier-plugin-tailwindcss: 0.2.4
-    rimraf: 4.3.1
+    rimraf: 4.4.0
     signale: 1.4.0
     tailwindcss: 3.2.7
     tsx: 3.12.3
@@ -6725,14 +6725,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:4.3.1":
-  version: 4.3.1
-  resolution: "rimraf@npm:4.3.1"
+"rimraf@npm:4.4.0":
+  version: 4.4.0
+  resolution: "rimraf@npm:4.4.0"
   dependencies:
     glob: ^9.2.0
   bin:
     rimraf: dist/cjs/src/bin.js
-  checksum: d5893862a1e96cde610599ae76e338a709252667408d38bffa07cd24891a840a95957c4bb7178a9b0d3b6141e3b1bea20b9ba4b4f99d8c9edc492723e7b125ec
+  checksum: 0cedaf9d138589d1bb0ab851f05804c6d30827aa66563472b04ab76245f83537e23e7b94f1f79ea6c368c0d84a18fcde6a756fca3a44c967e08792671b3a0a6e
   languageName: node
   linkType: hard
 
