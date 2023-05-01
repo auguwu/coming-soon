@@ -107,16 +107,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/node@npm:5.1.1":
-  version: 5.1.1
-  resolution: "@astrojs/node@npm:5.1.1"
+"@astrojs/node@npm:5.1.2":
+  version: 5.1.2
+  resolution: "@astrojs/node@npm:5.1.2"
   dependencies:
-    "@astrojs/webapi": ^2.1.0
+    "@astrojs/webapi": ^2.1.1
     send: ^0.18.0
     server-destroy: ^1.0.1
   peerDependencies:
-    astro: ^2.2.0
-  checksum: f26cdad1cc425da9b77d3a8bd50e2cbaf5d07bca9a07a7d9c3ef3804ebbdf09e6d494eac52d1dc6e3934c8d573a2095184e5a4235bcbe783706b3f45b6bef147
+    astro: ^2.3.3
+  checksum: b22493225200e62985b750c6b59e8468d631215752c8b2c66cfa603f4356112007dec48aefcb06ec8b7f416dc32104b97f6c7e06fa48ff3528130a39b2da4550
   languageName: node
   linkType: hard
 
@@ -166,6 +166,15 @@ __metadata:
   dependencies:
     undici: 5.20.0
   checksum: 49e398896c38ac630700262a6d88dabd974dbe4b3444f1e9eb6323033a3614eaa46d7f3748f08530c7d9f724d9170940110568cc14958a302652c21efd97ea55
+  languageName: node
+  linkType: hard
+
+"@astrojs/webapi@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "@astrojs/webapi@npm:2.1.1"
+  dependencies:
+    undici: ^5.22.0
+  checksum: b62b06930ca1ef5e095457d1f6e10348e5ff6cb0d4463489dea0f6003af0f04f3b0097d845c8b8ab95a6eaace5afa2367f7c922451580cfa8cd64fea94f71269
   languageName: node
   linkType: hard
 
@@ -1046,7 +1055,7 @@ __metadata:
   resolution: "@noel/coming-soon@workspace:."
   dependencies:
     "@actions/core": 1.10.0
-    "@astrojs/node": 5.1.1
+    "@astrojs/node": 5.1.2
     "@astrojs/tailwind": 3.1.1
     "@augu/eslint-config": 4.0.1
     "@augu/tsconfig": 1.1.1
@@ -7714,6 +7723,15 @@ __metadata:
   dependencies:
     busboy: ^1.6.0
   checksum: 25412a785b2bd0b12f0bb0ec47ef00aa7a611ca0e570cb7af97cffe6a42e0d78e4b15190363a43771e9002defc3c6647c1b2d52201b3f64e2196819db4d150d3
+  languageName: node
+  linkType: hard
+
+"undici@npm:^5.22.0":
+  version: 5.22.0
+  resolution: "undici@npm:5.22.0"
+  dependencies:
+    busboy: ^1.6.0
+  checksum: 8dc55240a60ae7680798df344e8f46ad0f872ed0fa434fb94cc4fd2b5b2f8053bdf11994d15902999d3880f9bf7cd875a2e90883d2702bf0f366dacd9cbf3fc6
   languageName: node
   linkType: hard
 
