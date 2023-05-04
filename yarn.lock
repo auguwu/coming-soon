@@ -55,6 +55,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@astrojs/compiler@npm:^1.4.0":
+  version: 1.4.1
+  resolution: "@astrojs/compiler@npm:1.4.1"
+  checksum: 134eb3b12528ff42fc6ef2c16af1750b21391298f55c23d7090a5a07d081e84f4d7cbd92361a7a97b819fdf0994c2a54ae228c8bb532e898755ba4a369819a77
+  languageName: node
+  linkType: hard
+
 "@astrojs/language-server@npm:^1.0.0":
   version: 1.0.0
   resolution: "@astrojs/language-server@npm:1.0.0"
@@ -79,9 +86,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-remark@npm:^2.1.4":
-  version: 2.1.4
-  resolution: "@astrojs/markdown-remark@npm:2.1.4"
+"@astrojs/markdown-remark@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@astrojs/markdown-remark@npm:2.2.0"
   dependencies:
     "@astrojs/prism": ^2.1.0
     github-slugger: ^1.4.0
@@ -92,13 +99,13 @@ __metadata:
     remark-parse: ^10.0.1
     remark-rehype: ^10.1.0
     remark-smartypants: ^2.0.0
-    shiki: ^0.11.1
+    shiki: ^0.14.1
     unified: ^10.1.2
     unist-util-visit: ^4.1.0
     vfile: ^5.3.2
   peerDependencies:
-    astro: ^2.3.0
-  checksum: 20f3d5843426393a5d02420f69cdf59331a8f17cb802e6f787564151a0cc2107cd8519c184a82d90ec21df904e8da62b2aaef39975ebcd8e5481be85a0f06398
+    astro: ^2.4.0
+  checksum: 14d9ed6695efd84cfdf6c32173e15e8567fff1be0ed38c01d64a0a9f682227af815a870e89c4b9c6d7f49e1813ec850d2ec0a6082a6322d701659528e927c1de
   languageName: node
   linkType: hard
 
@@ -1064,7 +1071,7 @@ __metadata:
     "@types/signale": 1.4.4
     "@typescript-eslint/eslint-plugin": 5.59.2
     "@typescript-eslint/parser": 5.59.2
-    astro: 2.3.4
+    astro: 2.4.1
     astro-eslint-parser: 0.13.3
     astro-icon: 0.8.0
     autoprefixer: 10.4.14
@@ -1202,7 +1209,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/estree@npm:*, @types/estree@npm:^1.0.0":
+"@types/estree@npm:*":
   version: 1.0.0
   resolution: "@types/estree@npm:1.0.0"
   checksum: 910d97fb7092c6738d30a7430ae4786a38542023c6302b95d46f49420b797f21619cdde11fa92b338366268795884111c2eb10356e4bd2c8ad5b92941e9e6443
@@ -1607,7 +1614,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn@npm:^8.8.0, acorn@npm:^8.8.1":
+"acorn@npm:^8.8.0, acorn@npm:^8.8.2":
   version: 8.8.2
   resolution: "acorn@npm:8.8.2"
   bin:
@@ -1678,6 +1685,13 @@ __metadata:
   version: 6.0.1
   resolution: "ansi-regex@npm:6.0.1"
   checksum: 1ff8b7667cded1de4fa2c9ae283e979fc87036864317da86a2e546725f96406746411d0d85e87a2d12fa5abd715d90006de7fa4fa0477c92321ad3b4c7d4e169
+  languageName: node
+  linkType: hard
+
+"ansi-sequence-parser@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "ansi-sequence-parser@npm:1.1.0"
+  checksum: 75f4d3a4c555655a698aec05b5763cbddcd16ccccdbfd178fb0aa471ab74fdf98e031b875ef26e64be6a95cf970c89238744b26de6e34af97f316d5186b1df53
   languageName: node
   linkType: hard
 
@@ -1874,13 +1888,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:2.3.4":
-  version: 2.3.4
-  resolution: "astro@npm:2.3.4"
+"astro@npm:2.4.1":
+  version: 2.4.1
+  resolution: "astro@npm:2.4.1"
   dependencies:
-    "@astrojs/compiler": ^1.3.2
+    "@astrojs/compiler": ^1.4.0
     "@astrojs/language-server": ^1.0.0
-    "@astrojs/markdown-remark": ^2.1.4
+    "@astrojs/markdown-remark": ^2.2.0
     "@astrojs/telemetry": ^2.1.1
     "@astrojs/webapi": ^2.1.1
     "@babel/core": ^7.18.2
@@ -1891,7 +1905,7 @@ __metadata:
     "@babel/types": ^7.18.4
     "@types/babel__core": ^7.1.19
     "@types/yargs-parser": ^21.0.0
-    acorn: ^8.8.1
+    acorn: ^8.8.2
     boxen: ^6.2.1
     chokidar: ^3.5.3
     ci-info: ^3.3.1
@@ -1902,7 +1916,7 @@ __metadata:
     devalue: ^4.2.0
     diff: ^5.1.0
     es-module-lexer: ^1.1.0
-    estree-walker: ^3.0.1
+    estree-walker: 3.0.0
     execa: ^6.1.0
     fast-glob: ^3.2.11
     github-slugger: ^2.0.0
@@ -1918,7 +1932,7 @@ __metadata:
     rehype: ^12.0.1
     semver: ^7.3.8
     server-destroy: ^1.0.1
-    shiki: ^0.11.1
+    shiki: ^0.14.1
     slash: ^4.0.0
     string-width: ^5.1.2
     strip-ansi: ^7.0.1
@@ -1938,7 +1952,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 04ebd45ca925728db14f2ad8ed3ca86733ab63bc16f70b3b07a770d25f5f7fc62ba46ded89ecb7de73994001b785e5b2c71b51af96f585e3422969836930cf35
+  checksum: f574afda06aac866213b366c8a845dd46434034474fe3a0b15cdb8f73ed477464319d4b525b87a295a18689c4bf71084cad7e8dd5039a66299879af5360420f4
   languageName: node
   linkType: hard
 
@@ -3433,12 +3447,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"estree-walker@npm:^3.0.1":
-  version: 3.0.3
-  resolution: "estree-walker@npm:3.0.3"
-  dependencies:
-    "@types/estree": ^1.0.0
-  checksum: a65728d5727b71de172c5df323385755a16c0fdab8234dc756c3854cfee343261ddfbb72a809a5660fac8c75d960bb3e21aa898c2d7e9b19bb298482ca58a3af
+"estree-walker@npm:3.0.0":
+  version: 3.0.0
+  resolution: "estree-walker@npm:3.0.0"
+  checksum: 3b6b5fd5e37df9e2f472fe6b39eecee9f6ae395676c1535a9bca70ed6bf4a7233747c2f56b8cfa47bdb47411589b87e4ef108875d18415d7e3d2b2225b752e75
   languageName: node
   linkType: hard
 
@@ -4712,7 +4724,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsonc-parser@npm:^3.0.0":
+"jsonc-parser@npm:^3.2.0":
   version: 3.2.0
   resolution: "jsonc-parser@npm:3.2.0"
   checksum: 946dd9a5f326b745aa326d48a7257e3f4a4b62c5e98ec8e49fa2bdd8d96cef7e6febf1399f5c7016114fd1f68a1c62c6138826d5d90bc650448e3cf0951c53c7
@@ -7014,14 +7026,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shiki@npm:^0.11.1":
-  version: 0.11.1
-  resolution: "shiki@npm:0.11.1"
+"shiki@npm:^0.14.1":
+  version: 0.14.2
+  resolution: "shiki@npm:0.14.2"
   dependencies:
-    jsonc-parser: ^3.0.0
-    vscode-oniguruma: ^1.6.1
-    vscode-textmate: ^6.0.0
-  checksum: 2a4ebc3b466816263fc244ae4f67a4ff96aa74d863b9c5e7e4affc50f37fd6d1a781405de0dbf763b777bc33e49a0d441de7ff3fededb8b01e3b8dbb37e2927d
+    ansi-sequence-parser: ^1.1.0
+    jsonc-parser: ^3.2.0
+    vscode-oniguruma: ^1.7.0
+    vscode-textmate: ^8.0.0
+  checksum: f2a14302b1803617e3ff1b751a5c87b4af4ad15214dc00e9215402e42940a84a0b956cf55d628f25dbf1296b18e277b8529571cd9359b971ac599a0ab11303e7
   languageName: node
   linkType: hard
 
@@ -8011,17 +8024,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vscode-oniguruma@npm:^1.6.1":
+"vscode-oniguruma@npm:^1.7.0":
   version: 1.7.0
   resolution: "vscode-oniguruma@npm:1.7.0"
   checksum: 53519d91d90593e6fb080260892e87d447e9b200c4964d766772b5053f5699066539d92100f77f1302c91e8fc5d9c772fbe40fe4c90f3d411a96d5a9b1e63f42
   languageName: node
   linkType: hard
 
-"vscode-textmate@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "vscode-textmate@npm:6.0.0"
-  checksum: ff6f17a406c2906586afc14ef01cb122e33acd35312e815abb5c924347a777c6783ce3fe7db8b83f1760ebf843c669843b9390f905b69c433b3395af28e4b483
+"vscode-textmate@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "vscode-textmate@npm:8.0.0"
+  checksum: 127780dfea89559d70b8326df6ec344cfd701312dd7f3f591a718693812b7852c30b6715e3cfc8b3200a4e2515b4c96f0843c0eacc0a3020969b5de262c2a4bb
   languageName: node
   linkType: hard
 
