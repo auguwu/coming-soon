@@ -1077,7 +1077,7 @@ __metadata:
     autoprefixer: 10.4.14
     eslint: 8.40.0
     eslint-config-prettier: 8.8.0
-    eslint-plugin-astro: 0.26.2
+    eslint-plugin-astro: 0.27.0
     eslint-plugin-jsx-a11y: 6.7.1
     log-symbols: 5.1.0
     prettier: 2.8.8
@@ -1845,7 +1845,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro-eslint-parser@npm:0.14.0":
+"astro-eslint-parser@npm:0.14.0, astro-eslint-parser@npm:^0.14.0":
   version: 0.14.0
   resolution: "astro-eslint-parser@npm:0.14.0"
   dependencies:
@@ -1858,22 +1858,6 @@ __metadata:
     espree: ^9.0.0
     semver: ^7.3.8
   checksum: 04f07255801d812c5b2605c937e27eb71bb78b105403dff65c31d499d9c640f80f5032f65f9459d24b47db9461e31ba695d275ba6b3f118f6c5b7a3821a29f70
-  languageName: node
-  linkType: hard
-
-"astro-eslint-parser@npm:^0.13.1":
-  version: 0.13.1
-  resolution: "astro-eslint-parser@npm:0.13.1"
-  dependencies:
-    "@astrojs/compiler": ^1.0.0
-    "@typescript-eslint/scope-manager": ^5.48.2
-    "@typescript-eslint/types": ^5.25.0
-    astrojs-compiler-sync: ^0.3.0
-    debug: ^4.3.4
-    eslint-visitor-keys: ^3.0.0
-    espree: ^9.0.0
-    semver: ^7.3.8
-  checksum: e418552d68e4b258a89d3c093af716da9d15aa827c6669f074450ea92b0b9c66ad711b94194a58bdcc9973cebe9921d66c3aedd22b8107e41b3e895e7b8a57f3
   languageName: node
   linkType: hard
 
@@ -3129,19 +3113,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-astro@npm:0.26.2":
-  version: 0.26.2
-  resolution: "eslint-plugin-astro@npm:0.26.2"
+"eslint-plugin-astro@npm:0.27.0":
+  version: 0.27.0
+  resolution: "eslint-plugin-astro@npm:0.27.0"
   dependencies:
     "@eslint-community/eslint-utils": ^4.2.0
     "@jridgewell/sourcemap-codec": ^1.4.14
     "@typescript-eslint/types": ^5.25.0
-    astro-eslint-parser: ^0.13.1
+    astro-eslint-parser: ^0.14.0
     postcss: ^8.4.14
     postcss-selector-parser: ^6.0.10
   peerDependencies:
     eslint: ">=7.0.0"
-  checksum: d853b032147acd2b20caff8a7af7dad6ef3eeec105229a023f225827ca3897732505975d14ffab8810a5f8e50051e8ec85889d21af7a50155fc87204e2b01bef
+  checksum: 190bbd33f4a90ba2041576cdc498acc02a5905244fb8b886adc8b5ffa80a97bd091ae778d92ac984392f3289e5d1d977dd234ad3916d1cdee5f5efdf91843cd9
   languageName: node
   linkType: hard
 
