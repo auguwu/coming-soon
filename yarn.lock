@@ -1065,10 +1065,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fontsource/inter@npm:4.5.15":
-  version: 4.5.15
-  resolution: "@fontsource/inter@npm:4.5.15"
-  checksum: d4330957c0a23a6c6a47f6f628b89c5603deec6305f28458fd3277bb652913dc77b31ac454bba96beeaecddef87eaf4b60befa2aad040ebb8c22c39ee33a2cf1
+"@fontsource/inter@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@fontsource/inter@npm:5.0.0"
+  checksum: 6366359131def44c531335e74ca7364d85d4c09f2347c8f43d6ac7f6f0a6c11b70483bb545234284b670b99462a9961ed7b0e3079c943cf7d5feb0b4483a66e4
   languageName: node
   linkType: hard
 
@@ -1231,7 +1231,7 @@ __metadata:
     "@augu/eslint-config": 4.0.1
     "@augu/tsconfig": 1.1.1
     "@fontsource/cantarell": 5.0.0
-    "@fontsource/inter": 4.5.15
+    "@fontsource/inter": 5.0.0
     "@fontsource/jetbrains-mono": 4.5.12
     "@types/eslint": 8.37.0
     "@types/node": 18.16.13
