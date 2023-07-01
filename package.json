@@ -7,7 +7,7 @@
     "repository": "https://github.com/auguwu/coming-soon",
     "bugs": "https://github.com/auguwu/coming-soon/issues/new",
     "license": "MIT",
-    "packageManager": "yarn@3.6.0",
+    "packageManager": "yarn@3.6.1",
     "scripts": {
         "build": "yarn fmt && yarn lint && rimraf dist && astro build",
         "lint": "tsx --tsconfig ./scripts/tsconfig.json scripts/eslint.ts",
