@@ -42,7 +42,7 @@
         "eslint-plugin-jsx-a11y": "6.7.1",
         "log-symbols": "5.1.0",
         "prettier": "3.0.2",
-        "prettier-plugin-astro": "0.11.0",
+        "prettier-plugin-astro": "0.11.1",
         "prettier-plugin-tailwindcss": "0.5.3",
         "rimraf": "5.0.1",
         "signale": "1.4.0",
