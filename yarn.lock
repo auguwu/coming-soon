@@ -1324,7 +1324,7 @@ __metadata:
     "@types/signale": 1.4.4
     "@typescript-eslint/eslint-plugin": 6.4.0
     "@typescript-eslint/parser": 6.4.0
-    astro: 2.10.9
+    astro: 2.10.11
     astro-eslint-parser: 0.14.0
     astro-icon: 0.8.1
     autoprefixer: 10.4.15
@@ -2153,9 +2153,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:2.10.9":
-  version: 2.10.9
-  resolution: "astro@npm:2.10.9"
+"astro@npm:2.10.11":
+  version: 2.10.11
+  resolution: "astro@npm:2.10.11"
   dependencies:
     "@astrojs/compiler": ^1.8.0
     "@astrojs/internal-helpers": ^0.1.2
@@ -2189,6 +2189,7 @@ __metadata:
     github-slugger: ^2.0.0
     gray-matter: ^4.0.3
     html-escaper: ^3.0.3
+    http-cache-semantics: ^4.1.1
     js-yaml: ^4.1.0
     kleur: ^4.1.4
     magic-string: ^0.30.2
@@ -2221,7 +2222,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 5919b89d4d17db54d455feb65150fbf06af4c488d3de87c4b8fe20144924e170cc8c947ca7eb96297f64c9c3e67c47882156d7ab3c5bb7314dab4d4559d18133
+  checksum: aaecea5635d9288eeedfb13b0c529dc674cc825c3956c703b2def3815d9948ca3e823fbd7896352b29b423fdd8f88d7c1a31034a4e254a71bf14d16a21bdc761
   languageName: node
   linkType: hard
 
@@ -4560,7 +4561,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"http-cache-semantics@npm:^4.1.0":
+"http-cache-semantics@npm:^4.1.0, http-cache-semantics@npm:^4.1.1":
   version: 4.1.1
   resolution: "http-cache-semantics@npm:4.1.1"
   checksum: 83ac0bc60b17a3a36f9953e7be55e5c8f41acc61b22583060e8dedc9dd5e3607c823a88d0926f9150e571f90946835c7fe150732801010845c72cd8bbff1a236
