@@ -19,7 +19,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-FROM node:20-alpine AS builder
+FROM node:21-alpine AS builder
 
 RUN apk update
 WORKDIR /_build
@@ -36,7 +36,7 @@ COPY . .
 
 RUN yarn build
 
-FROM node:20-alpine
+FROM node:21-alpine
 
 RUN apk update && apk add --no-cache tini
 WORKDIR /app/noel/coming-soon
