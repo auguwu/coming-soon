@@ -55,7 +55,7 @@ jobs:
               uses: actions/checkout@v4
 
             - name: Uses Node.js 19
-              uses: actions/setup-node@v3
+              uses: actions/setup-node@v4
               with:
                   node-version: 19.x
 
