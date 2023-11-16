@@ -100,15 +100,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/node@npm:6.0.3":
-  version: 6.0.3
-  resolution: "@astrojs/node@npm:6.0.3"
+"@astrojs/node@npm:6.0.4":
+  version: 6.0.4
+  resolution: "@astrojs/node@npm:6.0.4"
   dependencies:
     send: ^0.18.0
     server-destroy: ^1.0.1
   peerDependencies:
-    astro: ^3.2.3
-  checksum: f95aba9a42777f7f072c956bb43436e6e39d982800922fffeace7da5bf7d46f922ed45a3ae16bc4982a9a278bf8ea9bde7a0563bc2a32851431e1cf4a7f4059d
+    astro: ^3.0.0
+  checksum: 4fdb9d0121ec18b4c3e06bce7d0273167ad00a78a2ff3f6026cec737900c3235d174d88867abe34da0b54f8acb70c6e1be2f90ef65cb381ca506263000ea46e3
   languageName: node
   linkType: hard
 
@@ -1290,7 +1290,7 @@ __metadata:
   resolution: "@noel/coming-soon@workspace:."
   dependencies:
     "@actions/core": 1.10.1
-    "@astrojs/node": 6.0.3
+    "@astrojs/node": 6.0.4
     "@astrojs/tailwind": 5.0.2
     "@augu/eslint-config": 4.0.1
     "@augu/tsconfig": 1.1.1
