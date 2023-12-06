@@ -15,7 +15,7 @@
         "dev": "astro dev"
     },
     "dependencies": {
-        "@astrojs/node": "6.1.0",
+        "@astrojs/node": "7.0.0",
         "@astrojs/tailwind": "5.0.3",
         "@fontsource/cantarell": "5.0.8",
         "@fontsource/inter": "5.0.15",
