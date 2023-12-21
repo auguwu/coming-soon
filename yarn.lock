@@ -1112,7 +1112,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 6.15.0
     "@typescript-eslint/parser": 6.15.0
-    astro: 4.0.6
+    astro: 4.0.7
     astro-eslint-parser: 0.16.0
     astro-icon: 0.8.2
     autoprefixer: 10.4.16
@@ -2059,9 +2059,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.0.6":
-  version: 4.0.6
-  resolution: "astro@npm:4.0.6"
+"astro@npm:4.0.7":
+  version: 4.0.7
+  resolution: "astro@npm:4.0.7"
   dependencies:
     "@astrojs/compiler": ^2.3.4
     "@astrojs/internal-helpers": 0.2.1
@@ -2104,7 +2104,7 @@ __metadata:
     mime: ^3.0.0
     ora: ^7.0.1
     p-limit: ^5.0.0
-    p-queue: ^7.4.1
+    p-queue: ^8.0.1
     path-to-regexp: ^6.2.1
     preferred-pm: ^3.1.2
     probe-image-size: ^7.2.3
@@ -2120,7 +2120,7 @@ __metadata:
     tsconfck: ^3.0.0
     unist-util-visit: ^5.0.0
     vfile: ^6.0.1
-    vite: ^5.0.0
+    vite: ^5.0.10
     vitefu: ^0.2.5
     which-pm: ^2.1.1
     yargs-parser: ^21.1.1
@@ -2130,7 +2130,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: affcdb871c4e3dc8e69581de130bb9f966a88186de8d072cbb72ed2432dbf58c901dce4b563e66f6e35a8904df7198c663392dfd7de68ecbb7327f831d4578ed
+  checksum: 02a0e3fef1a09a614b44e36789b83d5bfd46879e472b8986eeef9a1134b6ccd41f08c746fd12cec806725570d7bf52e3d5b23c09e18f5423cd7f8f5ca21cb2bb
   languageName: node
   linkType: hard
 
@@ -6706,20 +6706,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-queue@npm:^7.4.1":
-  version: 7.4.1
-  resolution: "p-queue@npm:7.4.1"
+"p-queue@npm:^8.0.1":
+  version: 8.0.1
+  resolution: "p-queue@npm:8.0.1"
   dependencies:
     eventemitter3: ^5.0.1
-    p-timeout: ^5.0.2
-  checksum: 1c6888aa994d399262a9fbdd49c7066f8359732397f7a42ecf03f22875a1d65899797b46413f97e44acc18dddafbcc101eb135c284714c931dbbc83c3967f450
+    p-timeout: ^6.1.2
+  checksum: 84a27a5b1faf2dcc96b8c0e423c34b5984b241acc07353d3cc6d8d3d1dadefb250b4ec84ce278cb1c946466999c6bf2a36ff718a75810bad8e11c7ca47ce80f5
   languageName: node
   linkType: hard
 
-"p-timeout@npm:^5.0.2":
-  version: 5.1.0
-  resolution: "p-timeout@npm:5.1.0"
-  checksum: f5cd4e17301ff1ff1d8dbf2817df0ad88c6bba99349fc24d8d181827176ad4f8aca649190b8a5b1a428dfd6ddc091af4606835d3e0cb0656e04045da5c9e270c
+"p-timeout@npm:^6.1.2":
+  version: 6.1.2
+  resolution: "p-timeout@npm:6.1.2"
+  checksum: 887b805eb72c217dbc3c55a60a7f3b89a46cab14f04af62224f253ec84716cbd0880758be13b35444a4fa12d64d37d4c8a300f0b12a57c004d289f0a574cfe91
   languageName: node
   linkType: hard
 
@@ -9001,9 +9001,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^5.0.0":
-  version: 5.0.5
-  resolution: "vite@npm:5.0.5"
+"vite@npm:^5.0.10":
+  version: 5.0.10
+  resolution: "vite@npm:5.0.10"
   dependencies:
     esbuild: ^0.19.3
     fsevents: ~2.3.3
@@ -9037,7 +9037,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 8df70302934de39ad6fda4f28246e07850f849c2bd197b7af93615f5f39955be460dd19940a46ec5bf2adf81bc32b60985eb5990142212754c733eba4fe3bfa3
+  checksum: a1c96be1dc8bafb981c0874813a6b783ee9c4cd235188d7dc746133972d8992fe85111b7402365fee698ffcb626cd31b39bf2f2523140e50b07b81ce3c0139d1
   languageName: node
   linkType: hard
 
