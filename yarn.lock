@@ -1354,7 +1354,7 @@ __metadata:
     "@typescript-eslint/parser": 6.16.0
     astro: 4.0.8
     astro-eslint-parser: 0.16.0
-    astro-icon: 1.0.0
+    astro-icon: 1.0.1
     autoprefixer: 10.4.16
     eslint: 8.56.0
     eslint-config-prettier: 9.1.0
@@ -1501,13 +1501,6 @@ __metadata:
   version: 4.6.1
   resolution: "@rollup/rollup-win32-x64-msvc@npm:4.6.1"
   conditions: os=win32 & cpu=x64
-  languageName: node
-  linkType: hard
-
-"@skarab/detect-package-manager@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@skarab/detect-package-manager@npm:1.0.0"
-  checksum: 39716b978e097819827ef3120c50da1125626481c049ebfb6dba8ba2f051e4c7180c97aee73906ca2229565d7a32f7467a899bf248dcad0e82112c65f1b5b942
   languageName: node
   linkType: hard
 
@@ -2325,15 +2318,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro-icon@npm:1.0.0":
-  version: 1.0.0
-  resolution: "astro-icon@npm:1.0.0"
+"astro-icon@npm:1.0.1":
+  version: 1.0.1
+  resolution: "astro-icon@npm:1.0.1"
   dependencies:
     "@iconify/tools": ^3.0.1
     "@iconify/types": ^2.0.0
     "@iconify/utils": ^2.1.5
-    "@skarab/detect-package-manager": ^1.0.0
-  checksum: 3cdb3165ebdf3a401aa71ef2ebbc7121a5eda3ae6439e673d4a87e043414a1bc149b6291cd2b93ca01b9aa88883f96aeedfe668b4bada38fe1bce97ad6108b49
+  checksum: 788fd818bf76ba4a61370868d6c80d0f856a85b5edbccdd6066f12a8b430680af52d5e551479c0e0cc8c27f23f1c700c163325c69104f9583f643d0447ecdfb1
   languageName: node
   linkType: hard
 
