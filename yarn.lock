@@ -1352,7 +1352,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 6.17.0
     "@typescript-eslint/parser": 6.17.0
-    astro: 4.0.9
+    astro: 4.1.0
     astro-eslint-parser: 0.16.0
     astro-icon: 1.0.2
     autoprefixer: 10.4.16
@@ -2329,9 +2329,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.0.9":
-  version: 4.0.9
-  resolution: "astro@npm:4.0.9"
+"astro@npm:4.1.0":
+  version: 4.1.0
+  resolution: "astro@npm:4.1.0"
   dependencies:
     "@astrojs/compiler": ^2.3.4
     "@astrojs/internal-helpers": 0.2.1
@@ -2345,6 +2345,8 @@ __metadata:
     "@babel/types": ^7.23.3
     "@types/babel__core": ^7.20.4
     acorn: ^8.11.2
+    aria-query: ^5.3.0
+    axobject-query: ^4.0.0
     boxen: ^7.1.1
     chokidar: ^3.5.3
     ci-info: ^4.0.0
@@ -2400,7 +2402,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 0fb6aa6c3f24ff113ffa4d054333c0edd7c08f3df3aeb47a17eb597c73a441cd34be10448442eb5e41d18ab5a69469d72201df7a89ac9b78d1ace997757c874c
+  checksum: 8d660c9d3ba956cfc0b9eca09e65d3fdd240464b4475ddcede8723f9af0ef0f7099378c11e50dc3f7d3569257b0de24972de9faca825c2db4fc95f834d4a8124
   languageName: node
   linkType: hard
 
@@ -2480,6 +2482,15 @@ __metadata:
   dependencies:
     dequal: ^2.0.3
   checksum: a94047e702b57c91680e6a952ec4a1aaa2cfd0d80ead76bc8c954202980d8c51968a6ea18b4d8010e8e2cf95676533d8022a8ebba9abc1dfe25686721df26fd2
+  languageName: node
+  linkType: hard
+
+"axobject-query@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "axobject-query@npm:4.0.0"
+  dependencies:
+    dequal: ^2.0.3
+  checksum: 97bcf61f22756a4d5c4da17465725ad034780705a0bb47c08cc7009d43a7a52b40e7be507da017b14b4c7c7bfb59392f48738228f1d401e041bd536fe8a9b600
   languageName: node
   linkType: hard
 
