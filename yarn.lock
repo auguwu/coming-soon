@@ -93,9 +93,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-remark@npm:4.0.1":
-  version: 4.0.1
-  resolution: "@astrojs/markdown-remark@npm:4.0.1"
+"@astrojs/markdown-remark@npm:4.1.0":
+  version: 4.1.0
+  resolution: "@astrojs/markdown-remark@npm:4.1.0"
   dependencies:
     "@astrojs/prism": ^3.0.0
     github-slugger: ^2.0.0
@@ -107,11 +107,11 @@ __metadata:
     remark-parse: ^11.0.0
     remark-rehype: ^11.0.0
     remark-smartypants: ^2.0.0
-    shikiji: ^0.6.13
+    shikiji: ^0.9.18
     unified: ^11.0.4
     unist-util-visit: ^5.0.0
     vfile: ^6.0.1
-  checksum: 309fa2c9c939245a01a0b4b03a94cb6e9658685874d947731b106f2daadbab5f1391578bb1fa8a5642edd28ed9fb7433e00c063d4ff34078ce75dfb3bd17af00
+  checksum: 490722d5536e7710fb3270a0252178999b1c0c19a40b6d1f19fca607d23fa767d89125ce18492ab02fb2386fc7b4343617aefe96b0f07fd7214fd02e998dda5c
   languageName: node
   linkType: hard
 
@@ -1168,7 +1168,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 6.19.0
     "@typescript-eslint/parser": 6.19.0
-    astro: 4.1.3
+    astro: 4.2.0
     astro-eslint-parser: 0.16.1
     astro-icon: 1.0.2
     autoprefixer: 10.4.17
@@ -2162,13 +2162,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.1.3":
-  version: 4.1.3
-  resolution: "astro@npm:4.1.3"
+"astro@npm:4.2.0":
+  version: 4.2.0
+  resolution: "astro@npm:4.2.0"
   dependencies:
     "@astrojs/compiler": ^2.3.4
     "@astrojs/internal-helpers": 0.2.1
-    "@astrojs/markdown-remark": 4.0.1
+    "@astrojs/markdown-remark": 4.1.0
     "@astrojs/telemetry": 3.0.4
     "@babel/core": ^7.23.3
     "@babel/generator": ^7.23.3
@@ -2219,7 +2219,7 @@ __metadata:
     semver: ^7.5.4
     server-destroy: ^1.0.1
     sharp: ^0.32.6
-    shikiji: ^0.6.13
+    shikiji: ^0.9.18
     string-width: ^7.0.0
     strip-ansi: ^7.1.0
     tsconfck: ^3.0.0
@@ -2235,7 +2235,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 23a1943f9ed0a1469dd37a000f4e266b086aeb1815c57db605c428e6fe4296b4a85f90b84986f9cbf11e4b47764b60046adf6673777cc9a2f73a0382427efb63
+  checksum: 9a25f5b956c31d8dc4ae2b423049052b379dacd8621abdbf340b6fb9b1db98d0bb3d298c878544b6df22f9f173e74e784548fbc52da4c02b092309a544bff360
   languageName: node
   linkType: hard
 
@@ -8235,12 +8235,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shikiji@npm:^0.6.13":
-  version: 0.6.13
-  resolution: "shikiji@npm:0.6.13"
+"shikiji-core@npm:0.9.19":
+  version: 0.9.19
+  resolution: "shikiji-core@npm:0.9.19"
+  checksum: c3c2d6569d0e6ba75ec98f4dc4329ae3d34d469f9f1aad906520d8e086332ba1b2b236b7cd7016ed3316bc2345b61daa766d193bc507a6b1a90823cf98b222c8
+  languageName: node
+  linkType: hard
+
+"shikiji@npm:^0.9.18":
+  version: 0.9.19
+  resolution: "shikiji@npm:0.9.19"
   dependencies:
-    hast-util-to-html: ^9.0.0
-  checksum: 26e133d49ea0c03c6349ec1cc81de2cafcbf347eba5ac8eeff4218b22a6fc516ee0fc6e5ffa24df0749d354febbb54dc3a85e34a71aeb9f9411f35517a801440
+    shikiji-core: 0.9.19
+  checksum: 43620eeb0bd8f2ce797eeb178aca99dd8596de0b44c215fc36354faa4cd49073535bd2806e3a6d17997d603afbd067bee07b8cec0443624c710342629496a8cb
   languageName: node
   linkType: hard
 
