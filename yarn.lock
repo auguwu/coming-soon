@@ -1178,7 +1178,7 @@ __metadata:
     eslint-plugin-jsx-a11y: 6.8.0
     log-symbols: 6.0.0
     prettier: 3.2.4
-    prettier-plugin-astro: 0.12.3
+    prettier-plugin-astro: 0.13.0
     prettier-plugin-tailwindcss: 0.5.11
     rimraf: 5.0.5
     signale: 1.4.0
@@ -7426,14 +7426,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-astro@npm:0.12.3":
-  version: 0.12.3
-  resolution: "prettier-plugin-astro@npm:0.12.3"
+"prettier-plugin-astro@npm:0.13.0":
+  version: 0.13.0
+  resolution: "prettier-plugin-astro@npm:0.13.0"
   dependencies:
     "@astrojs/compiler": ^1.5.5
     prettier: ^3.0.0
     sass-formatter: ^0.7.6
-  checksum: b713d787950b6d0221a7932e13174f2156ec17e7ca92e08f5522cf7b5fe0e6248760e624b1c4d8a590dae6d385a9e4f0bb2d3af0b99f4fa9cc0e0dd7dbff1320
+  checksum: fd6114a817f8d5217932f44dc5b6f647f8607c7a296e018c981cc6d8fd7eae65f77f29fcab9e0913520125af76168238563b4a51dae7431cbb0324b9b203b04b
   languageName: node
   linkType: hard
 
