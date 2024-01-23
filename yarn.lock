@@ -79,10 +79,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/compiler@npm:^2.3.4":
-  version: 2.3.4
-  resolution: "@astrojs/compiler@npm:2.3.4"
-  checksum: e06c00b5d8de35c2633af84a1a35ffe947d40df9e2400f44200f2a48987a63bb397aad1f5cb1aa93431fa3619772d934ebc0b5a1af3a7ba4605ffdfe54e25a01
+"@astrojs/compiler@npm:^2.5.0":
+  version: 2.5.0
+  resolution: "@astrojs/compiler@npm:2.5.0"
+  checksum: 4fd94b3099b703713a66d4d39db0a3a95617352a9d1789abcba65c697a14ffa18b154171cc52fc6ef3eeb9ba0446c8b494af6caac7be35335bf83a2ae3a27594
   languageName: node
   linkType: hard
 
@@ -93,9 +93,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-remark@npm:4.1.0":
-  version: 4.1.0
-  resolution: "@astrojs/markdown-remark@npm:4.1.0"
+"@astrojs/markdown-remark@npm:4.2.0":
+  version: 4.2.0
+  resolution: "@astrojs/markdown-remark@npm:4.2.0"
   dependencies:
     "@astrojs/prism": ^3.0.0
     github-slugger: ^2.0.0
@@ -111,7 +111,7 @@ __metadata:
     unified: ^11.0.4
     unist-util-visit: ^5.0.0
     vfile: ^6.0.1
-  checksum: 490722d5536e7710fb3270a0252178999b1c0c19a40b6d1f19fca607d23fa767d89125ce18492ab02fb2386fc7b4343617aefe96b0f07fd7214fd02e998dda5c
+  checksum: a04c220f197696ba92f93920f507f0811b7859acae6a333d3cb9af1c2c62ad589dd98f7323c59b92bdb85b222bf1efe74aca64cbd49d4f87ee40f84716619538
   languageName: node
   linkType: hard
 
@@ -1168,7 +1168,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 6.19.1
     "@typescript-eslint/parser": 6.19.1
-    astro: 4.2.1
+    astro: 4.2.3
     astro-eslint-parser: 0.16.2
     astro-icon: 1.0.2
     autoprefixer: 10.4.17
@@ -2162,13 +2162,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.2.1":
-  version: 4.2.1
-  resolution: "astro@npm:4.2.1"
+"astro@npm:4.2.3":
+  version: 4.2.3
+  resolution: "astro@npm:4.2.3"
   dependencies:
-    "@astrojs/compiler": ^2.3.4
+    "@astrojs/compiler": ^2.5.0
     "@astrojs/internal-helpers": 0.2.1
-    "@astrojs/markdown-remark": 4.1.0
+    "@astrojs/markdown-remark": 4.2.0
     "@astrojs/telemetry": 3.0.4
     "@babel/core": ^7.23.3
     "@babel/generator": ^7.23.3
@@ -2235,7 +2235,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: eecbc81e1600fcb15c5e405df5422ee1e00f466c4efbf8d8dae98a25933167288a6b07370bba4c077fc178aa8c9cb9ce1ef6b96bf1d328c5383867493e2e77d0
+  checksum: 8566d2866cb18fce11494e59c681272235b400c6f81cc2b19fb9a08fb3cccd0b3b664498e097e986693d00e0c25bb29739e1761f07f63f8c56d9ed07a6af6777
   languageName: node
   linkType: hard
 
