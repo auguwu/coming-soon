@@ -115,15 +115,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/node@npm:8.0.0":
-  version: 8.0.0
-  resolution: "@astrojs/node@npm:8.0.0"
+"@astrojs/node@npm:8.1.0":
+  version: 8.1.0
+  resolution: "@astrojs/node@npm:8.1.0"
   dependencies:
     send: ^0.18.0
     server-destroy: ^1.0.1
   peerDependencies:
     astro: ^4.2.0
-  checksum: d89af4fead0394d1fb783a6631c95365469eb30cabcf4abd0065cbaa475083d0388d68370b23e4356db3a6f2c93ffd38a61a2db6c8cbe6acb4f744ae7d2dc598
+  checksum: 6f2b4446c15c08ced3e45d034d733639b7be6daca2c6c3f2fcee508f225d9d6ade11f668ca52fe42cb89f0d4917259ee2ae6ba8d86c43273cbd4cb5e7dcab395
   languageName: node
   linkType: hard
 
@@ -1155,7 +1155,7 @@ __metadata:
   resolution: "@noel/coming-soon@workspace:."
   dependencies:
     "@actions/core": 1.10.1
-    "@astrojs/node": 8.0.0
+    "@astrojs/node": 8.1.0
     "@astrojs/tailwind": 5.1.0
     "@augu/eslint-config": 5.0.0
     "@augu/tsconfig": 1.2.0
