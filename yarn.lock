@@ -79,10 +79,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/compiler@npm:^2.5.0":
-  version: 2.5.0
-  resolution: "@astrojs/compiler@npm:2.5.0"
-  checksum: 4fd94b3099b703713a66d4d39db0a3a95617352a9d1789abcba65c697a14ffa18b154171cc52fc6ef3eeb9ba0446c8b494af6caac7be35335bf83a2ae3a27594
+"@astrojs/compiler@npm:^2.5.3":
+  version: 2.5.3
+  resolution: "@astrojs/compiler@npm:2.5.3"
+  checksum: 6ebc7ba52809f3b498e9a52fffd6fa2857a5a754f2501d14bf9d995e8bd23e35ee0d1cef60aa3cc4d27d75d689c9f23f2a14fa50915669b88a037c1f9f8e4d16
   languageName: node
   linkType: hard
 
@@ -1168,7 +1168,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 6.21.0
     "@typescript-eslint/parser": 6.21.0
-    astro: 4.3.2
+    astro: 4.3.3
     astro-eslint-parser: 0.16.3
     astro-icon: 1.1.0
     autoprefixer: 10.4.17
@@ -2146,11 +2146,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.3.2":
-  version: 4.3.2
-  resolution: "astro@npm:4.3.2"
+"astro@npm:4.3.3":
+  version: 4.3.3
+  resolution: "astro@npm:4.3.3"
   dependencies:
-    "@astrojs/compiler": ^2.5.0
+    "@astrojs/compiler": ^2.5.3
     "@astrojs/internal-helpers": 0.2.1
     "@astrojs/markdown-remark": 4.2.1
     "@astrojs/telemetry": 3.0.4
@@ -2220,7 +2220,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: acde41d92d0073dd1c20096f06545a41a75a05059d04ed2d0d3694fa997086ae21cd15f7a011399a98766fd726b2aec715d1c97f783e3003f90f9b16529ce86c
+  checksum: df382f549401cf913b2d992707dd88e547039cb0883b497395d35b543462d5e8096b346d9e4da5fb1a7d64e51b8a38ab64d295936c53b9729b54b6988223044f
   languageName: node
   linkType: hard
 
