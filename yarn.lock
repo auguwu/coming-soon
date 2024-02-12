@@ -1169,7 +1169,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 6.21.0
     "@typescript-eslint/parser": 6.21.0
-    astro: 4.3.5
+    astro: 4.3.6
     astro-eslint-parser: 0.16.3
     astro-icon: 1.1.0
     autoprefixer: 10.4.17
@@ -2025,9 +2025,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.3.5":
-  version: 4.3.5
-  resolution: "astro@npm:4.3.5"
+"astro@npm:4.3.6":
+  version: 4.3.6
+  resolution: "astro@npm:4.3.6"
   dependencies:
     "@astrojs/compiler": ^2.5.3
     "@astrojs/internal-helpers": 0.2.1
@@ -2083,7 +2083,8 @@ __metadata:
     semver: ^7.5.4
     server-destroy: ^1.0.1
     sharp: ^0.32.6
-    shikiji: ^0.9.18
+    shikiji: ^0.9.19
+    shikiji-core: ^0.9.19
     string-width: ^7.0.0
     strip-ansi: ^7.1.0
     tsconfck: ^3.0.0
@@ -2099,7 +2100,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: b9e4a1d4ada68e80d02cce5bcd93956fb0544294a0b2e7c798742ddcde38598e1c2af756f8e78510654671db43e4dd5885103c5fcd083b25b1138b7db197b0b7
+  checksum: 94ee1ef3bc279478cd1bf236b7abff33edc2c9239833e65d088db060932d96cd0e8ec31e5f67639733f71da1ea6099a95d336b0b59956685623bd1013723740b
   languageName: node
   linkType: hard
 
@@ -8037,14 +8038,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shikiji-core@npm:0.9.19":
+"shikiji-core@npm:0.9.19, shikiji-core@npm:^0.9.19":
   version: 0.9.19
   resolution: "shikiji-core@npm:0.9.19"
   checksum: c3c2d6569d0e6ba75ec98f4dc4329ae3d34d469f9f1aad906520d8e086332ba1b2b236b7cd7016ed3316bc2345b61daa766d193bc507a6b1a90823cf98b222c8
   languageName: node
   linkType: hard
 
-"shikiji@npm:^0.9.18":
+"shikiji@npm:^0.9.18, shikiji@npm:^0.9.19":
   version: 0.9.19
   resolution: "shikiji@npm:0.9.19"
   dependencies:
