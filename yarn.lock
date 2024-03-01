@@ -1176,7 +1176,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 7.1.0
     "@typescript-eslint/parser": 7.1.0
-    astro: 4.4.6
+    astro: 4.4.8
     astro-eslint-parser: 0.16.3
     astro-icon: 1.1.0
     autoprefixer: 10.4.17
@@ -2155,9 +2155,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.4.6":
-  version: 4.4.6
-  resolution: "astro@npm:4.4.6"
+"astro@npm:4.4.8":
+  version: 4.4.8
+  resolution: "astro@npm:4.4.8"
   dependencies:
     "@astrojs/compiler": ^2.5.3
     "@astrojs/internal-helpers": 0.2.1
@@ -2219,7 +2219,7 @@ __metadata:
     tsconfck: ^3.0.0
     unist-util-visit: ^5.0.0
     vfile: ^6.0.1
-    vite: ^5.1.2
+    vite: ^5.1.4
     vitefu: ^0.2.5
     which-pm: ^2.1.1
     yargs-parser: ^21.1.1
@@ -2229,7 +2229,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 7f44d76076acc2c67f0b0b4ddd11f31cbf449e174fa94b41253a3d5891a96ea1311563d2e29d8c1fb98edfe53aa75b120448da2dca37d3c7a431b5d7ce72a34b
+  checksum: 9563946a14b671974d27feada8e289dbb0df410b91d3d4a74d6822769a6d5f053c01274dd3dd610b66b89fbc5d3ac9ad6bf1851c039399c31b462967e5a97163
   languageName: node
   linkType: hard
 
@@ -9215,9 +9215,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^5.1.2":
-  version: 5.1.2
-  resolution: "vite@npm:5.1.2"
+"vite@npm:^5.1.4":
+  version: 5.1.4
+  resolution: "vite@npm:5.1.4"
   dependencies:
     esbuild: ^0.19.3
     fsevents: ~2.3.3
@@ -9251,7 +9251,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: deb606eda820912ffc5361b732bbd763bf82ac4c982f9b6ddfafd7c035067cba78adcdc34d053d5bb0ed3a191f99b17e80012b38e23e7cb9376e45ad6813fe23
+  checksum: fb8b944c69fd738b412ad10471f01db01ed59b5d7fdf182b836b420b221a8bd5ada74d225a87aaa80cf8d2b693cc4a89ab7c291254a8b4e6faefd93843ebb9d3
   languageName: node
   linkType: hard
 
