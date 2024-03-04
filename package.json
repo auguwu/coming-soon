@@ -17,9 +17,9 @@
     "dependencies": {
         "@astrojs/node": "8.2.3",
         "@astrojs/tailwind": "5.1.0",
-        "@fontsource/cantarell": "5.0.8",
-        "@fontsource/inter": "5.0.16",
-        "@fontsource/jetbrains-mono": "5.0.18",
+        "@fontsource/cantarell": "5.0.12",
+        "@fontsource/inter": "5.0.17",
+        "@fontsource/jetbrains-mono": "5.0.19",
         "astro": "4.4.9",
         "astro-icon": "1.1.0",
         "autoprefixer": "10.4.18",
