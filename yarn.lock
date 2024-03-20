@@ -1181,7 +1181,7 @@ __metadata:
     autoprefixer: 10.4.18
     eslint: 8.57.0
     eslint-config-prettier: 9.1.0
-    eslint-plugin-astro: 0.31.4
+    eslint-plugin-astro: 0.32.0
     eslint-plugin-jsx-a11y: 6.8.0
     log-symbols: 6.0.0
     prettier: 3.2.5
@@ -3658,14 +3658,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-compat-utils@npm:^0.4.0":
-  version: 0.4.1
-  resolution: "eslint-compat-utils@npm:0.4.1"
+"eslint-compat-utils@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "eslint-compat-utils@npm:0.5.0"
   dependencies:
     semver: ^7.5.4
   peerDependencies:
     eslint: ">=6.0.0"
-  checksum: 727ec5920178a4a235e7ecd455154e3fda5bdf213dacabe11db22921563fe42e11c0b5f52145e28106d6c8f51106cd86e410bbf0eb23180775a9dda82c35e3c2
+  checksum: 85ec8ad39e2fe73824d05d21d13ea4ae6531ce3421f2938f6d9a17090eb3b031994736369778ed9dce673a39dac0054ad2f5ad20b4b18877d1f94aeba597c3df
   languageName: node
   linkType: hard
 
@@ -3680,20 +3680,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-astro@npm:0.31.4":
-  version: 0.31.4
-  resolution: "eslint-plugin-astro@npm:0.31.4"
+"eslint-plugin-astro@npm:0.32.0":
+  version: 0.32.0
+  resolution: "eslint-plugin-astro@npm:0.32.0"
   dependencies:
     "@eslint-community/eslint-utils": ^4.2.0
     "@jridgewell/sourcemap-codec": ^1.4.14
     "@typescript-eslint/types": ^5.25.0
     astro-eslint-parser: ^0.16.3
-    eslint-compat-utils: ^0.4.0
+    eslint-compat-utils: ^0.5.0
+    globals: ^13.0.0
     postcss: ^8.4.14
     postcss-selector-parser: ^6.0.10
   peerDependencies:
     eslint: ">=7.0.0"
-  checksum: 8b0e3e61e2010a1e3a7c06216d6dfdfb83e2c9395645e8800e071e8a65ac509879ae052c14097ff67141e31dbe3d2ae8064dc1c62c05db7aab45e64579c66bf3
+  checksum: 89755ad7073c11ab1d4c87834bf65f51367cf7ad260c9e6de93c55ddc61d90058f9e35e964d60d25cbcde5b1f17777faff01e52546020206b0c553520ffa9b65
   languageName: node
   linkType: hard
 
@@ -4499,6 +4500,15 @@ __metadata:
   version: 11.12.0
   resolution: "globals@npm:11.12.0"
   checksum: 67051a45eca3db904aee189dfc7cd53c20c7d881679c93f6146ddd4c9f4ab2268e68a919df740d39c71f4445d2b38ee360fc234428baea1dbdfe68bbcb46979e
+  languageName: node
+  linkType: hard
+
+"globals@npm:^13.0.0":
+  version: 13.24.0
+  resolution: "globals@npm:13.24.0"
+  dependencies:
+    type-fest: ^0.20.2
+  checksum: 56066ef058f6867c04ff203b8a44c15b038346a62efbc3060052a1016be9f56f4cf0b2cd45b74b22b81e521a889fc7786c73691b0549c2f3a6e825b3d394f43c
   languageName: node
   linkType: hard
 
