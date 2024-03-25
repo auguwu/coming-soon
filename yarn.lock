@@ -1299,7 +1299,7 @@ __metadata:
     autoprefixer: 10.4.19
     eslint: 8.57.0
     eslint-config-prettier: 9.1.0
-    eslint-plugin-astro: 0.32.0
+    eslint-plugin-astro: 0.33.0
     eslint-plugin-jsx-a11y: 6.8.0
     log-symbols: 6.0.0
     prettier: 3.2.5
@@ -3807,9 +3807,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-astro@npm:0.32.0":
-  version: 0.32.0
-  resolution: "eslint-plugin-astro@npm:0.32.0"
+"eslint-plugin-astro@npm:0.33.0":
+  version: 0.33.0
+  resolution: "eslint-plugin-astro@npm:0.33.0"
   dependencies:
     "@eslint-community/eslint-utils": ^4.2.0
     "@jridgewell/sourcemap-codec": ^1.4.14
@@ -3821,7 +3821,7 @@ __metadata:
     postcss-selector-parser: ^6.0.10
   peerDependencies:
     eslint: ">=7.0.0"
-  checksum: 89755ad7073c11ab1d4c87834bf65f51367cf7ad260c9e6de93c55ddc61d90058f9e35e964d60d25cbcde5b1f17777faff01e52546020206b0c553520ffa9b65
+  checksum: 6daea2d5d7b55798cc8ebb7374ee6ced6109ce8221b3b1dbf577544d3e2302193da537ede360bd890bb3fb5525a951e47a46cb795ca5f4b6a249e09f47dc4092
   languageName: node
   linkType: hard
 
