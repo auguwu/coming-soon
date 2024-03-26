@@ -93,9 +93,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-remark@npm:4.3.1":
-  version: 4.3.1
-  resolution: "@astrojs/markdown-remark@npm:4.3.1"
+"@astrojs/markdown-remark@npm:4.3.2":
+  version: 4.3.2
+  resolution: "@astrojs/markdown-remark@npm:4.3.2"
   dependencies:
     "@astrojs/prism": ^3.0.0
     github-slugger: ^2.0.0
@@ -115,7 +115,7 @@ __metadata:
     unist-util-visit: ^5.0.0
     unist-util-visit-parents: ^6.0.0
     vfile: ^6.0.1
-  checksum: 5a44a2fa7104cc13c773929c4f4ae737adeaab438a609b2b7064c0fba652a3baec20e98293bf87679bbf93e29f739979f38d98327e36ac5945e45fbc4e09de36
+  checksum: 95286eaae6748e864b634fbab89514d3a8c6161f0b2217f777ab6bbecdad11421137fcbb65c0097f4463e50c9f95cef1ce20793a85af019a2b6c60b88e2aefb2
   languageName: node
   linkType: hard
 
@@ -1293,7 +1293,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 7.4.0
     "@typescript-eslint/parser": 7.4.0
-    astro: 4.5.9
+    astro: 4.5.10
     astro-eslint-parser: 0.16.3
     astro-icon: 1.1.0
     autoprefixer: 10.4.19
@@ -2281,13 +2281,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.5.9":
-  version: 4.5.9
-  resolution: "astro@npm:4.5.9"
+"astro@npm:4.5.10":
+  version: 4.5.10
+  resolution: "astro@npm:4.5.10"
   dependencies:
     "@astrojs/compiler": ^2.7.0
     "@astrojs/internal-helpers": 0.3.0
-    "@astrojs/markdown-remark": 4.3.1
+    "@astrojs/markdown-remark": 4.3.2
     "@astrojs/telemetry": 3.0.4
     "@babel/core": ^7.24.3
     "@babel/generator": ^7.23.3
@@ -2353,7 +2353,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 3978fcfc70b510661c587d5c9bc6fbf50fcde525724bff05fed882385e3fa13395543765a0f95a5471d3157cbeabf728933fdd5bb4d406537ccc57e8f30bee78
+  checksum: 0dfef04998aa48ec8355a98bc600f836db743b0c59bbd30a1558345a77d5d5e31339ef3eb3469e1352b3425085bf26738cdf06645751d994b5ef697310fec3b4
   languageName: node
   linkType: hard
 
