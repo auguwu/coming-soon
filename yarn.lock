@@ -1293,7 +1293,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 7.5.0
     "@typescript-eslint/parser": 7.5.0
-    astro: 4.5.15
+    astro: 4.5.16
     astro-eslint-parser: 0.16.3
     astro-icon: 1.1.0
     autoprefixer: 10.4.19
@@ -2281,9 +2281,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.5.15":
-  version: 4.5.15
-  resolution: "astro@npm:4.5.15"
+"astro@npm:4.5.16":
+  version: 4.5.16
+  resolution: "astro@npm:4.5.16"
   dependencies:
     "@astrojs/compiler": ^2.7.1
     "@astrojs/internal-helpers": 0.4.0
@@ -2353,7 +2353,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 2a535d3788663ab1027a911c4eeb3eb63725cd555b69a1e8834a956f7778547ce5ea729222e1a52d04490ebf2b7feeb627ee86af2412c60bde7335b3cec938ca
+  checksum: dde20ee8c03f60ddd7c7bd2ab66ee29bf2237cd61211bfec4b4c1d10ab9809ff6a3ef74ab06963999ef6850505af65235d9f0020be20a876d56816bc1800f88b
   languageName: node
   linkType: hard
 
