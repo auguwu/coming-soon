@@ -47,6 +47,6 @@
         "rimraf": "5.0.5",
         "signale": "1.4.0",
         "tsx": "3.12.3",
-        "typescript": "5.4.3"
+        "typescript": "5.4.4"
     }
 }
