@@ -93,11 +93,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-remark@npm:5.0.0":
-  version: 5.0.0
-  resolution: "@astrojs/markdown-remark@npm:5.0.0"
+"@astrojs/markdown-remark@npm:5.1.0":
+  version: 5.1.0
+  resolution: "@astrojs/markdown-remark@npm:5.1.0"
   dependencies:
-    "@astrojs/prism": ^3.0.0
+    "@astrojs/prism": ^3.1.0
     github-slugger: ^2.0.0
     hast-util-from-html: ^2.0.0
     hast-util-to-text: ^4.0.0
@@ -115,7 +115,7 @@ __metadata:
     unist-util-visit: ^5.0.0
     unist-util-visit-parents: ^6.0.0
     vfile: ^6.0.1
-  checksum: 51cc9686edaa6751628bebfdb47b4c225bef02f87ea7f8867340f686b152aa7c583a0d23ce0eaf0aa49f8cdf71db1fa3ef2ae45a2548e239e7792a9a726a4556
+  checksum: 3e2e6dd577007a264dee85ffde2a2472ba475a5e961ec2817a38521f7fbbf72e50e9e1c1e3eda34d3f7fef87a80b8aab23ce336c22505788e4f28eb8adca0f56
   languageName: node
   linkType: hard
 
@@ -131,12 +131,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/prism@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@astrojs/prism@npm:3.0.0"
+"@astrojs/prism@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "@astrojs/prism@npm:3.1.0"
   dependencies:
     prismjs: ^1.29.0
-  checksum: 84d014943a81534e033a4b286c827eccb7600b51332bcddc06bd174e88c8cb3a6d31dcb691346cf1f0ea6e817dacbfa52a945081e413cc87e3b1449272237e02
+  checksum: 3150718775f4c15abbfa912bbaed8059cb5c51cfd9721b2b4198ad75c7032f5c6cfc2bcc1d23572109b48e4e5220a26f790dba72bfbdd2d547d15a075ad91c7d
   languageName: node
   linkType: hard
 
@@ -154,18 +154,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/telemetry@npm:3.0.4":
-  version: 3.0.4
-  resolution: "@astrojs/telemetry@npm:3.0.4"
+"@astrojs/telemetry@npm:3.1.0":
+  version: 3.1.0
+  resolution: "@astrojs/telemetry@npm:3.1.0"
   dependencies:
-    ci-info: ^3.8.0
+    ci-info: ^4.0.0
     debug: ^4.3.4
     dlv: ^1.1.3
-    dset: ^3.1.2
+    dset: ^3.1.3
     is-docker: ^3.0.0
     is-wsl: ^3.0.0
     which-pm-runs: ^1.1.0
-  checksum: 86dadef9374189d939923f5109835bddc8ba36e043983e3f67eedf14466327dd1e953cf414b24e9b521f192262baddea476fc09c2979396427bf177ca061aa0a
+  checksum: c01e48df35f466650c67e450c3d98ab12060e458e650771533f5f0d03277a093a6caf55ecf0e7284ae1e3d454697d97b7948ba8900772f928bf75e2f3f1f15f7
   languageName: node
   linkType: hard
 
@@ -1300,7 +1300,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 7.6.0
     "@typescript-eslint/parser": 7.6.0
-    astro: 4.5.18
+    astro: 4.6.0
     astro-eslint-parser: 0.17.0
     astro-icon: 1.1.0
     autoprefixer: 10.4.19
@@ -2323,14 +2323,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.5.18":
-  version: 4.5.18
-  resolution: "astro@npm:4.5.18"
+"astro@npm:4.6.0":
+  version: 4.6.0
+  resolution: "astro@npm:4.6.0"
   dependencies:
     "@astrojs/compiler": ^2.7.1
     "@astrojs/internal-helpers": 0.4.0
-    "@astrojs/markdown-remark": 5.0.0
-    "@astrojs/telemetry": 3.0.4
+    "@astrojs/markdown-remark": 5.1.0
+    "@astrojs/telemetry": 3.1.0
     "@babel/core": ^7.24.3
     "@babel/generator": ^7.23.3
     "@babel/parser": ^7.23.3
@@ -2395,7 +2395,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 865353453c6fab3d1aa3bd73fee1e2a1f8c1c3cc4e8f47463b97dfb517bec5c5f29d90dcedc16c9d6757bbf811def31a80ca7e9b22b22865c9fa8ae7d71fc00f
+  checksum: ed1c7982573b1c1a5bab11a0023a82da05ddae7a2b4d8e49437f7b18587b457171d51a0dcacdbaf3670a07269445e15f1aff0962b6d61ae519307acd3f6f2c11
   languageName: node
   linkType: hard
 
@@ -2878,13 +2878,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ci-info@npm:^3.8.0":
-  version: 3.8.0
-  resolution: "ci-info@npm:3.8.0"
-  checksum: d0a4d3160497cae54294974a7246202244fff031b0a6ea20dd57b10ec510aa17399c41a1b0982142c105f3255aff2173e5c0dd7302ee1b2f28ba3debda375098
-  languageName: node
-  linkType: hard
-
 "ci-info@npm:^4.0.0":
   version: 4.0.0
   resolution: "ci-info@npm:4.0.0"
@@ -3353,13 +3346,6 @@ __metadata:
     domelementtype: ^2.3.0
     domhandler: ^5.0.3
   checksum: e5757456ddd173caa411cfc02c2bb64133c65546d2c4081381a3bafc8a57411a41eed70494551aa58030be9e58574fcc489828bebd673863d39924fb4878f416
-  languageName: node
-  linkType: hard
-
-"dset@npm:^3.1.2":
-  version: 3.1.2
-  resolution: "dset@npm:3.1.2"
-  checksum: 4f8066f517aa0a70af688c66e9a0a5590f0aada76f6edc7ba9ddb309e27d3a6d65c0a2e31ab2a84005d4c791e5327773cdde59b8ab169050330a0dc283663e87
   languageName: node
   linkType: hard
 
