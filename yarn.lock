@@ -1300,7 +1300,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 7.7.0
     "@typescript-eslint/parser": 7.7.0
-    astro: 4.6.1
+    astro: 4.6.2
     astro-eslint-parser: 0.17.0
     astro-icon: 1.1.0
     autoprefixer: 10.4.19
@@ -1520,6 +1520,13 @@ __metadata:
   dependencies:
     "@types/node": "*"
   checksum: 34ef8f0f754bd022e7d686c7295fdba997766a796257add2377be256f215f2e12fe74218125570e61344dbd3de0a952495181981af1eeb8eebeb5cf886c62f1f
+  languageName: node
+  linkType: hard
+
+"@types/cookie@npm:^0.5.4":
+  version: 0.5.4
+  resolution: "@types/cookie@npm:0.5.4"
+  checksum: bd9603ce5e9bcbe1c2c9fabe3d1b1da131f1db10a7fa0077b17eb06d59bf4a6192fbb890597e8e2295067a078aaf8299bc662bfe993e8c2d1ecd62f859317ece
   languageName: node
   linkType: hard
 
@@ -2323,9 +2330,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.6.1":
-  version: 4.6.1
-  resolution: "astro@npm:4.6.1"
+"astro@npm:4.6.2":
+  version: 4.6.2
+  resolution: "astro@npm:4.6.2"
   dependencies:
     "@astrojs/compiler": ^2.7.1
     "@astrojs/internal-helpers": 0.4.0
@@ -2338,6 +2345,7 @@ __metadata:
     "@babel/traverse": ^7.23.3
     "@babel/types": ^7.23.3
     "@types/babel__core": ^7.20.4
+    "@types/cookie": ^0.5.4
     acorn: ^8.11.2
     aria-query: ^5.3.0
     axobject-query: ^4.0.0
@@ -2395,7 +2403,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 4734444b1b7f4a3d36382c55983cbbe890a82af4db07b72bf74fae3cabf084b1e306a7b0c01ef685f78eca65a6d614f73afa6eda9d2fe08ba1b1fb43862e202e
+  checksum: a981632522800686e363c27423108aa19a489ee308fe3d90b1479573307621a73c61367b485ff55a1bc3db6839cc19198e9dfee1a12425cf3d9cb4dfc331b947
   languageName: node
   linkType: hard
 
