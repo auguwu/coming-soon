@@ -1473,7 +1473,7 @@ __metadata:
     autoprefixer: 10.4.19
     eslint: 9.1.1
     eslint-config-prettier: 9.1.0
-    eslint-plugin-astro: 1.0.3
+    eslint-plugin-astro: 1.1.0
     eslint-plugin-jsx-a11y: 6.8.0
     log-symbols: 6.0.0
     prettier: 3.2.5
@@ -3770,21 +3770,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-astro@npm:1.0.3":
-  version: 1.0.3
-  resolution: "eslint-plugin-astro@npm:1.0.3"
+"eslint-plugin-astro@npm:1.1.0":
+  version: 1.1.0
+  resolution: "eslint-plugin-astro@npm:1.1.0"
   dependencies:
     "@eslint-community/eslint-utils": ^4.2.0
     "@jridgewell/sourcemap-codec": ^1.4.14
     "@typescript-eslint/types": ^7.7.1
     astro-eslint-parser: ^1.0.1
     eslint-compat-utils: ^0.5.0
-    globals: ^13.0.0
+    globals: ^15.0.0
     postcss: ^8.4.14
     postcss-selector-parser: ^6.0.10
   peerDependencies:
     eslint: ">=8.57.0"
-  checksum: dc2df19254f00878748148ad2f1f0e1d424cae03ed443f31d1bc5a956a3f221ded7ae55a9527c3855298b84fad2ebca414ea404de8d8c2c0e755ea443ec665c8
+  checksum: 56763388292a6c80128247b498900c80c6df645f48bc1c0d6df8b907e3225d3b95b5e6467fdec7c03d8d299d13dae0d20eba2b2da25893adec3653ac377117a1
   languageName: node
   linkType: hard
 
@@ -4550,19 +4550,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^13.0.0":
-  version: 13.24.0
-  resolution: "globals@npm:13.24.0"
-  dependencies:
-    type-fest: ^0.20.2
-  checksum: 56066ef058f6867c04ff203b8a44c15b038346a62efbc3060052a1016be9f56f4cf0b2cd45b74b22b81e521a889fc7786c73691b0549c2f3a6e825b3d394f43c
-  languageName: node
-  linkType: hard
-
 "globals@npm:^14.0.0":
   version: 14.0.0
   resolution: "globals@npm:14.0.0"
   checksum: 534b8216736a5425737f59f6e6a5c7f386254560c9f41d24a9227d60ee3ad4a9e82c5b85def0e212e9d92162f83a92544be4c7fd4c902cb913736c10e08237ac
+  languageName: node
+  linkType: hard
+
+"globals@npm:^15.0.0":
+  version: 15.1.0
+  resolution: "globals@npm:15.1.0"
+  checksum: 16a714da2b3bfa283d88a91f573006e8628a345fc37a5af0b332b31ea1f6af0c66afc2a515a1064fd5f736c49112e02159c1477de0f069a228b39d2853a1ae21
   languageName: node
   linkType: hard
 
@@ -8783,13 +8781,6 @@ __metadata:
   dependencies:
     prelude-ls: ^1.2.1
   checksum: ec688ebfc9c45d0c30412e41ca9c0cdbd704580eb3a9ccf07b9b576094d7b86a012baebc95681999dd38f4f444afd28504cb3a89f2ef16b31d4ab61a0739025a
-  languageName: node
-  linkType: hard
-
-"type-fest@npm:^0.20.2":
-  version: 0.20.2
-  resolution: "type-fest@npm:0.20.2"
-  checksum: 4fb3272df21ad1c552486f8a2f8e115c09a521ad7a8db3d56d53718d0c907b62c6e9141ba5f584af3f6830d0872c521357e512381f24f7c44acae583ad517d73
   languageName: node
   linkType: hard
 
