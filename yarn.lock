@@ -1473,7 +1473,7 @@ __metadata:
     autoprefixer: 10.4.19
     eslint: 9.1.1
     eslint-config-prettier: 9.1.0
-    eslint-plugin-astro: 1.1.1
+    eslint-plugin-astro: 1.1.2
     eslint-plugin-jsx-a11y: 6.8.0
     log-symbols: 6.0.0
     prettier: 3.2.5
@@ -2358,7 +2358,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro-eslint-parser@npm:1.0.2":
+"astro-eslint-parser@npm:1.0.2, astro-eslint-parser@npm:^1.0.2":
   version: 1.0.2
   resolution: "astro-eslint-parser@npm:1.0.2"
   dependencies:
@@ -2376,27 +2376,6 @@ __metadata:
     is-glob: ^4.0.3
     semver: ^7.3.8
   checksum: 5f8dcc4a3243c4d39d7d934b55d2176d2c99432744c9d4aa34985f47680a9bea93c5f95b282fdbb9e88284dffcbdcb370e5a2751aecf26cdaa09307eb8e57006
-  languageName: node
-  linkType: hard
-
-"astro-eslint-parser@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "astro-eslint-parser@npm:1.0.1"
-  dependencies:
-    "@astrojs/compiler": ^2.0.0
-    "@typescript-eslint/scope-manager": ^7.0.0
-    "@typescript-eslint/types": ^7.0.0
-    "@typescript-eslint/typescript-estree": ^7.0.0
-    astrojs-compiler-sync: ^1.0.0
-    debug: ^4.3.4
-    entities: ^4.5.0
-    eslint-scope: ^8.0.1
-    eslint-visitor-keys: ^4.0.0
-    espree: ^10.0.0
-    globby: ^11.1.0
-    is-glob: ^4.0.3
-    semver: ^7.3.8
-  checksum: 66a3617cab3628d9b7f5582a3c30a78e9edb4605441f9158c8299ed96e6caac60fb0bb6353ccf1391daeb98b922ce636d5ed5aba659c3de6ea554492d9fa3f9b
   languageName: node
   linkType: hard
 
@@ -3837,21 +3816,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-astro@npm:1.1.1":
-  version: 1.1.1
-  resolution: "eslint-plugin-astro@npm:1.1.1"
+"eslint-plugin-astro@npm:1.1.2":
+  version: 1.1.2
+  resolution: "eslint-plugin-astro@npm:1.1.2"
   dependencies:
     "@eslint-community/eslint-utils": ^4.2.0
     "@jridgewell/sourcemap-codec": ^1.4.14
     "@typescript-eslint/types": ^7.7.1
-    astro-eslint-parser: ^1.0.1
+    astro-eslint-parser: ^1.0.2
     eslint-compat-utils: ^0.5.0
     globals: ^15.0.0
     postcss: ^8.4.14
     postcss-selector-parser: ^6.0.10
   peerDependencies:
     eslint: ">=8.57.0"
-  checksum: 4e66535227e2c7b27d74bffd0d0a6d9411e0839397a5c5814f901ef58c4a046f2663f57f4fc8d557e40d4ef9664ea1d8905f07a64f13780bcd163c277109c9bf
+  checksum: 8fb932e3066984a25679c9e6b350ba51282334973146ad7995c49c7693f2fd3ecc69032e1bff7020fcc19ff38397ea996820d7cf5a597d037c4b4bc1f3849222
   languageName: node
   linkType: hard
 
