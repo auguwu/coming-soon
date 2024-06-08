@@ -119,15 +119,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/node@npm:8.2.5":
-  version: 8.2.5
-  resolution: "@astrojs/node@npm:8.2.5"
+"@astrojs/node@npm:8.2.6":
+  version: 8.2.6
+  resolution: "@astrojs/node@npm:8.2.6"
   dependencies:
     send: ^0.18.0
     server-destroy: ^1.0.1
   peerDependencies:
     astro: ^4.2.0
-  checksum: c6c992041c594b8f921f8dfe028a68353490da9ecb671c678419f2918cd9011857fccf76d15412ea3b5595b33a48ed4c0a431167b8c8e69ec4cab0613f8f6ca3
+  checksum: 82590c255efb181ddd128d3d3313db7d237054e9ffa251b49a7376121c03c17d46bd6379f819ba7add6a6ae03cbefa934bfca755da4150e5e451518a7ede92f6
   languageName: node
   linkType: hard
 
@@ -1509,7 +1509,7 @@ __metadata:
   resolution: "@noel/coming-soon@workspace:."
   dependencies:
     "@actions/core": 1.10.1
-    "@astrojs/node": 8.2.5
+    "@astrojs/node": 8.2.6
     "@astrojs/tailwind": 5.1.0
     "@augu/eslint-config": 5.2.4
     "@augu/tsconfig": 1.2.0
@@ -1522,7 +1522,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 7.12.0
     "@typescript-eslint/parser": 7.12.0
-    astro: 4.10.0
+    astro: 4.10.1
     astro-eslint-parser: 1.0.2
     astro-icon: 1.1.0
     autoprefixer: 10.4.19
@@ -2426,9 +2426,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.10.0":
-  version: 4.10.0
-  resolution: "astro@npm:4.10.0"
+"astro@npm:4.10.1":
+  version: 4.10.1
+  resolution: "astro@npm:4.10.1"
   dependencies:
     "@astrojs/compiler": ^2.8.0
     "@astrojs/internal-helpers": 0.4.0
@@ -2499,7 +2499,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: c01636c3ad5b7d46d53fa624e50fd407d55efd88ca952fcabffe67e1785798b0b819066fa4fa78b1c2f6e73ba722b07ee1f1a332caf980081c48341ff7fd5b98
+  checksum: 88f273270d76290cf05241b87e369e979a24f870b8b07630073615f5efc4219791d19b7c27e4134ba17a01bd45832bd6ad679f07cf5661b28234a02787953fcc
   languageName: node
   linkType: hard
 
