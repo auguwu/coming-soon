@@ -1537,7 +1537,7 @@ __metadata:
     log-symbols: 6.0.0
     prettier: 3.3.2
     prettier-plugin-astro: 0.14.0
-    prettier-plugin-tailwindcss: 0.6.3
+    prettier-plugin-tailwindcss: 0.6.4
     rimraf: 5.0.7
     signale: 1.4.0
     tailwindcss: 3.4.4
@@ -7496,9 +7496,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-tailwindcss@npm:0.6.3":
-  version: 0.6.3
-  resolution: "prettier-plugin-tailwindcss@npm:0.6.3"
+"prettier-plugin-tailwindcss@npm:0.6.4":
+  version: 0.6.4
+  resolution: "prettier-plugin-tailwindcss@npm:0.6.4"
   peerDependencies:
     "@ianvs/prettier-plugin-sort-imports": "*"
     "@prettier/plugin-pug": "*"
@@ -7547,7 +7547,7 @@ __metadata:
       optional: true
     prettier-plugin-svelte:
       optional: true
-  checksum: 294eb66236fb136620187024d7928e71519de73c143a3f89efbe1a97f6e0e341db10f1f68e61f6496da207d695c02d1dabc59b2352d7cd7ff96212abcacc0e88
+  checksum: 98c1a623f6b43297c57a47f231b952d03b811f8b6a7713fbb70c58e6b615f4e71b388f12bcbeb40be9da1ff51543b378940101c45f5da903436d12f804ac1411
   languageName: node
   linkType: hard
 
