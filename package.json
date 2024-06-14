@@ -36,7 +36,7 @@
         "@typescript-eslint/eslint-plugin": "7.13.0",
         "@typescript-eslint/parser": "7.13.0",
         "astro-eslint-parser": "1.0.2",
-        "eslint": "9.4.0",
+        "eslint": "9.5.0",
         "eslint-config-prettier": "9.1.0",
         "eslint-plugin-astro": "1.2.2",
         "eslint-plugin-jsx-a11y": "6.8.0",
