@@ -1356,7 +1356,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 7.14.1
     "@typescript-eslint/parser": 7.14.1
-    astro: 4.11.1
+    astro: 4.11.2
     astro-eslint-parser: 1.0.2
     astro-icon: 1.1.0
     autoprefixer: 10.4.19
@@ -2298,9 +2298,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.11.1":
-  version: 4.11.1
-  resolution: "astro@npm:4.11.1"
+"astro@npm:4.11.2":
+  version: 4.11.2
+  resolution: "astro@npm:4.11.2"
   dependencies:
     "@astrojs/compiler": ^2.8.1
     "@astrojs/internal-helpers": 0.4.1
@@ -2351,7 +2351,6 @@ __metadata:
     preferred-pm: ^3.1.3
     prompts: ^2.4.2
     rehype: ^13.0.1
-    resolve: ^1.22.8
     semver: ^7.6.2
     sharp: ^0.33.3
     shiki: ^1.9.0
@@ -2371,7 +2370,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: d4f20a672a182b769e1d6342a58ac55852c107d735bfa146d63c882cdaf58af728335514f928dda7e74a4f659c215298ddb60757afcd12afb4cada521e7a0dbf
+  checksum: 139ff1fa1d7761ead14932c833c2007fa0a2a8c118300609ba81ed7b2c2abfd59867bebf0eccade6a6e3b039353d0864923473c253da165b1a2c7bdd2c40a3bb
   languageName: node
   linkType: hard
 
@@ -5369,15 +5368,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.13.0":
-  version: 2.13.0
-  resolution: "is-core-module@npm:2.13.0"
-  dependencies:
-    has: ^1.0.3
-  checksum: 053ab101fb390bfeb2333360fd131387bed54e476b26860dc7f5a700bbf34a0ec4454f7c8c4d43e8a0030957e4b3db6e16d35e1890ea6fb654c833095e040355
-  languageName: node
-  linkType: hard
-
 "is-core-module@npm:^2.9.0":
   version: 2.11.0
   resolution: "is-core-module@npm:2.11.0"
@@ -7997,19 +7987,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@npm:^1.22.8":
-  version: 1.22.8
-  resolution: "resolve@npm:1.22.8"
-  dependencies:
-    is-core-module: ^2.13.0
-    path-parse: ^1.0.7
-    supports-preserve-symlinks-flag: ^1.0.0
-  bin:
-    resolve: bin/resolve
-  checksum: f8a26958aa572c9b064562750b52131a37c29d072478ea32e129063e2da7f83e31f7f11e7087a18225a8561cfe8d2f0df9dbea7c9d331a897571c0a2527dbb4c
-  languageName: node
-  linkType: hard
-
 "resolve@patch:resolve@^1.1.7#~builtin<compat/resolve>":
   version: 1.22.1
   resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
@@ -8033,19 +8010,6 @@ __metadata:
   bin:
     resolve: bin/resolve
   checksum: ad59734723b596d0891321c951592ed9015a77ce84907f89c9d9307dd0c06e11a67906a3e628c4cae143d3e44898603478af0ddeb2bba3f229a9373efe342665
-  languageName: node
-  linkType: hard
-
-"resolve@patch:resolve@^1.22.8#~builtin<compat/resolve>":
-  version: 1.22.8
-  resolution: "resolve@patch:resolve@npm%3A1.22.8#~builtin<compat/resolve>::version=1.22.8&hash=c3c19d"
-  dependencies:
-    is-core-module: ^2.13.0
-    path-parse: ^1.0.7
-    supports-preserve-symlinks-flag: ^1.0.0
-  bin:
-    resolve: bin/resolve
-  checksum: 5479b7d431cacd5185f8db64bfcb7286ae5e31eb299f4c4f404ad8aa6098b77599563ac4257cb2c37a42f59dfc06a1bec2bcf283bb448f319e37f0feb9a09847
   languageName: node
   linkType: hard
 
