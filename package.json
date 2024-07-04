@@ -18,7 +18,7 @@
         "@astrojs/node": "8.3.2",
         "@astrojs/tailwind": "5.1.0",
         "@fontsource/cantarell": "5.0.13",
-        "@fontsource/inter": "5.0.18",
+        "@fontsource/inter": "5.0.19",
         "@fontsource/jetbrains-mono": "5.0.20",
         "astro": "4.11.5",
         "astro-icon": "1.1.0",
