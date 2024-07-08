@@ -44,7 +44,7 @@
         "prettier": "3.3.2",
         "prettier-plugin-astro": "0.14.0",
         "prettier-plugin-tailwindcss": "0.6.5",
-        "rimraf": "5.0.8",
+        "rimraf": "5.0.9",
         "signale": "1.4.0",
         "tsx": "3.12.3",
         "typescript": "5.5.3"
