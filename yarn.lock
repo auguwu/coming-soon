@@ -1370,7 +1370,7 @@ __metadata:
     prettier-plugin-tailwindcss: 0.6.5
     rimraf: 6.0.1
     signale: 1.4.0
-    tailwindcss: 3.4.4
+    tailwindcss: 3.4.5
     tsx: 3.12.3
     typescript: 5.5.3
   languageName: unknown
@@ -9012,9 +9012,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:3.4.4":
-  version: 3.4.4
-  resolution: "tailwindcss@npm:3.4.4"
+"tailwindcss@npm:3.4.5":
+  version: 3.4.5
+  resolution: "tailwindcss@npm:3.4.5"
   dependencies:
     "@alloc/quick-lru": ^5.2.0
     arg: ^5.0.2
@@ -9041,7 +9041,7 @@ __metadata:
   bin:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
-  checksum: 743639b6a5c827b6f91ad8cff22ad296e25f4478202200a6f41ae49fbb28c4c6f8120e742a85e09987e33352fbc52c6a34c4ed33ce000b3810d4edf632142bac
+  checksum: 8b14371f6e53f1cb4816d337efda904dd558868cee4bbd5e9bf8d132ce8083e8cea4642948f3966f93ba79d50da72ffa05c373399207d36908692ec10046728c
   languageName: node
   linkType: hard
 
