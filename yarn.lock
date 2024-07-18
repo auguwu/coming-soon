@@ -72,7 +72,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/compiler@npm:^2.8.2, @astrojs/compiler@npm:^2.9.1":
+"@astrojs/compiler@npm:^2.9.0":
+  version: 2.9.2
+  resolution: "@astrojs/compiler@npm:2.9.2"
+  checksum: 5e615b45e215b6a9b5c072e6b3396dd23520c61b28e8969a46b9c58b3527cf8fcdacc4488c33c735ea6a25d4b644bc73655fd5dc8f8d014b0224ee5d464b0715
+  languageName: node
+  linkType: hard
+
+"@astrojs/compiler@npm:^2.9.1":
   version: 2.9.1
   resolution: "@astrojs/compiler@npm:2.9.1"
   checksum: 41c69001ac5ec3588c53aa721295f23b2c6194380fbe3e6af4cd5108db72534654b44ad88b900d8af0266075e5d898cbf2e6f9a7c39391e26d25097591192631
@@ -86,9 +93,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-remark@npm:5.1.1":
-  version: 5.1.1
-  resolution: "@astrojs/markdown-remark@npm:5.1.1"
+"@astrojs/markdown-remark@npm:5.2.0":
+  version: 5.2.0
+  resolution: "@astrojs/markdown-remark@npm:5.2.0"
   dependencies:
     "@astrojs/prism": 3.1.0
     github-slugger: ^2.0.0
@@ -101,14 +108,14 @@ __metadata:
     remark-gfm: ^4.0.0
     remark-parse: ^11.0.0
     remark-rehype: ^11.1.0
-    remark-smartypants: ^3.0.1
-    shiki: ^1.9.0
+    remark-smartypants: ^3.0.2
+    shiki: ^1.10.3
     unified: ^11.0.5
     unist-util-remove-position: ^5.0.0
     unist-util-visit: ^5.0.0
     unist-util-visit-parents: ^6.0.1
-    vfile: ^6.0.1
-  checksum: 30990fca6a586659508fb19de43b44811f594a402be4a32371acf914347373be09376852632f364904b87cb4f18278e82e79f1373de9a287f29112d221cf2fdd
+    vfile: ^6.0.2
+  checksum: 9ac340b42f1489c955337c9a90fbadf49def7da2afe95f5d722cebfe15c0b9e78cd376893c16fb4d51c309d6cf17975314f73fa08d3782d3b152f900a35e54ba
   languageName: node
   linkType: hard
 
@@ -1406,7 +1413,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 7.16.1
     "@typescript-eslint/parser": 7.16.1
-    astro: 4.11.6
+    astro: 4.12.0
     astro-eslint-parser: 1.0.2
     astro-icon: 1.1.0
     autoprefixer: 10.4.19
@@ -1585,13 +1592,6 @@ __metadata:
   dependencies:
     "@types/hast": ^3.0.4
   checksum: b5f2b6fcc153e6f58bfa757c3d5fe58a2f9d7f940a021bbbed58073ee8de39895c0da0ee37ced18c6f45e45a100c3ac21900c7dcf3fc70b61da6041cc9b6b66f
-  languageName: node
-  linkType: hard
-
-"@shikijs/core@npm:1.9.0":
-  version: 1.9.0
-  resolution: "@shikijs/core@npm:1.9.0"
-  checksum: 69936121447fd078b0f628fff7286a28db63b4c50183f5fed698b1a9679458470fe7191d2af7fea6adeb6477b86fd6e89e6c40a78bbcc3e21341cd6b6eaa36ce
   languageName: node
   linkType: hard
 
@@ -2138,7 +2138,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ansi-styles@npm:^6.1.0, ansi-styles@npm:^6.2.1":
+"ansi-styles@npm:^6.1.0":
   version: 6.2.1
   resolution: "ansi-styles@npm:6.2.1"
   checksum: ef940f2f0ced1a6347398da88a91da7930c33ecac3c77b72c5905f8b8fe402c52e6fde304ff5347f616e27a742da3f1dc76de98f6866c69251ad0b07a66776d9
@@ -2375,13 +2375,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.11.6":
-  version: 4.11.6
-  resolution: "astro@npm:4.11.6"
+"astro@npm:4.12.0":
+  version: 4.12.0
+  resolution: "astro@npm:4.12.0"
   dependencies:
-    "@astrojs/compiler": ^2.8.2
+    "@astrojs/compiler": ^2.9.0
     "@astrojs/internal-helpers": 0.4.1
-    "@astrojs/markdown-remark": 5.1.1
+    "@astrojs/markdown-remark": 5.2.0
     "@astrojs/telemetry": 3.1.0
     "@babel/core": ^7.24.9
     "@babel/generator": ^7.24.10
@@ -2394,7 +2394,7 @@ __metadata:
     acorn: ^8.12.1
     aria-query: ^5.3.0
     axobject-query: ^4.1.0
-    boxen: ^8.0.0
+    boxen: 7.1.1
     chokidar: ^3.6.0
     ci-info: ^4.0.0
     clsx: ^2.1.1
@@ -2447,7 +2447,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: acade4e7dc6d533d556b33c391fdadda757f71b096362f6e203cd5219a34d9cfbc0dc43b4679cd45b8c5ab664b52f82444d0422bdf8e2b74eb1bc1f8da8c2538
+  checksum: 3b2397781f552f35029715349f8517aa97bbe35c74b0c3ee0f6e0be12f640a5b307b13ab1f069896d07015eaed713836491e318f83975d4d4ba525b7fbc91d2b
   languageName: node
   linkType: hard
 
@@ -2572,19 +2572,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"boxen@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "boxen@npm:8.0.0"
+"boxen@npm:7.1.1":
+  version: 7.1.1
+  resolution: "boxen@npm:7.1.1"
   dependencies:
     ansi-align: ^3.0.1
-    camelcase: ^8.0.0
-    chalk: ^5.3.0
-    cli-boxes: ^4.0.0
-    string-width: ^7.2.0
-    type-fest: ^4.21.0
-    widest-line: ^5.0.0
-    wrap-ansi: ^9.0.0
-  checksum: 79284c39189b23e669df60cad4642b0b15e50b54a0db7b6fdb87b575cae06596e0fcd5b812271f7eedb29047dfd263794f955ea4fcb98e3bba9e1381764225be
+    camelcase: ^7.0.1
+    chalk: ^5.2.0
+    cli-boxes: ^3.0.0
+    string-width: ^5.1.2
+    type-fest: ^2.13.0
+    widest-line: ^4.0.1
+    wrap-ansi: ^8.1.0
+  checksum: ad8833d5f2845b0a728fdf8a0bc1505dff0c518edcb0fd56979a08774b1f26cf48b71e66532179ccdfb9ed95b64aa008689cca26f7776f93f002b8000a683d76
   languageName: node
   linkType: hard
 
@@ -2746,10 +2746,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"camelcase@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "camelcase@npm:8.0.0"
-  checksum: 6da7abe997af29e80052f17aa21628c7cce14af364cef9f07a2a44d59614dd6f361d405f121938e673424d673697a8c53ad17be8c4b03b0a727307c4db8b5b5e
+"camelcase@npm:^7.0.1":
+  version: 7.0.1
+  resolution: "camelcase@npm:7.0.1"
+  checksum: 86ab8f3ebf08bcdbe605a211a242f00ed30d8bfb77dab4ebb744dd36efbc84432d1c4adb28975ba87a1b8be40a80fbd1e60e2f06565315918fa7350011a26d3d
   languageName: node
   linkType: hard
 
@@ -2809,7 +2809,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^5.3.0":
+"chalk@npm:^5.2.0, chalk@npm:^5.3.0":
   version: 5.3.0
   resolution: "chalk@npm:5.3.0"
   checksum: 623922e077b7d1e9dedaea6f8b9e9352921f8ae3afe739132e0e00c275971bdd331268183b2628cf4ab1727c45ea1f28d7e24ac23ce1db1eb653c414ca8a5a80
@@ -2925,10 +2925,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cli-boxes@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "cli-boxes@npm:4.0.0"
-  checksum: 315f15c723ac6345e3fb7d5673757c379ea673eca387f255a12be5bb39b11fbca590e6a893165da0c0348cbff9c71578bc46b410edce7e9c54ed9b46a4a12b0c
+"cli-boxes@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "cli-boxes@npm:3.0.0"
+  checksum: 637d84419d293a9eac40a1c8c96a2859e7d98b24a1a317788e13c8f441be052fc899480c6acab3acc82eaf1bccda6b7542d7cdcf5c9c3cc39227175dc098d5b2
   languageName: node
   linkType: hard
 
@@ -8083,15 +8083,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"remark-smartypants@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "remark-smartypants@npm:3.0.1"
+"remark-smartypants@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "remark-smartypants@npm:3.0.2"
   dependencies:
     retext: ^9.0.0
     retext-smartypants: ^6.0.0
     unified: ^11.0.4
     unist-util-visit: ^5.0.0
-  checksum: 57754a3ad0d24449b5ecc7377bc780ba7990226c59ae2446eb3b07ec761c30bc73e74f864b9bef0cce2741fb7846adabef8a12d2a7e1f0dc5659add65f58726b
+  checksum: c2d16ad997f5ebbf1c13b13e56192c6d39d0f9dcff3a00f2015d27fe18efb38f5d1b5f48229c57b2656ae53cd1e6ec1c1f686216bae159cb04337cb4ce7da345
   languageName: node
   linkType: hard
 
@@ -8637,15 +8637,6 @@ __metadata:
     "@shikijs/core": 1.10.3
     "@types/hast": ^3.0.4
   checksum: 4726d96b5ff8a9065fc5e8564a0558c805380dc9868a4b57221bb86e932e005bb5b0dc775c8c33cdf1cf1806c48943197e8975b6c7e005a28bcc2e0d9c15cbcd
-  languageName: node
-  linkType: hard
-
-"shiki@npm:^1.9.0":
-  version: 1.9.0
-  resolution: "shiki@npm:1.9.0"
-  dependencies:
-    "@shikijs/core": 1.9.0
-  checksum: d92bd313b65ae46edd8ca6289f1bfe56a06cdbb022ff7bbfaa262552d20bc55ff21254e4b89dc1ae5a2261602e9bb573ec4023a0fcc384c786ffe15c37721a64
   languageName: node
   linkType: hard
 
@@ -9322,10 +9313,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:^4.21.0":
-  version: 4.22.0
-  resolution: "type-fest@npm:4.22.0"
-  checksum: 65f3990d2601ed99e619580665db71b699cfaa087b936d2ab2c5d1e050b4273abc78d8c822b342d0b79dd67704968f2beebfc56503c7724e904545d94d90117c
+"type-fest@npm:^2.13.0":
+  version: 2.19.0
+  resolution: "type-fest@npm:2.19.0"
+  checksum: a4ef07ece297c9fba78fc1bd6d85dff4472fe043ede98bd4710d2615d15776902b595abf62bd78339ed6278f021235fb28a96361f8be86ed754f778973a0d278
   languageName: node
   linkType: hard
 
@@ -9696,7 +9687,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vfile@npm:^6.0.0, vfile@npm:^6.0.1":
+"vfile@npm:^6.0.0":
   version: 6.0.1
   resolution: "vfile@npm:6.0.1"
   dependencies:
@@ -9915,12 +9906,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"widest-line@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "widest-line@npm:5.0.0"
+"widest-line@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "widest-line@npm:4.0.1"
   dependencies:
-    string-width: ^7.0.0
-  checksum: 07f6527b961b88d40ac250596c06fada00cbe049080c6cc8ef4d7bc4f4ab03d7eb1a1c2e5585dd0d8b6ec99ba6f168d5b236edd8ba9221aeb8d914451f0235f9
+    string-width: ^5.0.1
+  checksum: 64c48cf27171221be5f86fc54b94dd29879165bdff1a7aa92dde723d9a8c99fb108312768a5d62c8c2b80b701fa27bbd36a1ddc58367585cd45c0db7920a0cba
   languageName: node
   linkType: hard
 
@@ -9943,17 +9934,6 @@ __metadata:
     string-width: ^5.0.1
     strip-ansi: ^7.0.1
   checksum: 371733296dc2d616900ce15a0049dca0ef67597d6394c57347ba334393599e800bab03c41d4d45221b6bc967b8c453ec3ae4749eff3894202d16800fdfe0e238
-  languageName: node
-  linkType: hard
-
-"wrap-ansi@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "wrap-ansi@npm:9.0.0"
-  dependencies:
-    ansi-styles: ^6.2.1
-    string-width: ^7.0.0
-    strip-ansi: ^7.1.0
-  checksum: b2d43b76b3d8dcbdd64768165e548aad3e54e1cae4ecd31bac9966faaa7cf0b0345677ad6879db10ba58eb446ba8fa44fb82b4951872fd397f096712467a809f
   languageName: node
   linkType: hard
 
