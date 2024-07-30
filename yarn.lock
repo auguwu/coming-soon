@@ -72,17 +72,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/compiler@npm:^2.9.0":
-  version: 2.9.2
-  resolution: "@astrojs/compiler@npm:2.9.2"
-  checksum: 5e615b45e215b6a9b5c072e6b3396dd23520c61b28e8969a46b9c58b3527cf8fcdacc4488c33c735ea6a25d4b644bc73655fd5dc8f8d014b0224ee5d464b0715
-  languageName: node
-  linkType: hard
-
 "@astrojs/compiler@npm:^2.9.1":
   version: 2.9.1
   resolution: "@astrojs/compiler@npm:2.9.1"
   checksum: 41c69001ac5ec3588c53aa721295f23b2c6194380fbe3e6af4cd5108db72534654b44ad88b900d8af0266075e5d898cbf2e6f9a7c39391e26d25097591192631
+  languageName: node
+  linkType: hard
+
+"@astrojs/compiler@npm:^2.9.2":
+  version: 2.10.0
+  resolution: "@astrojs/compiler@npm:2.10.0"
+  checksum: 063a1d28848e7f4cc49191a99e0b2f20ba64d58f8226612b5f18ede943f10e4ff8da6c69550594abe3ba2e081f035fce9ef032a49271b4f6b2f2cda2a57f188e
   languageName: node
   linkType: hard
 
@@ -1413,7 +1413,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 7.18.0
     "@typescript-eslint/parser": 7.18.0
-    astro: 4.12.2
+    astro: 4.12.3
     astro-eslint-parser: 1.0.2
     astro-icon: 1.1.0
     autoprefixer: 10.4.19
@@ -1592,6 +1592,15 @@ __metadata:
   dependencies:
     "@types/hast": ^3.0.4
   checksum: b5f2b6fcc153e6f58bfa757c3d5fe58a2f9d7f940a021bbbed58073ee8de39895c0da0ee37ced18c6f45e45a100c3ac21900c7dcf3fc70b61da6041cc9b6b66f
+  languageName: node
+  linkType: hard
+
+"@shikijs/core@npm:1.12.0":
+  version: 1.12.0
+  resolution: "@shikijs/core@npm:1.12.0"
+  dependencies:
+    "@types/hast": ^3.0.4
+  checksum: e945f3eed2937661c24b3b8e21cb0ccf26e6afb11d091df456c5700818bcaa35db98f4916171523a492735abd6f578c0eb7e0f4afad5913441a08204a7971247
   languageName: node
   linkType: hard
 
@@ -2375,11 +2384,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.12.2":
-  version: 4.12.2
-  resolution: "astro@npm:4.12.2"
+"astro@npm:4.12.3":
+  version: 4.12.3
+  resolution: "astro@npm:4.12.3"
   dependencies:
-    "@astrojs/compiler": ^2.9.0
+    "@astrojs/compiler": ^2.9.2
     "@astrojs/internal-helpers": 0.4.1
     "@astrojs/markdown-remark": 5.2.0
     "@astrojs/telemetry": 3.1.0
@@ -2428,9 +2437,9 @@ __metadata:
     preferred-pm: ^4.0.0
     prompts: ^2.4.2
     rehype: ^13.0.1
-    semver: ^7.6.2
+    semver: ^7.6.3
     sharp: ^0.33.3
-    shiki: ^1.10.3
+    shiki: ^1.11.0
     string-width: ^7.2.0
     strip-ansi: ^7.1.0
     tsconfck: ^3.1.1
@@ -2447,7 +2456,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 2fa9d2ebd843f2e4c68dd3b32883102d0c4ad09b469d44b5475f4e9eba2da613acd53c7a31dfe81ae360fc91bd4ec6b944db06a486fbc8e894f04f6ffc5489b0
+  checksum: ede6961d66df6371b94a911bde11229659b2c0c9c0e51d661666c442af2fc38ec99794250f32076d6b3f5abfec1ee12e36a7cb2fd5b9426806f40c11da33ce1e
   languageName: node
   linkType: hard
 
@@ -8457,12 +8466,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.6.2":
-  version: 7.6.2
-  resolution: "semver@npm:7.6.2"
+"semver@npm:^7.6.3":
+  version: 7.6.3
+  resolution: "semver@npm:7.6.3"
   bin:
     semver: bin/semver.js
-  checksum: 40f6a95101e8d854357a644da1b8dd9d93ce786d5c6a77227bc69dbb17bea83d0d1d1d7c4cd5920a6df909f48e8bd8a5909869535007f90278289f2451d0292d
+  checksum: 4110ec5d015c9438f322257b1c51fe30276e5f766a3f64c09edd1d7ea7118ecbc3f379f3b69032bacf13116dc7abc4ad8ce0d7e2bd642e26b0d271b56b61a7d8
   languageName: node
   linkType: hard
 
@@ -8637,6 +8646,16 @@ __metadata:
     "@shikijs/core": 1.10.3
     "@types/hast": ^3.0.4
   checksum: 4726d96b5ff8a9065fc5e8564a0558c805380dc9868a4b57221bb86e932e005bb5b0dc775c8c33cdf1cf1806c48943197e8975b6c7e005a28bcc2e0d9c15cbcd
+  languageName: node
+  linkType: hard
+
+"shiki@npm:^1.11.0":
+  version: 1.12.0
+  resolution: "shiki@npm:1.12.0"
+  dependencies:
+    "@shikijs/core": 1.12.0
+    "@types/hast": ^3.0.4
+  checksum: d3ff70652bef2991bfd3f35c0a684e66db21e30bce89146d8e193473772b0440fa97a71aa8d10ac3b14ae53420644425fb7c0da9b287caee7e2b65e99ebf755d
   languageName: node
   linkType: hard
 
