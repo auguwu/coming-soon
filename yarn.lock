@@ -72,10 +72,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/compiler@npm:^2.10.0":
-  version: 2.10.1
-  resolution: "@astrojs/compiler@npm:2.10.1"
-  checksum: 0ef0b7f6df224f4740e9e2753aa6ee2dc548ed6b24a4620d24f2d24311058055160fd0db8166200701874e2c7c71ff2d7d527a90bd3dd73d463fa9c1cc08fdc5
+"@astrojs/compiler@npm:^2.10.1":
+  version: 2.10.2
+  resolution: "@astrojs/compiler@npm:2.10.2"
+  checksum: 1958050a8936d909444674ae636f63292e0fa27c5846a4d4b7c020f78606c1837bf82cc08eded2f2fb11b9aefba1ed6375c83c020db50b028885e65f469f42eb
   languageName: node
   linkType: hard
 
@@ -1429,7 +1429,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 8.0.1
     "@typescript-eslint/parser": 8.0.1
-    astro: 4.13.1
+    astro: 4.13.2
     astro-eslint-parser: 1.0.2
     astro-icon: 1.1.0
     autoprefixer: 10.4.20
@@ -2398,11 +2398,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.13.1":
-  version: 4.13.1
-  resolution: "astro@npm:4.13.1"
+"astro@npm:4.13.2":
+  version: 4.13.2
+  resolution: "astro@npm:4.13.2"
   dependencies:
-    "@astrojs/compiler": ^2.10.0
+    "@astrojs/compiler": ^2.10.1
     "@astrojs/internal-helpers": 0.4.1
     "@astrojs/markdown-remark": 5.2.0
     "@astrojs/telemetry": 3.1.0
@@ -2452,7 +2452,7 @@ __metadata:
     rehype: ^13.0.1
     semver: ^7.6.3
     sharp: ^0.33.3
-    shiki: ^1.12.0
+    shiki: ^1.12.1
     string-width: ^7.2.0
     strip-ansi: ^7.1.0
     tsconfck: ^3.1.1
@@ -2469,7 +2469,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: ecd45b7fc456e460f8374920909613917ebe72bce0f220c7c5476ad95a856094684ee5af9d390f9d16a84e2157961568407171670a9a40afba90585cb2bfcc5d
+  checksum: b3c009726d5073e78e2a27bc4244f2c9eb8d39e54aa11a55375498c97fafccd1f3cd5481e80b945da84446af9cbc084387992178ff1bb2ef6da993886e4b9a5d
   languageName: node
   linkType: hard
 
@@ -8643,7 +8643,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shiki@npm:^1.12.0":
+"shiki@npm:^1.12.1":
   version: 1.12.1
   resolution: "shiki@npm:1.12.1"
   dependencies:
