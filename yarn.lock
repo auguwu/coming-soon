@@ -72,7 +72,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/compiler@npm:^2.10.1":
+"@astrojs/compiler@npm:^2.10.2":
   version: 2.10.2
   resolution: "@astrojs/compiler@npm:2.10.2"
   checksum: 1958050a8936d909444674ae636f63292e0fa27c5846a4d4b7c020f78606c1837bf82cc08eded2f2fb11b9aefba1ed6375c83c020db50b028885e65f469f42eb
@@ -119,15 +119,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/node@npm:8.3.2":
-  version: 8.3.2
-  resolution: "@astrojs/node@npm:8.3.2"
+"@astrojs/node@npm:8.3.3":
+  version: 8.3.3
+  resolution: "@astrojs/node@npm:8.3.3"
   dependencies:
     send: ^0.18.0
     server-destroy: ^1.0.1
   peerDependencies:
     astro: ^4.2.0
-  checksum: f94670ca1d418fd5244ed3777e9e4e49f38ab7dd02be72d95db16759bc995f3534e5e0e1ac38ff8417388a40213958306978cd910787ff00c5244a4665a6818f
+  checksum: 34551e85c1e95dad9d6630d883c64985a5ca78bf520a2b9720a3530a82140c108ed7820c0e48001d3423db7aaff51495602ecf08645936f740f532573d2e7f80
   languageName: node
   linkType: hard
 
@@ -1416,7 +1416,7 @@ __metadata:
   resolution: "@noel/coming-soon@workspace:."
   dependencies:
     "@actions/core": 1.10.1
-    "@astrojs/node": 8.3.2
+    "@astrojs/node": 8.3.3
     "@astrojs/tailwind": 5.1.0
     "@augu/eslint-config": 5.2.4
     "@augu/tsconfig": 1.2.0
@@ -1429,7 +1429,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 8.1.0
     "@typescript-eslint/parser": 8.1.0
-    astro: 4.13.3
+    astro: 4.13.4
     astro-eslint-parser: 1.0.2
     astro-icon: 1.1.0
     autoprefixer: 10.4.20
@@ -1473,6 +1473,13 @@ __metadata:
     mkdirp: ^1.0.4
     rimraf: ^3.0.2
   checksum: 52dc02259d98da517fae4cb3a0a3850227bdae4939dda1980b788a7670636ca2b4a01b58df03dd5f65c1e3cb70c50fa8ce5762b582b3f499ec30ee5ce1fd9380
+  languageName: node
+  linkType: hard
+
+"@oslojs/encoding@npm:^0.4.1":
+  version: 0.4.1
+  resolution: "@oslojs/encoding@npm:0.4.1"
+  checksum: 7cba443edb4ed217bd584313e272ddadfb350963611b90b5ae6fa5358b7ce47cd59921f8bc15d859347db5a953210bdf746b8ff3829ac74dd8cfcb8bbdbe308d
   languageName: node
   linkType: hard
 
@@ -2398,11 +2405,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.13.3":
-  version: 4.13.3
-  resolution: "astro@npm:4.13.3"
+"astro@npm:4.13.4":
+  version: 4.13.4
+  resolution: "astro@npm:4.13.4"
   dependencies:
-    "@astrojs/compiler": ^2.10.1
+    "@astrojs/compiler": ^2.10.2
     "@astrojs/internal-helpers": 0.4.1
     "@astrojs/markdown-remark": 5.2.0
     "@astrojs/telemetry": 3.1.0
@@ -2412,6 +2419,7 @@ __metadata:
     "@babel/plugin-transform-react-jsx": ^7.25.2
     "@babel/traverse": ^7.25.3
     "@babel/types": ^7.25.2
+    "@oslojs/encoding": ^0.4.1
     "@types/babel__core": ^7.20.5
     "@types/cookie": ^0.6.0
     acorn: ^8.12.1
@@ -2458,7 +2466,7 @@ __metadata:
     tsconfck: ^3.1.1
     unist-util-visit: ^5.0.0
     vfile: ^6.0.2
-    vite: ^5.3.5
+    vite: ^5.4.0
     vitefu: ^0.2.5
     which-pm: ^3.0.0
     yargs-parser: ^21.1.1
@@ -2469,7 +2477,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 94e07bd704571645b82b7002d03a495af56afcbdf2ea231ae377c5c8d990c9e81e7bf598587f2e69cbdfc3b377a8687c9331e0ebe05c28ab371be9d79fa31903
+  checksum: 102da7d8765698e43ad773a8b194747c35b2c41602d70390923cec5c9e684351390ae80793a136e9bd86d4b6bcc56376ea7a6123f96cf6b786107fc8ab7b5f07
   languageName: node
   linkType: hard
 
@@ -7736,14 +7744,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.39":
-  version: 8.4.39
-  resolution: "postcss@npm:8.4.39"
+"postcss@npm:^8.4.40":
+  version: 8.4.41
+  resolution: "postcss@npm:8.4.41"
   dependencies:
     nanoid: ^3.3.7
     picocolors: ^1.0.1
     source-map-js: ^1.2.0
-  checksum: 14b130c90f165961772bdaf99c67f907f3d16494adf0868e57ef68baa67e0d1f6762db9d41ab0f4d09bab6fb7888588dba3596afd1a235fd5c2d43fba7006ac6
+  checksum: f865894929eb0f7fc2263811cc853c13b1c75103028b3f4f26df777e27b201f1abe21cb4aa4c2e901c80a04f6fb325ee22979688fe55a70e2ea82b0a517d3b6f
   languageName: node
   linkType: hard
 
@@ -9716,19 +9724,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^5.3.5":
-  version: 5.3.5
-  resolution: "vite@npm:5.3.5"
+"vite@npm:^5.4.0":
+  version: 5.4.0
+  resolution: "vite@npm:5.4.0"
   dependencies:
     esbuild: ^0.21.3
     fsevents: ~2.3.3
-    postcss: ^8.4.39
+    postcss: ^8.4.40
     rollup: ^4.13.0
   peerDependencies:
     "@types/node": ^18.0.0 || >=20.0.0
     less: "*"
     lightningcss: ^1.21.0
     sass: "*"
+    sass-embedded: "*"
     stylus: "*"
     sugarss: "*"
     terser: ^5.4.0
@@ -9744,6 +9753,8 @@ __metadata:
       optional: true
     sass:
       optional: true
+    sass-embedded:
+      optional: true
     stylus:
       optional: true
     sugarss:
@@ -9752,7 +9763,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 5412700159e8906fc5ec5ac2cbcbee8a11180803b4a7c85494ae024a4f38d77eb5ab19b556a58745d6981361f8d2e181486f115f8abd4dc6ec3761fcd895e1b2
+  checksum: e2a7d37b9cc92b14d0070f5c229c46365c82af45860db2424d0ec547c3f00d66f4d1d969fea60f22b143994bf60d04d4a364c87b3ff79bd7c94568e788b1d932
   languageName: node
   linkType: hard
 
