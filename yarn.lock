@@ -1429,7 +1429,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 8.1.0
     "@typescript-eslint/parser": 8.1.0
-    astro: 4.14.0
+    astro: 4.14.2
     astro-eslint-parser: 1.0.2
     astro-icon: 1.1.0
     autoprefixer: 10.4.20
@@ -2421,9 +2421,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.14.0":
-  version: 4.14.0
-  resolution: "astro@npm:4.14.0"
+"astro@npm:4.14.2":
+  version: 4.14.2
+  resolution: "astro@npm:4.14.2"
   dependencies:
     "@astrojs/compiler": ^2.10.2
     "@astrojs/internal-helpers": 0.4.1
@@ -2489,6 +2489,7 @@ __metadata:
     vitefu: ^0.2.5
     which-pm: ^3.0.0
     xxhash-wasm: ^1.0.2
+    yargs-parser: ^21.1.1
     zod: ^3.23.8
     zod-to-json-schema: ^3.23.2
     zod-to-ts: ^1.2.0
@@ -2497,7 +2498,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: fbe5938e84dbe4f4bac08d864347824c86e438b8d60190411e7457acfaee450cb68595a1d10eb0e1436bf2fd93eef4e08051beb2d1067668371e37a4ca0ef359
+  checksum: d961546c5dc67eee3804265e66208b4531db6ef6a83d6a278559e2d63f1ee5708fdc827cc1de640ba0ca008384c24245cd57c0f428489fea68d46d036a3e0371
   languageName: node
   linkType: hard
 
@@ -10056,6 +10057,13 @@ __metadata:
   version: 2.3.4
   resolution: "yaml@npm:2.3.4"
   checksum: e6d1dae1c6383bcc8ba11796eef3b8c02d5082911c6723efeeb5ba50fc8e881df18d645e64de68e421b577296000bea9c75d6d9097c2f6699da3ae0406c030d8
+  languageName: node
+  linkType: hard
+
+"yargs-parser@npm:^21.1.1":
+  version: 21.1.1
+  resolution: "yargs-parser@npm:21.1.1"
+  checksum: ed2d96a616a9e3e1cc7d204c62ecc61f7aaab633dcbfab2c6df50f7f87b393993fe6640d017759fe112d0cb1e0119f2b4150a87305cc873fd90831c6a58ccf1c
   languageName: node
   linkType: hard
 
