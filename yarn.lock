@@ -1429,7 +1429,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 8.1.0
     "@typescript-eslint/parser": 8.1.0
-    astro: 4.13.4
+    astro: 4.14.0
     astro-eslint-parser: 1.0.2
     astro-icon: 1.1.0
     autoprefixer: 10.4.20
@@ -1494,6 +1494,22 @@ __metadata:
   version: 0.1.1
   resolution: "@pkgr/core@npm:0.1.1"
   checksum: 6f25fd2e3008f259c77207ac9915b02f1628420403b2630c92a07ff963129238c9262afc9e84344c7a23b5cc1f3965e2cd17e3798219f5fd78a63d144d3cceba
+  languageName: node
+  linkType: hard
+
+"@rollup/pluginutils@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "@rollup/pluginutils@npm:5.1.0"
+  dependencies:
+    "@types/estree": ^1.0.0
+    estree-walker: ^2.0.2
+    picomatch: ^2.3.1
+  peerDependencies:
+    rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
+  peerDependenciesMeta:
+    rollup:
+      optional: true
+  checksum: 3cc5a6d91452a6eabbfd1ae79b4dd1f1e809d2eecda6e175deb784e75b0911f47e9ecce73f8dd315d6a8b3f362582c91d3c0f66908b6ced69345b3cbe28f8ce8
   languageName: node
   linkType: hard
 
@@ -2405,9 +2421,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.13.4":
-  version: 4.13.4
-  resolution: "astro@npm:4.13.4"
+"astro@npm:4.14.0":
+  version: 4.14.0
+  resolution: "astro@npm:4.14.0"
   dependencies:
     "@astrojs/compiler": ^2.10.2
     "@astrojs/internal-helpers": 0.4.1
@@ -2420,6 +2436,7 @@ __metadata:
     "@babel/traverse": ^7.25.3
     "@babel/types": ^7.25.2
     "@oslojs/encoding": ^0.4.1
+    "@rollup/pluginutils": ^5.1.0
     "@types/babel__core": ^7.20.5
     "@types/cookie": ^0.6.0
     acorn: ^8.12.1
@@ -2450,7 +2467,9 @@ __metadata:
     js-yaml: ^4.1.0
     kleur: ^4.1.5
     magic-string: ^0.30.11
+    micromatch: ^4.0.7
     mrmime: ^2.0.0
+    neotraverse: ^0.6.9
     ora: ^8.0.1
     p-limit: ^6.1.0
     p-queue: ^8.0.1
@@ -2469,15 +2488,16 @@ __metadata:
     vite: ^5.4.0
     vitefu: ^0.2.5
     which-pm: ^3.0.0
-    yargs-parser: ^21.1.1
+    xxhash-wasm: ^1.0.2
     zod: ^3.23.8
     zod-to-json-schema: ^3.23.2
+    zod-to-ts: ^1.2.0
   dependenciesMeta:
     sharp:
       optional: true
   bin:
     astro: astro.js
-  checksum: 102da7d8765698e43ad773a8b194747c35b2c41602d70390923cec5c9e684351390ae80793a136e9bd86d4b6bcc56376ea7a6123f96cf6b786107fc8ab7b5f07
+  checksum: fbe5938e84dbe4f4bac08d864347824c86e438b8d60190411e7457acfaee450cb68595a1d10eb0e1436bf2fd93eef4e08051beb2d1067668371e37a4ca0ef359
   languageName: node
   linkType: hard
 
@@ -2643,6 +2663,15 @@ __metadata:
   dependencies:
     fill-range: ^7.0.1
   checksum: e2a8e769a863f3d4ee887b5fe21f63193a891c68b612ddb4b68d82d1b5f3ff9073af066c343e9867a393fe4c2555dcb33e89b937195feb9c1613d259edfcd459
+  languageName: node
+  linkType: hard
+
+"braces@npm:^3.0.3":
+  version: 3.0.3
+  resolution: "braces@npm:3.0.3"
+  dependencies:
+    fill-range: ^7.1.1
+  checksum: b95aa0b3bd909f6cd1720ffcf031aeaf46154dd88b4da01f9a1d3f7ea866a79eba76a6d01cbc3c422b2ee5cdc39a4f02491058d5df0d7bf6e6a162a832df1f69
   languageName: node
   linkType: hard
 
@@ -4260,6 +4289,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"estree-walker@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "estree-walker@npm:2.0.2"
+  checksum: 6151e6f9828abe2259e57f5fd3761335bb0d2ebd76dc1a01048ccee22fabcfef3c0859300f6d83ff0d1927849368775ec5a6d265dde2f6de5a1be1721cd94efc
+  languageName: node
+  linkType: hard
+
 "estree-walker@npm:^3.0.3":
   version: 3.0.3
   resolution: "estree-walker@npm:3.0.3"
@@ -4459,6 +4495,15 @@ __metadata:
   dependencies:
     to-regex-range: ^5.0.1
   checksum: cc283f4e65b504259e64fd969bcf4def4eb08d85565e906b7d36516e87819db52029a76b6363d0f02d0d532f0033c9603b9e2d943d56ee3b0d4f7ad3328ff917
+  languageName: node
+  linkType: hard
+
+"fill-range@npm:^7.1.1":
+  version: 7.1.1
+  resolution: "fill-range@npm:7.1.1"
+  dependencies:
+    to-regex-range: ^5.0.1
+  checksum: b4abfbca3839a3d55e4ae5ec62e131e2e356bf4859ce8480c64c4876100f4df292a63e5bb1618e1d7460282ca2b305653064f01654474aa35c68000980f17798
   languageName: node
   linkType: hard
 
@@ -6771,6 +6816,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"micromatch@npm:^4.0.7":
+  version: 4.0.7
+  resolution: "micromatch@npm:4.0.7"
+  dependencies:
+    braces: ^3.0.3
+    picomatch: ^2.3.1
+  checksum: 3cde047d70ad80cf60c787b77198d680db3b8c25b23feb01de5e2652205d9c19f43bd81882f69a0fd1f0cde6a7a122d774998aad3271ddb1b8accf8a0f480cf7
+  languageName: node
+  linkType: hard
+
 "mime@npm:1.6.0":
   version: 1.6.0
   resolution: "mime@npm:1.6.0"
@@ -7019,6 +7074,13 @@ __metadata:
   version: 0.6.3
   resolution: "negotiator@npm:0.6.3"
   checksum: b8ffeb1e262eff7968fc90a2b6767b04cfd9842582a9d0ece0af7049537266e7b2506dfb1d107a32f06dd849ab2aea834d5830f7f4d0e5cb7d36e1ae55d021d9
+  languageName: node
+  linkType: hard
+
+"neotraverse@npm:^0.6.9":
+  version: 0.6.18
+  resolution: "neotraverse@npm:0.6.18"
+  checksum: 6ec0855db8d484a33672ba4533617bab4944167c881a6ab35a987bf3b92f12159eac5c19ad9cc203c193b279cc1a09f0bd7c7fb7752f9950625cbd866071ef72
   languageName: node
   linkType: hard
 
@@ -9962,6 +10024,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"xxhash-wasm@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "xxhash-wasm@npm:1.0.2"
+  checksum: 11fec6e6196e37ad96cc958b7a4477dc30caf5b4da889a02a84f6f663ab8cd3c9be6ae405e66f0af0404301f27c39375191c5254f0409a793020e2093afd1409
+  languageName: node
+  linkType: hard
+
 "yallist@npm:^3.0.2":
   version: 3.1.1
   resolution: "yallist@npm:3.1.1"
@@ -9987,13 +10056,6 @@ __metadata:
   version: 2.3.4
   resolution: "yaml@npm:2.3.4"
   checksum: e6d1dae1c6383bcc8ba11796eef3b8c02d5082911c6723efeeb5ba50fc8e881df18d645e64de68e421b577296000bea9c75d6d9097c2f6699da3ae0406c030d8
-  languageName: node
-  linkType: hard
-
-"yargs-parser@npm:^21.1.1":
-  version: 21.1.1
-  resolution: "yargs-parser@npm:21.1.1"
-  checksum: ed2d96a616a9e3e1cc7d204c62ecc61f7aaab633dcbfab2c6df50f7f87b393993fe6640d017759fe112d0cb1e0119f2b4150a87305cc873fd90831c6a58ccf1c
   languageName: node
   linkType: hard
 
@@ -10027,6 +10089,16 @@ __metadata:
   peerDependencies:
     zod: ^3.23.3
   checksum: 6dc87a6045f5dcca23d009f2e212f3f5dbb790b1e80488162560359f30aa2babb6a2ea8d44953e9193c6c923300c58e5ae157a9dc089d0bcf5e2437b3158ca1b
+  languageName: node
+  linkType: hard
+
+"zod-to-ts@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "zod-to-ts@npm:1.2.0"
+  peerDependencies:
+    typescript: ^4.9.4 || ^5.0.2
+    zod: ^3
+  checksum: 0dee72ec8cf25a24fed047dcb2dcd41b86a07684836c6bc6e2b2e6140bab0f306fc7390e09161c68a2bd702cd8a57bd5ac013969fff75fa3c0439a6de1413424
   languageName: node
   linkType: hard
 
