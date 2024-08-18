@@ -1426,7 +1426,7 @@ __metadata:
     "@fontsource/inter": 5.0.20
     "@fontsource/jetbrains-mono": 5.0.21
     "@types/eslint": 9.6.0
-    "@types/node": 20.14.15
+    "@types/node": 20.16.0
     "@types/prettier": 3.0.0
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 8.1.0
@@ -1804,12 +1804,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.14.15":
-  version: 20.14.15
-  resolution: "@types/node@npm:20.14.15"
+"@types/node@npm:20.16.0":
+  version: 20.16.0
+  resolution: "@types/node@npm:20.16.0"
   dependencies:
-    undici-types: ~5.26.4
-  checksum: 0407600c1a426efd3e97c94ef1c13edce453142a06ea4be7102bf7be3e907ea578872c7795988a72e981b8ffe942f8cfaafd98552ba82915cd6f963dd1fa9adc
+    undici-types: ~6.19.2
+  checksum: 789999d4fed820bc2a42aa04fbaaa1ce16d46ed2d1e5f73cc3574a092274ac02e1a71345e166b716b355b45a1c875ad32abaef8708a380c60c3fdb2215d05223
   languageName: node
   linkType: hard
 
@@ -9682,10 +9682,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:~5.26.4":
-  version: 5.26.5
-  resolution: "undici-types@npm:5.26.5"
-  checksum: 3192ef6f3fd5df652f2dc1cd782b49d6ff14dc98e5dced492aa8a8c65425227da5da6aafe22523c67f035a272c599bb89cfe803c1db6311e44bed3042fc25487
+"undici-types@npm:~6.19.2":
+  version: 6.19.6
+  resolution: "undici-types@npm:6.19.6"
+  checksum: e66df2447b6d93a48b0605a54269d8c3f228edcd1e9563229f6de37e48ed53b3e49b4bc965733643ed9717e0e0fa1ee664c929db91d787c9f488fb3f9e17c533
   languageName: node
   linkType: hard
 
