@@ -1019,10 +1019,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fontsource/cantarell@npm:5.0.13":
-  version: 5.0.13
-  resolution: "@fontsource/cantarell@npm:5.0.13"
-  checksum: 26405178ce9b08162b0429037f5c44b600653e4428df705352ad15989ff63158b4054d2c16059da9ab5eb8cdfb5d54a154b89fdd197ada3570e84781a0506a26
+"@fontsource/cantarell@npm:5.0.14":
+  version: 5.0.14
+  resolution: "@fontsource/cantarell@npm:5.0.14"
+  checksum: 96ef2998c1e96ec7a735237a97f0cf33d92d6b454191aca1ded5bf38dfed7778550327ff75fd9b60a98ac594fa2c2cfdcf1c3d962a0f67b6461fb823eb6beccb
   languageName: node
   linkType: hard
 
@@ -1033,10 +1033,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fontsource/jetbrains-mono@npm:5.0.20":
-  version: 5.0.20
-  resolution: "@fontsource/jetbrains-mono@npm:5.0.20"
-  checksum: 143804d2161cd4239b2bf7ce2be0e378d710ee5da6bbd349fb6072e1b7301f7a0f6672841b05c7e9bfbc03f9f381ced99274d9b8d2fed2d0f9500e721f87d5d0
+"@fontsource/jetbrains-mono@npm:5.0.21":
+  version: 5.0.21
+  resolution: "@fontsource/jetbrains-mono@npm:5.0.21"
+  checksum: 81d1545c6c9d8b11bab8fccb76d152f82895bf84f148ae75296502e6e240fac9ea489824508cf1e8681063434b968aad2d52068ffcbdc8afffec0fde57f1c1b1
   languageName: node
   linkType: hard
 
@@ -1422,9 +1422,9 @@ __metadata:
     "@astrojs/tailwind": 5.1.0
     "@augu/eslint-config": 5.2.4
     "@augu/tsconfig": 1.2.0
-    "@fontsource/cantarell": 5.0.13
+    "@fontsource/cantarell": 5.0.14
     "@fontsource/inter": 5.0.20
-    "@fontsource/jetbrains-mono": 5.0.20
+    "@fontsource/jetbrains-mono": 5.0.21
     "@types/eslint": 9.6.0
     "@types/node": 20.14.15
     "@types/prettier": 3.0.0
