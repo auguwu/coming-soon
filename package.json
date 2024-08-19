@@ -30,7 +30,7 @@
         "@augu/eslint-config": "5.2.4",
         "@augu/tsconfig": "1.2.0",
         "@types/eslint": "9.6.0",
-        "@types/node": "20.16.0",
+        "@types/node": "20.16.1",
         "@types/prettier": "3.0.0",
         "@types/signale": "1.4.7",
         "@typescript-eslint/eslint-plugin": "8.1.0",
