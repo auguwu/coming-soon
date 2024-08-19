@@ -1439,7 +1439,7 @@ __metadata:
     eslint-config-prettier: 9.1.0
     eslint-plugin-astro: 1.2.3
     eslint-plugin-jsx-a11y: 6.9.0
-    log-symbols: 6.0.0
+    log-symbols: 7.0.0
     prettier: 3.3.3
     prettier-plugin-astro: 0.14.1
     prettier-plugin-tailwindcss: 0.6.6
@@ -6252,7 +6252,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"log-symbols@npm:6.0.0, log-symbols@npm:^6.0.0":
+"log-symbols@npm:7.0.0":
+  version: 7.0.0
+  resolution: "log-symbols@npm:7.0.0"
+  dependencies:
+    is-unicode-supported: ^2.0.0
+    yoctocolors: ^2.1.1
+  checksum: a6cb6e90bfe9f0774a09ff783e2035cd7e375a42757d7e401b391916a67f6da382f4966b57dda89430faaebe2ed13803ea867e104f8d67caf66082943a7153f0
+  languageName: node
+  linkType: hard
+
+"log-symbols@npm:^6.0.0":
   version: 6.0.0
   resolution: "log-symbols@npm:6.0.0"
   dependencies:
@@ -10243,6 +10253,13 @@ __metadata:
   version: 1.1.1
   resolution: "yocto-queue@npm:1.1.1"
   checksum: f2e05b767ed3141e6372a80af9caa4715d60969227f38b1a4370d60bffe153c9c5b33a862905609afc9b375ec57cd40999810d20e5e10229a204e8bde7ef255c
+  languageName: node
+  linkType: hard
+
+"yoctocolors@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "yoctocolors@npm:2.1.1"
+  checksum: 563fbec88bce9716d1044bc98c96c329e1d7a7c503e6f1af68f1ff914adc3ba55ce953c871395e2efecad329f85f1632f51a99c362032940321ff80c42a6f74d
   languageName: node
   linkType: hard
 
