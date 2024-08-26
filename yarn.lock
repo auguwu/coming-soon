@@ -1425,7 +1425,7 @@ __metadata:
     "@fontsource/cantarell": 5.0.14
     "@fontsource/inter": 5.0.20
     "@fontsource/jetbrains-mono": 5.0.21
-    "@types/eslint": 9.6.0
+    "@types/eslint": 9.6.1
     "@types/node": 20.16.1
     "@types/prettier": 3.0.0
     "@types/signale": 1.4.7
@@ -1716,13 +1716,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:9.6.0":
-  version: 9.6.0
-  resolution: "@types/eslint@npm:9.6.0"
+"@types/eslint@npm:9.6.1":
+  version: 9.6.1
+  resolution: "@types/eslint@npm:9.6.1"
   dependencies:
     "@types/estree": "*"
     "@types/json-schema": "*"
-  checksum: 7be4b1d24f3df30b28e9cbaac6a5fa14ec1ceca7c173d9605c0ec6e0d1dcdba0452d326dd695dd980f5c14b42aa09fe41675c4f09ffc82db4f466588d3f837cb
+  checksum: c286e79707ab604b577cf8ce51d9bbb9780e3d6a68b38a83febe13fa05b8012c92de17c28532fac2b03d3c460123f5055d603a579685325246ca1c86828223e0
   languageName: node
   linkType: hard
 
