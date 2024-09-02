@@ -609,6 +609,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/types@npm:^7.25.6":
+  version: 7.25.6
+  resolution: "@babel/types@npm:7.25.6"
+  dependencies:
+    "@babel/helper-string-parser": ^7.24.8
+    "@babel/helper-validator-identifier": ^7.24.7
+    to-fast-properties: ^2.0.0
+  checksum: 9b2f84ff3f874ad05b0b9bf06862c56f478b65781801f82296b4cc01bee39e79c20a7c0a06959fed0ee582c8267e1cb21638318655c5e070b0287242a844d1c9
+  languageName: node
+  linkType: hard
+
 "@emnapi/runtime@npm:^1.1.0":
   version: 1.1.1
   resolution: "@emnapi/runtime@npm:1.1.1"
@@ -1453,7 +1464,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 8.3.0
     "@typescript-eslint/parser": 8.3.0
-    astro: 4.15.1
+    astro: 4.15.2
     astro-eslint-parser: 1.0.2
     astro-icon: 1.1.1
     autoprefixer: 10.4.20
@@ -1658,12 +1669,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@shikijs/core@npm:1.14.1":
-  version: 1.14.1
-  resolution: "@shikijs/core@npm:1.14.1"
+"@shikijs/core@npm:1.16.1":
+  version: 1.16.1
+  resolution: "@shikijs/core@npm:1.16.1"
   dependencies:
+    "@shikijs/vscode-textmate": ^9.2.0
     "@types/hast": ^3.0.4
-  checksum: 886e6ff0ea1b78650de755db556bbd8060dd09b8d437d5ea6526a56a01973e3c4a1a14fb64de7578e6e09f94639bf6839c23c6d847e6f202d8d9015a08bd9dc3
+  checksum: abc3b4c97b654aabd0deb0095da8505414c8b4dab59f02f4ca527fb06043af02ebdc81372f9e314a6401e979c35babec44326fc65dfb678592d4057531f47b4d
+  languageName: node
+  linkType: hard
+
+"@shikijs/vscode-textmate@npm:^9.2.0":
+  version: 9.2.0
+  resolution: "@shikijs/vscode-textmate@npm:9.2.0"
+  checksum: 38e3d580ef091f5cd29aa682f2517b06791344ea3587b3fc8c0314f7ae76207279a24ed642e06bf84ac9c2002041e4d180141272a5dc300e548ccfcda80c2e3b
   languageName: node
   linkType: hard
 
@@ -2436,9 +2455,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.15.1":
-  version: 4.15.1
-  resolution: "astro@npm:4.15.1"
+"astro@npm:4.15.2":
+  version: 4.15.2
+  resolution: "astro@npm:4.15.2"
   dependencies:
     "@astrojs/compiler": ^2.10.3
     "@astrojs/internal-helpers": 0.4.1
@@ -2446,7 +2465,7 @@ __metadata:
     "@astrojs/telemetry": 3.1.0
     "@babel/core": ^7.25.2
     "@babel/plugin-transform-react-jsx": ^7.25.2
-    "@babel/types": ^7.25.4
+    "@babel/types": ^7.25.6
     "@oslojs/encoding": ^0.4.1
     "@rollup/pluginutils": ^5.1.0
     "@types/babel__core": ^7.20.5
@@ -2492,11 +2511,11 @@ __metadata:
     rehype: ^13.0.1
     semver: ^7.6.3
     sharp: ^0.33.3
-    shiki: ^1.14.1
+    shiki: ^1.16.1
     string-width: ^7.2.0
     strip-ansi: ^7.1.0
     tinyexec: ^0.3.0
-    tsconfck: ^3.1.1
+    tsconfck: ^3.1.3
     unist-util-visit: ^5.0.0
     vfile: ^6.0.3
     vite: ^5.4.2
@@ -2512,7 +2531,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: f52f2e4cc1cefba690e34da9f0f022161985b9fef4ab930d7131d3ccd4c1b28df67fa794eb9d01f9bdb19ca6e806defd64d79b71b9320385d253bb442ea0bb81
+  checksum: 3b6ba60cd5af0faf8d31036e00de347369ef9cecf5a8173d2d8c832b660ac3877039e0064e6b3f0a56d626bf7ab3b225e3c279072ec8c56bdf805cfd219a6216
   languageName: node
   linkType: hard
 
@@ -8843,13 +8862,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shiki@npm:^1.14.1":
-  version: 1.14.1
-  resolution: "shiki@npm:1.14.1"
+"shiki@npm:^1.16.1":
+  version: 1.16.1
+  resolution: "shiki@npm:1.16.1"
   dependencies:
-    "@shikijs/core": 1.14.1
+    "@shikijs/core": 1.16.1
+    "@shikijs/vscode-textmate": ^9.2.0
     "@types/hast": ^3.0.4
-  checksum: 205d20e4046a5b4fa904440d07f10895d0505fbf6e3f86b5348d4c8a6235df7fb7d52343e33141cb4dc1dd67b400b8189425bc8d6af175551e4f251d6a5195f7
+  checksum: 8223dd5e37d1eeb6953632aaff29c31e32236bf649c5bd87db2019cf83b52fecb8e09272be7d9de3d3b4f32d8e31b494703c85c46a40efe9eed923ae6f4292c4
   languageName: node
   linkType: hard
 
@@ -9455,9 +9475,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsconfck@npm:^3.1.1":
-  version: 3.1.1
-  resolution: "tsconfck@npm:3.1.1"
+"tsconfck@npm:^3.1.3":
+  version: 3.1.3
+  resolution: "tsconfck@npm:3.1.3"
   peerDependencies:
     typescript: ^5.0.0
   peerDependenciesMeta:
@@ -9465,7 +9485,7 @@ __metadata:
       optional: true
   bin:
     tsconfck: bin/tsconfck.js
-  checksum: 92941c76f5a996a96b5d92c88d20f67c644bb04cfeb9e5d4d2fed5a8ecce207fc70334a6257e3c146a117aa88b75adabc0989ee8d80a4935745f2774bf3f50fe
+  checksum: 73ddfb7c2d7ba37a00467b4392f235345254e465d7f0921a32cadf85b76ef9a21f0e570e5161701584362415a6bddcd8241854f645f9d8ff8036f3852beed054
   languageName: node
   linkType: hard
 
