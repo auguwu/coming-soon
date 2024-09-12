@@ -1061,24 +1061,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fontsource/cantarell@npm:5.0.15":
-  version: 5.0.15
-  resolution: "@fontsource/cantarell@npm:5.0.15"
-  checksum: 397e1f28abdf72535c51b9c176c0d1f5dcee5698d3a2fa2ca3971a719c21fd7b7439c350e5303adf8bc3ed8615124d290069dac2d6033ba870bd0fdfba2af83e
+"@fontsource/cantarell@npm:5.1.0":
+  version: 5.1.0
+  resolution: "@fontsource/cantarell@npm:5.1.0"
+  checksum: c26f9057e62e0aeda55b4b47373dd20dd66d6b54837fd0b29389605454b28d3ce3e34fe4c21a1ae98c9513f7ecd0701ad2a0a36075bd8ad7550b49473372141d
   languageName: node
   linkType: hard
 
-"@fontsource/inter@npm:5.0.21":
-  version: 5.0.21
-  resolution: "@fontsource/inter@npm:5.0.21"
-  checksum: 3834a4229e616878ae2b111dbe6b1d5632b81e8aa4b306b00e6641058029fe7a3a3e1b00f4b017fb01ffd97ef2f73a90a1428ba7dd0baf7f46943d4598078f0e
+"@fontsource/inter@npm:5.1.0":
+  version: 5.1.0
+  resolution: "@fontsource/inter@npm:5.1.0"
+  checksum: 357454d870a1cdb2cbe9c01ae254a0223045e78eba5ca5824f01e139dbcf7254e327c33aaa0e054c37499956229c0555390fa32bfca17aae6e2f23ba4e092633
   languageName: node
   linkType: hard
 
-"@fontsource/jetbrains-mono@npm:5.0.22":
-  version: 5.0.22
-  resolution: "@fontsource/jetbrains-mono@npm:5.0.22"
-  checksum: b863ce0cf93693137bf1e3a4301e9fa64189194d0bf90c460923bba46bdce84548cb62f7da30a4a6f78e8983e9c8cfcdfa64e87faf76c62ef7b38e524e144aae
+"@fontsource/jetbrains-mono@npm:5.1.0":
+  version: 5.1.0
+  resolution: "@fontsource/jetbrains-mono@npm:5.1.0"
+  checksum: f6b005d4f4e7785aa09011fd2fea2d00ab784ab9696d89bdfe610cdc3e4d8dafdc411e61ef8c59ff9c6b5dfe83039f1fef9c8debdd456ddc3d302e95258dc457
   languageName: node
   linkType: hard
 
@@ -1464,9 +1464,9 @@ __metadata:
     "@astrojs/tailwind": 5.1.0
     "@augu/eslint-config": 5.2.4
     "@augu/tsconfig": 1.2.0
-    "@fontsource/cantarell": 5.0.15
-    "@fontsource/inter": 5.0.21
-    "@fontsource/jetbrains-mono": 5.0.22
+    "@fontsource/cantarell": 5.1.0
+    "@fontsource/inter": 5.1.0
+    "@fontsource/jetbrains-mono": 5.1.0
     "@types/eslint": 9.6.1
     "@types/node": 20.16.5
     "@types/prettier": 3.0.0
