@@ -1473,7 +1473,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 8.6.0
     "@typescript-eslint/parser": 8.6.0
-    astro: 4.15.7
+    astro: 4.15.8
     astro-eslint-parser: 1.0.3
     astro-icon: 1.1.1
     autoprefixer: 10.4.20
@@ -2565,9 +2565,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.15.7":
-  version: 4.15.7
-  resolution: "astro@npm:4.15.7"
+"astro@npm:4.15.8":
+  version: 4.15.8
+  resolution: "astro@npm:4.15.8"
   dependencies:
     "@astrojs/compiler": ^2.10.3
     "@astrojs/internal-helpers": 0.4.1
@@ -2615,7 +2615,6 @@ __metadata:
     ora: ^8.1.0
     p-limit: ^6.1.0
     p-queue: ^8.0.1
-    path-to-regexp: 6.2.2
     preferred-pm: ^4.0.0
     prompts: ^2.4.2
     rehype: ^13.0.1
@@ -2641,7 +2640,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: c48eb2e8dba81e0564dac3754572406212babc54f8e70c1de5c26c321fcfe6519031ead80cb60129d37685d1b76baa3e4abd702c7d32c555faedad9c114ffa6f
+  checksum: 2d52718b65832fc7c44afa10dca823e7e2554c3ee6871c265a8a27d257b03fa67087e8c42942fdb6205a52d01e236b24915e76475ff291705f16584e76af303c
   languageName: node
   linkType: hard
 
@@ -7758,13 +7757,6 @@ __metadata:
     lru-cache: ^11.0.0
     minipass: ^7.1.2
   checksum: 9953ce3857f7e0796b187a7066eede63864b7e1dfc14bf0484249801a5ab9afb90d9a58fc533ebb1b552d23767df8aa6a2c6c62caf3f8a65f6ce336a97bbb484
-  languageName: node
-  linkType: hard
-
-"path-to-regexp@npm:6.2.2":
-  version: 6.2.2
-  resolution: "path-to-regexp@npm:6.2.2"
-  checksum: b7b0005c36f5099f9ed1fb20a820d2e4ed1297ffe683ea1d678f5e976eb9544f01debb281369dabdc26da82e6453901bf71acf2c7ed14b9243536c2a45286c33
   languageName: node
   linkType: hard
 
