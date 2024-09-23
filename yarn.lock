@@ -1473,7 +1473,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 8.6.0
     "@typescript-eslint/parser": 8.6.0
-    astro: 4.15.8
+    astro: 4.15.9
     astro-eslint-parser: 1.0.3
     astro-icon: 1.1.1
     autoprefixer: 10.4.20
@@ -1520,10 +1520,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@oslojs/encoding@npm:^0.4.1":
-  version: 0.4.1
-  resolution: "@oslojs/encoding@npm:0.4.1"
-  checksum: 7cba443edb4ed217bd584313e272ddadfb350963611b90b5ae6fa5358b7ce47cd59921f8bc15d859347db5a953210bdf746b8ff3829ac74dd8cfcb8bbdbe308d
+"@oslojs/encoding@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@oslojs/encoding@npm:1.0.0"
+  checksum: f133c2fa901c0386f618be3fcd2a71d400a432a668fa48e0c884c71ff800c44919dc010ec4e6f4a4ac763d4424e50970a9e68539ebd8dd82fdb4801381c7d606
   languageName: node
   linkType: hard
 
@@ -2565,9 +2565,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.15.8":
-  version: 4.15.8
-  resolution: "astro@npm:4.15.8"
+"astro@npm:4.15.9":
+  version: 4.15.9
+  resolution: "astro@npm:4.15.9"
   dependencies:
     "@astrojs/compiler": ^2.10.3
     "@astrojs/internal-helpers": 0.4.1
@@ -2576,7 +2576,7 @@ __metadata:
     "@babel/core": ^7.25.2
     "@babel/plugin-transform-react-jsx": ^7.25.2
     "@babel/types": ^7.25.6
-    "@oslojs/encoding": ^0.4.1
+    "@oslojs/encoding": ^1.0.0
     "@rollup/pluginutils": ^5.1.0
     "@types/babel__core": ^7.20.5
     "@types/cookie": ^0.6.0
@@ -2640,7 +2640,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 2d52718b65832fc7c44afa10dca823e7e2554c3ee6871c265a8a27d257b03fa67087e8c42942fdb6205a52d01e236b24915e76475ff291705f16584e76af303c
+  checksum: 5bd3b1614ccdeccda0d15c950c852e5a64330e67bd9c6ec33f6bd0e4e1f7f60bc2c634c26eaca52f15ace1105eb67b392d130d8c2c683501df1395b94c758178
   languageName: node
   linkType: hard
 
