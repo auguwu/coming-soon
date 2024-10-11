@@ -1421,7 +1421,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 8.8.1
     "@typescript-eslint/parser": 8.8.1
-    astro: 4.16.0
+    astro: 4.16.1
     astro-eslint-parser: 1.0.3
     astro-icon: 1.1.1
     autoprefixer: 10.4.20
@@ -2517,9 +2517,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.16.0":
-  version: 4.16.0
-  resolution: "astro@npm:4.16.0"
+"astro@npm:4.16.1":
+  version: 4.16.1
+  resolution: "astro@npm:4.16.1"
   dependencies:
     "@astrojs/compiler": ^2.10.3
     "@astrojs/internal-helpers": 0.4.1
@@ -2551,7 +2551,6 @@ __metadata:
     esbuild: ^0.21.5
     estree-walker: ^3.0.3
     fast-glob: ^3.3.2
-    fastq: ^1.17.1
     flattie: ^1.1.1
     github-slugger: ^2.0.0
     gray-matter: ^4.0.3
@@ -2573,7 +2572,6 @@ __metadata:
     semver: ^7.6.3
     sharp: ^0.33.3
     shiki: ^1.22.0
-    string-width: ^7.2.0
     tinyexec: ^0.3.0
     tsconfck: ^3.1.3
     unist-util-visit: ^5.0.0
@@ -2591,7 +2589,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: dd239c00904e5f136dd2e054078671b41907ea090e6828e2f0e4b0d8d4d7e0e7e9ba7839dc26f1ecb90b5f64be569bcc63552f51623c62cffd8cc94644bbdfb5
+  checksum: 1e1a4ab56468145b068771074eced4a4a903e6c66d419263f8632b7411ba623dcc72cdf1fa8872e9b186c79be0695d65ad8ca415b8e41906b1af04396763c5eb
   languageName: node
   linkType: hard
 
@@ -4547,15 +4545,6 @@ __metadata:
   version: 2.0.6
   resolution: "fast-levenshtein@npm:2.0.6"
   checksum: 92cfec0a8dfafd9c7a15fba8f2cc29cd0b62b85f056d99ce448bbcd9f708e18ab2764bda4dd5158364f4145a7c72788538994f0d1787b956ef0d1062b0f7c24c
-  languageName: node
-  linkType: hard
-
-"fastq@npm:^1.17.1":
-  version: 1.17.1
-  resolution: "fastq@npm:1.17.1"
-  dependencies:
-    reusify: ^1.0.4
-  checksum: a8c5b26788d5a1763f88bae56a8ddeee579f935a831c5fe7a8268cea5b0a91fbfe705f612209e02d639b881d7b48e461a50da4a10cfaa40da5ca7cc9da098d88
   languageName: node
   linkType: hard
 
