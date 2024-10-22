@@ -1443,7 +1443,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 8.11.0
     "@typescript-eslint/parser": 8.11.0
-    astro: 4.16.6
+    astro: 4.16.7
     astro-eslint-parser: 1.0.3
     astro-icon: 1.1.1
     autoprefixer: 10.4.20
@@ -2182,12 +2182,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn@npm:^8.12.1":
-  version: 8.12.1
-  resolution: "acorn@npm:8.12.1"
+"acorn@npm:^8.13.0":
+  version: 8.13.0
+  resolution: "acorn@npm:8.13.0"
   bin:
     acorn: bin/acorn
-  checksum: 677880034aee5bdf7434cc2d25b641d7bedb0b5ef47868a78dadabedccf58e1c5457526d9d8249cd253f2df087e081c3fe7d903b448d8e19e5131a3065b83c07
+  checksum: f1541f05eb5d6ff67990d1927290809b1ebb663ac96d9c7057c935cf29c5bcaba6d39f37bd007f4bb814f162f142b0f2b2dd4b14128b8fcfaf9f0508a6f05f1c
   languageName: node
   linkType: hard
 
@@ -2530,9 +2530,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.16.6":
-  version: 4.16.6
-  resolution: "astro@npm:4.16.6"
+"astro@npm:4.16.7":
+  version: 4.16.7
+  resolution: "astro@npm:4.16.7"
   dependencies:
     "@astrojs/compiler": ^2.10.3
     "@astrojs/internal-helpers": 0.4.1
@@ -2545,7 +2545,7 @@ __metadata:
     "@rollup/pluginutils": ^5.1.2
     "@types/babel__core": ^7.20.5
     "@types/cookie": ^0.6.0
-    acorn: ^8.12.1
+    acorn: ^8.13.0
     aria-query: ^5.3.2
     axobject-query: ^4.1.0
     boxen: 8.0.1
@@ -2585,7 +2585,7 @@ __metadata:
     semver: ^7.6.3
     sharp: ^0.33.3
     shiki: ^1.22.0
-    tinyexec: ^0.3.0
+    tinyexec: ^0.3.1
     tsconfck: ^3.1.4
     unist-util-visit: ^5.0.0
     vfile: ^6.0.3
@@ -2602,7 +2602,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 7483a9a92e11c55e5fc1f4ac5b0d5d67cf549442269530675a47e70aebdd3a97455f1f72545343c9d24fc71302cb1d79fdc879f0429d96a8d3f25dc9f121c692
+  checksum: 203c60a83c081331354cf513aea9a02a342019cab5db0ebe00d2c543884d3f52cf4c4c13ab57a577a8001511be708894893e15bec711fa069c34a9d683e23826
   languageName: node
   linkType: hard
 
@@ -9399,10 +9399,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinyexec@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "tinyexec@npm:0.3.0"
-  checksum: e55473d249b8fc94bc5b1461d8e368dfe0ba23dcfca4f9069fe25418b17772e50110a1d33cd7ac8ff26456e5b609e0528cce7660e35246fad9b00bd094f3f444
+"tinyexec@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "tinyexec@npm:0.3.1"
+  checksum: 691b531d464bdc09eeba934e43d8ac2a74c9d22a4bec9cd7f4991375c64e22712f7e5a95ba243a9369a478afd34d41171359012a2248ea49615cd2816ab12959
   languageName: node
   linkType: hard
 
