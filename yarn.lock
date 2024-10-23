@@ -12,16 +12,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@actions/core@npm:1.10.1":
-  version: 1.10.1
-  resolution: "@actions/core@npm:1.10.1"
-  dependencies:
-    "@actions/http-client": ^2.0.1
-    uuid: ^8.3.2
-  checksum: 96524c2725e70e3c3176b4e4d93a1358a86f3c5ca777db9a2f65eadfa672f00877db359bf60fffc416c33838ffb4743db93bcc5bf53e76199dd28bf7f7ff8e80
-  languageName: node
-  linkType: hard
-
 "@actions/core@npm:1.11.1":
   version: 1.11.1
   resolution: "@actions/core@npm:1.11.1"
@@ -195,17 +185,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@augu/eslint-config@npm:5.2.4":
-  version: 5.2.4
-  resolution: "@augu/eslint-config@npm:5.2.4"
+"@augu/eslint-config@npm:5.3.0":
+  version: 5.3.0
+  resolution: "@augu/eslint-config@npm:5.3.0"
   dependencies:
-    "@actions/core": 1.10.1
+    "@actions/core": 1.11.1
     "@noelware/utils": 2.5.1
-    debug: 4.3.4
+    debug: 4.3.7
     defu: 6.1.4
     local-pkg: 0.5.0
-    vue-eslint-parser: 9.4.2
+    vue-eslint-parser: 9.4.3
   peerDependenciesMeta:
+    "@stylistic/eslint-plugin":
+      optional: true
     "@typescript-eslint/eslint-plugin":
       optional: true
     "@typescript-eslint/parser":
@@ -216,15 +208,13 @@ __metadata:
       optional: true
     eslint-plugin-astro:
       optional: true
-    eslint-plugin-perfectionist:
-      optional: true
     eslint-plugin-vue:
       optional: true
     typescript-eslint:
       optional: true
     vue-eslint-parser:
       optional: true
-  checksum: 02798c7a0befd30799d762be14d24bbc376b1dee8bc16c04e18ab6a414e4d0b8eee41f5722f1c09113f3ab4c5d3ff28f3a1af628887cb73d22f2f53cdf0607aa
+  checksum: 89aa569be0a6cf7a67ffa100036e2899fb2eb121c4114b15a5e247aa4a8899363ad9d1b6a6e504649f134d06d8af56f1166b0dbecaeabcabbb260ebd18fdb4c6
   languageName: node
   linkType: hard
 
@@ -1432,7 +1422,7 @@ __metadata:
     "@actions/core": 1.11.1
     "@astrojs/node": 8.3.4
     "@astrojs/tailwind": 5.1.2
-    "@augu/eslint-config": 5.2.4
+    "@augu/eslint-config": 5.3.0
     "@augu/tsconfig": 1.2.0
     "@fontsource/cantarell": 5.1.0
     "@fontsource/inter": 5.1.0
@@ -3318,7 +3308,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:4.3.4, debug@npm:^4.0.0, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.1, debug@npm:^4.3.2, debug@npm:^4.3.3, debug@npm:^4.3.4":
+"debug@npm:4, debug@npm:^4.0.0, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.1, debug@npm:^4.3.2, debug@npm:^4.3.3, debug@npm:^4.3.4":
   version: 4.3.4
   resolution: "debug@npm:4.3.4"
   dependencies:
@@ -3327,6 +3317,18 @@ __metadata:
     supports-color:
       optional: true
   checksum: 3dbad3f94ea64f34431a9cbf0bafb61853eda57bff2880036153438f50fb5a84f27683ba0d8e5426bf41a8c6ff03879488120cf5b3a761e77953169c0600a708
+  languageName: node
+  linkType: hard
+
+"debug@npm:4.3.7, debug@npm:^4.3.7":
+  version: 4.3.7
+  resolution: "debug@npm:4.3.7"
+  dependencies:
+    ms: ^2.1.3
+  peerDependenciesMeta:
+    supports-color:
+      optional: true
+  checksum: 822d74e209cd910ef0802d261b150314bbcf36c582ccdbb3e70f0894823c17e49a50d3e66d96b633524263975ca16b6a833f3e3b7e030c157169a5fabac63160
   languageName: node
   linkType: hard
 
@@ -3339,18 +3341,6 @@ __metadata:
     supports-color:
       optional: true
   checksum: 1630b748dea3c581295e02137a9f5cbe2c1d85fea35c1e6597a65ca2b16a6fce68cec61b299d480787ef310ba927dc8c92d3061faba0ad06c6a724672f66be7f
-  languageName: node
-  linkType: hard
-
-"debug@npm:^4.3.7":
-  version: 4.3.7
-  resolution: "debug@npm:4.3.7"
-  dependencies:
-    ms: ^2.1.3
-  peerDependenciesMeta:
-    supports-color:
-      optional: true
-  checksum: 822d74e209cd910ef0802d261b150314bbcf36c582ccdbb3e70f0894823c17e49a50d3e66d96b633524263975ca16b6a833f3e3b7e030c157169a5fabac63160
   languageName: node
   linkType: hard
 
@@ -9851,15 +9841,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uuid@npm:^8.3.2":
-  version: 8.3.2
-  resolution: "uuid@npm:8.3.2"
-  bin:
-    uuid: dist/bin/uuid
-  checksum: 5575a8a75c13120e2f10e6ddc801b2c7ed7d8f3c8ac22c7ed0c7b2ba6383ec0abda88c905085d630e251719e0777045ae3236f04c812184b7c765f63a70e58df
-  languageName: node
-  linkType: hard
-
 "vfile-location@npm:^5.0.0":
   version: 5.0.2
   resolution: "vfile-location@npm:5.0.2"
@@ -9956,9 +9937,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-eslint-parser@npm:9.4.2":
-  version: 9.4.2
-  resolution: "vue-eslint-parser@npm:9.4.2"
+"vue-eslint-parser@npm:9.4.3":
+  version: 9.4.3
+  resolution: "vue-eslint-parser@npm:9.4.3"
   dependencies:
     debug: ^4.3.4
     eslint-scope: ^7.1.1
@@ -9969,7 +9950,7 @@ __metadata:
     semver: ^7.3.6
   peerDependencies:
     eslint: ">=6.0.0"
-  checksum: 67f14c8ea19b578077a878864a5ec438ab4c597381923c9814fac39b3772da8654ac2a543467b5880607f694131f8ff34b87bd24c10bbc5f99fa2fcac49ff2e6
+  checksum: 8d5b7ef7c5ee264ca2ba78da4b95ac7a66175a458d153a35e92cd7c55b794db0f2c31a8fdd40021bab4496f2f64ab80d7dbb6dccff4103beb4564c439a88fa42
   languageName: node
   linkType: hard
 

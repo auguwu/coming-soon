@@ -27,7 +27,7 @@
     },
     "devDependencies": {
         "@actions/core": "1.11.1",
-        "@augu/eslint-config": "5.2.4",
+        "@augu/eslint-config": "5.3.0",
         "@augu/tsconfig": "1.2.0",
         "@types/eslint": "9.6.1",
         "@types/node": "20.16.14",
