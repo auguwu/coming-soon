@@ -1389,7 +1389,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 8.13.0
     "@typescript-eslint/parser": 8.13.0
-    astro: 4.16.9
+    astro: 4.16.10
     astro-eslint-parser: 1.0.3
     astro-icon: 1.1.2
     autoprefixer: 10.4.20
@@ -2512,9 +2512,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.16.9":
-  version: 4.16.9
-  resolution: "astro@npm:4.16.9"
+"astro@npm:4.16.10":
+  version: 4.16.10
+  resolution: "astro@npm:4.16.10"
   dependencies:
     "@astrojs/compiler": ^2.10.3
     "@astrojs/internal-helpers": 0.4.1
@@ -2558,7 +2558,7 @@ __metadata:
     micromatch: ^4.0.8
     mrmime: ^2.0.0
     neotraverse: ^0.6.18
-    ora: ^8.1.0
+    ora: ^8.1.1
     p-limit: ^6.1.0
     p-queue: ^8.0.1
     preferred-pm: ^4.0.0
@@ -2584,7 +2584,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 9d65d871cfb987e31ad837e147351e805272092b07c6e3b5a1352fd963dffa7d24ab79c81dbb375cb7376e7c044b33e94874d9db24cdd5831f702b8e91240dae
+  checksum: c181fc39dd9b19ccd735fb8cd83933519fa1e9ad2bc32003e2c127c729341b3812455fa2992d830565c3eed7b8627693b81f7e0fd0ab1ee07aa95dc398b9fbff
   languageName: node
   linkType: hard
 
@@ -7306,9 +7306,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ora@npm:^8.1.0":
-  version: 8.1.0
-  resolution: "ora@npm:8.1.0"
+"ora@npm:^8.1.1":
+  version: 8.1.1
+  resolution: "ora@npm:8.1.1"
   dependencies:
     chalk: ^5.3.0
     cli-cursor: ^5.0.0
@@ -7319,7 +7319,7 @@ __metadata:
     stdin-discarder: ^0.2.2
     string-width: ^7.2.0
     strip-ansi: ^7.1.0
-  checksum: 81b9a2627a687c2b16fa08b0ae0b3641b320bdbeca831eb323df0cbb1e5ddc096b94391ff342839a1db47f5a895cebb2a8d06c319a5d935fc48628f35a036107
+  checksum: 0cb79b9d8458ef0878e43d692fddb078c0885c82bbfa45e46de366f71fd506a75d8f9d5df71859624f7f0fe488c17d2e6882d7a35126214cf1a0e0c0f51248c4
   languageName: node
   linkType: hard
 
