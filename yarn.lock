@@ -1391,7 +1391,7 @@ __metadata:
     "@typescript-eslint/parser": 8.15.0
     astro: 4.16.14
     astro-eslint-parser: 1.1.0
-    astro-icon: 1.1.2
+    astro-icon: 1.1.4
     autoprefixer: 10.4.20
     eslint: 9.15.0
     eslint-config-prettier: 9.1.0
@@ -2506,14 +2506,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro-icon@npm:1.1.2":
-  version: 1.1.2
-  resolution: "astro-icon@npm:1.1.2"
+"astro-icon@npm:1.1.4":
+  version: 1.1.4
+  resolution: "astro-icon@npm:1.1.4"
   dependencies:
     "@iconify/tools": ^4.0.5
     "@iconify/types": ^2.0.0
     "@iconify/utils": ^2.1.30
-  checksum: 5c40f4197cabfe7e8d7d293441682114a1ce5decb919b6908dd110516daa0af3825009347cd3421d1c005541287d88c5afaec051068f76168004a0f232743b56
+  checksum: 9bac009d03aeee1b3e3182c4137917a503204edc7467ace4e3794b3c6c36df4c56a41cad13eb9182dff7a8243334250e485fba0b74abe89f33584e9b3ec98e92
   languageName: node
   linkType: hard
 
