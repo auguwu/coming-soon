@@ -1398,7 +1398,7 @@ __metadata:
     eslint-plugin-astro: 1.3.1
     eslint-plugin-jsx-a11y: 6.10.2
     log-symbols: 7.0.0
-    prettier: 3.3.3
+    prettier: 3.4.0
     prettier-plugin-astro: 0.14.1
     prettier-plugin-tailwindcss: 0.6.9
     rimraf: 6.0.1
@@ -7912,12 +7912,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.3.3":
-  version: 3.3.3
-  resolution: "prettier@npm:3.3.3"
+"prettier@npm:3.4.0":
+  version: 3.4.0
+  resolution: "prettier@npm:3.4.0"
   bin:
     prettier: bin/prettier.cjs
-  checksum: bc8604354805acfdde6106852d14b045bb20827ad76a5ffc2455b71a8257f94de93f17f14e463fe844808d2ccc87248364a5691488a3304f1031326e62d9276e
+  checksum: 600896ad0250afbcb4be97b41a2d72b878729d85308cbb6a6a8e668de8c3795559e2731b3fbb7f1d9bb5c76161a4110fd6f898d20af739853923336e55cb609a
   languageName: node
   linkType: hard
 
