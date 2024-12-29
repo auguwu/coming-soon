@@ -868,24 +868,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fontsource/cantarell@npm:5.1.0":
-  version: 5.1.0
-  resolution: "@fontsource/cantarell@npm:5.1.0"
-  checksum: c26f9057e62e0aeda55b4b47373dd20dd66d6b54837fd0b29389605454b28d3ce3e34fe4c21a1ae98c9513f7ecd0701ad2a0a36075bd8ad7550b49473372141d
-  languageName: node
-  linkType: hard
-
-"@fontsource/inter@npm:5.1.0":
-  version: 5.1.0
-  resolution: "@fontsource/inter@npm:5.1.0"
-  checksum: 357454d870a1cdb2cbe9c01ae254a0223045e78eba5ca5824f01e139dbcf7254e327c33aaa0e054c37499956229c0555390fa32bfca17aae6e2f23ba4e092633
-  languageName: node
-  linkType: hard
-
-"@fontsource/jetbrains-mono@npm:5.1.1":
+"@fontsource/cantarell@npm:5.1.1":
   version: 5.1.1
-  resolution: "@fontsource/jetbrains-mono@npm:5.1.1"
-  checksum: 39a5415d845af8c7e0975313d0bf796d9adfccaf0520c58e5064a4b81b7b21c21bcd16ddbeb14eb21f05d1123fc02b6bfc6b2a78d9d29b25a86d7a90cb634501
+  resolution: "@fontsource/cantarell@npm:5.1.1"
+  checksum: d44f413a34b56633ed06621b058199c408d3eecdcad94d4220f482a648759001a63c1976ebcf463f5748457caa77af24a1376ca97a295f15161b79edf9da9220
+  languageName: node
+  linkType: hard
+
+"@fontsource/inter@npm:5.1.1":
+  version: 5.1.1
+  resolution: "@fontsource/inter@npm:5.1.1"
+  checksum: 6b48404ba8d2682aa70a946cd5ed4cff79934176e1ea3a06f21cd4f92e124f39ab9b2cc764062cc5ac8ea410c4deaf4bb035dacaec5f9d3455cffffbace90743
+  languageName: node
+  linkType: hard
+
+"@fontsource/jetbrains-mono@npm:5.1.2":
+  version: 5.1.2
+  resolution: "@fontsource/jetbrains-mono@npm:5.1.2"
+  checksum: 2a38b353585f90b816b33c6fc75b159ba73d0132dfe86e0e293811deacdbc795a554b41cbda6981058a06b97490734d3ab3a9cf2279c22c1c8043ea83470c2b1
   languageName: node
   linkType: hard
 
@@ -1249,9 +1249,9 @@ __metadata:
     "@astrojs/tailwind": 5.1.4
     "@augu/eslint-config": 5.3.0
     "@augu/tsconfig": 1.2.0
-    "@fontsource/cantarell": 5.1.0
-    "@fontsource/inter": 5.1.0
-    "@fontsource/jetbrains-mono": 5.1.1
+    "@fontsource/cantarell": 5.1.1
+    "@fontsource/inter": 5.1.1
+    "@fontsource/jetbrains-mono": 5.1.2
     "@types/eslint": 9.6.1
     "@types/node": 22.10.2
     "@types/prettier": 3.0.0
