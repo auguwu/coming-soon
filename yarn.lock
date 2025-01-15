@@ -1118,7 +1118,7 @@ __metadata:
     log-symbols: 7.0.0
     prettier: 3.4.2
     prettier-plugin-astro: 0.14.1
-    prettier-plugin-tailwindcss: 0.6.9
+    prettier-plugin-tailwindcss: 0.6.10
     rimraf: 6.0.1
     signale: 1.4.0
     tailwindcss: 3.4.17
@@ -7454,15 +7454,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-tailwindcss@npm:0.6.9":
-  version: 0.6.9
-  resolution: "prettier-plugin-tailwindcss@npm:0.6.9"
+"prettier-plugin-tailwindcss@npm:0.6.10":
+  version: 0.6.10
+  resolution: "prettier-plugin-tailwindcss@npm:0.6.10"
   peerDependencies:
     "@ianvs/prettier-plugin-sort-imports": "*"
     "@prettier/plugin-pug": "*"
     "@shopify/prettier-plugin-liquid": "*"
     "@trivago/prettier-plugin-sort-imports": "*"
-    "@zackad/prettier-plugin-twig-melody": "*"
+    "@zackad/prettier-plugin-twig": "*"
     prettier: ^3.0
     prettier-plugin-astro: "*"
     prettier-plugin-css-order: "*"
@@ -7484,7 +7484,7 @@ __metadata:
       optional: true
     "@trivago/prettier-plugin-sort-imports":
       optional: true
-    "@zackad/prettier-plugin-twig-melody":
+    "@zackad/prettier-plugin-twig":
       optional: true
     prettier-plugin-astro:
       optional: true
@@ -7508,7 +7508,7 @@ __metadata:
       optional: true
     prettier-plugin-svelte:
       optional: true
-  checksum: 6463a9c76b5b417ea0a89413b1e33e4d985c1a80ff768140ad2ab08220be9a9e0548f41f5be6132ac19cbec88078266da8e3712b7ddcb5cc91fd5a1d662ad649
+  checksum: 7b4b9d0d45c9d9669f8b299c5d83b44c7256b298f4f100ecca904f751e71e1863bd119ce49c1fa6bf1baee3d0635fc3fbca0129beb792fe5b003300284b4e49f
   languageName: node
   linkType: hard
 
