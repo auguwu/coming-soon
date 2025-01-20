@@ -147,17 +147,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/tailwind@npm:5.1.4":
-  version: 5.1.4
-  resolution: "@astrojs/tailwind@npm:5.1.4"
+"@astrojs/tailwind@npm:5.1.5":
+  version: 5.1.5
+  resolution: "@astrojs/tailwind@npm:5.1.5"
   dependencies:
     autoprefixer: ^10.4.20
-    postcss: ^8.4.49
+    postcss: ^8.5.1
     postcss-load-config: ^4.0.2
   peerDependencies:
     astro: ^3.0.0 || ^4.0.0 || ^5.0.0
     tailwindcss: ^3.0.24
-  checksum: 0da88aea53eccda60e2821e12519b9d899f54752c5afbc157e3a06fbc3654b79fa88a3352ec6257d766304c7eb123f78d5bf5a0aec6e3acf1a9c0e93e031344a
+  checksum: 010068a8ceec1bbb810e57292a40f8453d4b55d51f02061fec4e2886b10f72fd98cc1626901f3a6b9681c2dc935f960da2173f2250703c6024f24917a877cbe7
   languageName: node
   linkType: hard
 
@@ -1095,7 +1095,7 @@ __metadata:
   dependencies:
     "@actions/core": 1.11.1
     "@astrojs/node": 9.0.1
-    "@astrojs/tailwind": 5.1.4
+    "@astrojs/tailwind": 5.1.5
     "@augu/eslint-config": 5.3.1
     "@augu/tsconfig": 1.2.0
     "@fontsource/cantarell": 5.1.1
@@ -1107,7 +1107,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 8.20.0
     "@typescript-eslint/parser": 8.20.0
-    astro: 5.1.7
+    astro: 5.1.8
     astro-eslint-parser: 1.1.0
     astro-icon: 1.1.5
     autoprefixer: 10.4.20
@@ -1331,6 +1331,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@shikijs/core@npm:1.29.1":
+  version: 1.29.1
+  resolution: "@shikijs/core@npm:1.29.1"
+  dependencies:
+    "@shikijs/engine-javascript": 1.29.1
+    "@shikijs/engine-oniguruma": 1.29.1
+    "@shikijs/types": 1.29.1
+    "@shikijs/vscode-textmate": ^10.0.1
+    "@types/hast": ^3.0.4
+    hast-util-to-html: ^9.0.4
+  checksum: e26de2c33f6f00984718aa77d59d726659e4f1bc8d7d07d8e8870e3b29c6d4f70261d628f8a703c4770e78441fd94edac1532165a4597b00d79f1c98dd561e39
+  languageName: node
+  linkType: hard
+
 "@shikijs/engine-javascript@npm:1.27.2":
   version: 1.27.2
   resolution: "@shikijs/engine-javascript@npm:1.27.2"
@@ -1339,6 +1353,17 @@ __metadata:
     "@shikijs/vscode-textmate": ^10.0.1
     oniguruma-to-es: ^2.0.0
   checksum: fce06dea280c4e5f06cc2c8bd0de47e99a5ede388a8f263e4f66b8d02f4e31416bbd19433fab7af77c0d95a68996d2a00d66e4c755780032306f79c3d951d11a
+  languageName: node
+  linkType: hard
+
+"@shikijs/engine-javascript@npm:1.29.1":
+  version: 1.29.1
+  resolution: "@shikijs/engine-javascript@npm:1.29.1"
+  dependencies:
+    "@shikijs/types": 1.29.1
+    "@shikijs/vscode-textmate": ^10.0.1
+    oniguruma-to-es: ^2.2.0
+  checksum: fe268745cb0078efdb17011d66687bf3e9cf6c3f379df036073bbd4d0b8ccddb3d6469e3f6be5e70fa7b629ff1f72c767a76286a9fd498e726d55c7510427fad
   languageName: node
   linkType: hard
 
@@ -1352,12 +1377,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@shikijs/engine-oniguruma@npm:1.29.1":
+  version: 1.29.1
+  resolution: "@shikijs/engine-oniguruma@npm:1.29.1"
+  dependencies:
+    "@shikijs/types": 1.29.1
+    "@shikijs/vscode-textmate": ^10.0.1
+  checksum: 099d38a9b14b8a0252be8b0cad6e0ed9b197bee58e159e3009c8d188a469bf79f591b7e162518ee50a3aa1d4f7579e43bd269fe127cc9a2c6096384f832144e1
+  languageName: node
+  linkType: hard
+
 "@shikijs/langs@npm:1.27.2":
   version: 1.27.2
   resolution: "@shikijs/langs@npm:1.27.2"
   dependencies:
     "@shikijs/types": 1.27.2
   checksum: 797974d26d19f36c298dbd5c92067aedd89fd6131fc284d6de8007c9b80d1d52c275ac58c4ca919e4fc27940f83e42e4136841b14e8212034649a6ee0bc3f19f
+  languageName: node
+  linkType: hard
+
+"@shikijs/langs@npm:1.29.1":
+  version: 1.29.1
+  resolution: "@shikijs/langs@npm:1.29.1"
+  dependencies:
+    "@shikijs/types": 1.29.1
+  checksum: 4cc7c27724d6aaa43e79606299accffa8f134b8cabc640387803060de59ecb2e1428edb533acd85e44f242245c9ecddc9097256198fc3bc177372063dfff5d6c
   languageName: node
   linkType: hard
 
@@ -1370,6 +1414,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@shikijs/themes@npm:1.29.1":
+  version: 1.29.1
+  resolution: "@shikijs/themes@npm:1.29.1"
+  dependencies:
+    "@shikijs/types": 1.29.1
+  checksum: 48274e3edef02eed1b5ec781e15a9625503e26b88ce2d84244fe47b7b7740e7d4ea930e381a690d05610186a66df70f215c7b8e5723579a337a5c3d50c8aff85
+  languageName: node
+  linkType: hard
+
 "@shikijs/types@npm:1.27.2":
   version: 1.27.2
   resolution: "@shikijs/types@npm:1.27.2"
@@ -1377,6 +1430,16 @@ __metadata:
     "@shikijs/vscode-textmate": ^10.0.1
     "@types/hast": ^3.0.4
   checksum: e160a417d27e32e9df06952e95a6749054f1e91d1cbd18e39099b617cff240ac6d0ac16275c05718abf80e90dbde21d8ba445c569d09c9ec7df0ee1ed334565f
+  languageName: node
+  linkType: hard
+
+"@shikijs/types@npm:1.29.1":
+  version: 1.29.1
+  resolution: "@shikijs/types@npm:1.29.1"
+  dependencies:
+    "@shikijs/vscode-textmate": ^10.0.1
+    "@types/hast": ^3.0.4
+  checksum: 22b8e893033728c9aa5139ebab6c73e188c111eba52828d55d9cb3b0d96f6ecacc1670ddf6f8d2e9d25126e1998711a3b35b17012b9fce5cc9fec128a49e50a4
   languageName: node
   linkType: hard
 
@@ -2165,9 +2228,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:5.1.7":
-  version: 5.1.7
-  resolution: "astro@npm:5.1.7"
+"astro@npm:5.1.8":
+  version: 5.1.8
+  resolution: "astro@npm:5.1.8"
   dependencies:
     "@astrojs/compiler": ^2.10.3
     "@astrojs/internal-helpers": 0.4.2
@@ -2213,14 +2276,14 @@ __metadata:
     rehype: ^13.0.2
     semver: ^7.6.3
     sharp: ^0.33.3
-    shiki: ^1.26.2
+    shiki: ^1.29.1
     tinyexec: ^0.3.2
     tsconfck: ^3.1.4
     ultrahtml: ^1.5.3
     unist-util-visit: ^5.0.0
     unstorage: ^1.14.4
     vfile: ^6.0.3
-    vite: ^6.0.7
+    vite: ^6.0.9
     vitefu: ^1.0.5
     which-pm: ^3.0.0
     xxhash-wasm: ^1.1.0
@@ -2234,7 +2297,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: f22c533205a0502ccb2bd4acb77429bb29d3bf096d87d208687294de8d144f46a47035e91e22ccb6ce6ec393c15cf13613b0f628264c0e38637fff4f18e7b976
+  checksum: 12cfe3ccef0a378ead4584c1d7b80dc37006b0e19f6b659dfa6c6246c9d387fcda15729d809d3c6d539a434bf7c172f3dbd704279e967fb04c00b8f1e8f0cff3
   languageName: node
   linkType: hard
 
@@ -6651,6 +6714,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nanoid@npm:^3.3.8":
+  version: 3.3.8
+  resolution: "nanoid@npm:3.3.8"
+  bin:
+    nanoid: bin/nanoid.cjs
+  checksum: dfe0adbc0c77e9655b550c333075f51bb28cfc7568afbf3237249904f9c86c9aaaed1f113f0fddddba75673ee31c758c30c43d4414f014a52a7a626efc5958c9
+  languageName: node
+  linkType: hard
+
 "natural-compare@npm:^1.4.0":
   version: 1.4.0
   resolution: "natural-compare@npm:1.4.0"
@@ -6905,6 +6977,17 @@ __metadata:
     regex: ^5.1.1
     regex-recursion: ^5.1.1
   checksum: 1d213f7e06fd1c1bc379d3a64ef2fbd724fd9c2a58f4e18eed2204522d3568674d72619d21ba03129cc6c183d50252f013e06fb9ccbf2987519fb791cefcc7d6
+  languageName: node
+  linkType: hard
+
+"oniguruma-to-es@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "oniguruma-to-es@npm:2.2.0"
+  dependencies:
+    emoji-regex-xs: ^1.0.0
+    regex: ^5.1.1
+    regex-recursion: ^5.1.1
+  checksum: 28314bc18b1c3c13058b2ebf6aeca2831567fc8ba515b7041b48b5a1d7f2449bb42abb1265b66c416dcf28b54b09c48d2f07d373afa58366286dc2366bfe154c
   languageName: node
   linkType: hard
 
@@ -7422,6 +7505,17 @@ __metadata:
     picocolors: ^1.1.1
     source-map-js: ^1.2.1
   checksum: eb5d6cbdca24f50399aafa5d2bea489e4caee4c563ea1edd5a2485bc5f84e9ceef3febf170272bc83a99c31d23a316ad179213e853f34c2a7a8ffa534559d63a
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.5.1":
+  version: 8.5.1
+  resolution: "postcss@npm:8.5.1"
+  dependencies:
+    nanoid: ^3.3.8
+    picocolors: ^1.1.1
+    source-map-js: ^1.2.1
+  checksum: cfdcfcd019fca78160341080ba8986cf80cd6e9ca327ba61b86c03e95043e9bce56ad2e018851858039fd7264781797360bfba718dd216b17b3cd803a5134f2f
   languageName: node
   linkType: hard
 
@@ -8345,6 +8439,22 @@ __metadata:
     "@shikijs/vscode-textmate": ^10.0.1
     "@types/hast": ^3.0.4
   checksum: 971940d0e8f83b348038deca6973d0219f1d728ecd140eb0fd205cf2d14a000c825a57ee98a473c37e8a61a6da3cf58372815894771025fe459229e40dc936f7
+  languageName: node
+  linkType: hard
+
+"shiki@npm:^1.29.1":
+  version: 1.29.1
+  resolution: "shiki@npm:1.29.1"
+  dependencies:
+    "@shikijs/core": 1.29.1
+    "@shikijs/engine-javascript": 1.29.1
+    "@shikijs/engine-oniguruma": 1.29.1
+    "@shikijs/langs": 1.29.1
+    "@shikijs/themes": 1.29.1
+    "@shikijs/types": 1.29.1
+    "@shikijs/vscode-textmate": ^10.0.1
+    "@types/hast": ^3.0.4
+  checksum: a4ae65ddd427e81593d11d086136018071fb9b8faae613d47c99c9de095a1a078f3e68d5aa4a017dfbe0290ca76dba4f52ea1e3a122b910041aac5ed6be2218c
   languageName: node
   linkType: hard
 
@@ -9462,9 +9572,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^6.0.7":
-  version: 6.0.7
-  resolution: "vite@npm:6.0.7"
+"vite@npm:^6.0.9":
+  version: 6.0.10
+  resolution: "vite@npm:6.0.10"
   dependencies:
     esbuild: ^0.24.2
     fsevents: ~2.3.3
@@ -9510,7 +9620,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 0a948bcd33cf1891a1079ccea6d7e2d1e030ed5d1ad86c9de41a5cb2935da50f77ef699a57ea12fa4a332d9def5494e80d75ea6504758d9d1d9a139f3c1c7fbe
+  checksum: c7516a4a0be0c6beb13fbf75784d2d87d921d5d5ac10e3a7fde99e6e3315994c0f0a56b3fad573fcbad2b420cae5d0b95066f58a2777aff85cbfb2d2c0188b61
   languageName: node
   linkType: hard
 
