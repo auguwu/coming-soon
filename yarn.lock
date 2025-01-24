@@ -1060,7 +1060,7 @@ __metadata:
     "@fontsource/inter": 5.1.1
     "@fontsource/jetbrains-mono": 5.1.2
     "@types/eslint": 9.6.1
-    "@types/node": 22.10.9
+    "@types/node": 22.10.10
     "@types/prettier": 3.0.0
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 8.21.0
@@ -1533,12 +1533,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.10.9":
-  version: 22.10.9
-  resolution: "@types/node@npm:22.10.9"
+"@types/node@npm:22.10.10":
+  version: 22.10.10
+  resolution: "@types/node@npm:22.10.10"
   dependencies:
     undici-types: ~6.20.0
-  checksum: bd9a94fe5de516dcf13b4e9268696a99be3ba7146322c92b5ca3ea5368846cbb851843e2dda7030636653738405ea67e7bd972c630733420f84e199ad2c440ec
+  checksum: 4906f63dd1dcee6acc096b3336353e04a15746b639bbf4f585e3093851a17852a9ea0e302caef2d782c836adb3812e6eb3305b8783809320013a1d77798816b3
   languageName: node
   linkType: hard
 
