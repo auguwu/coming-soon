@@ -1066,7 +1066,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 8.21.0
     "@typescript-eslint/parser": 8.21.0
     astro: 5.1.9
-    astro-eslint-parser: 1.1.0
+    astro-eslint-parser: 1.2.1
     astro-icon: 1.1.5
     autoprefixer: 10.4.20
     eslint: 9.19.0
@@ -1733,25 +1733,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/typescript-estree@npm:^7.0.0 || ^8.0.0":
-  version: 8.5.0
-  resolution: "@typescript-eslint/typescript-estree@npm:8.5.0"
-  dependencies:
-    "@typescript-eslint/types": 8.5.0
-    "@typescript-eslint/visitor-keys": 8.5.0
-    debug: ^4.3.4
-    fast-glob: ^3.3.2
-    is-glob: ^4.0.3
-    minimatch: ^9.0.4
-    semver: ^7.6.0
-    ts-api-utils: ^1.3.0
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: e8a4d2fc560ab9084c4cafa7933ce17ca9906c88610282507a54c509dea4c03c00182880e34396cfb3b643264d032620dfe14ceba7cc03022ad0fd4213c5548d
-  languageName: node
-  linkType: hard
-
 "@typescript-eslint/utils@npm:8.21.0":
   version: 8.21.0
   resolution: "@typescript-eslint/utils@npm:8.21.0"
@@ -2119,24 +2100,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro-eslint-parser@npm:1.1.0":
-  version: 1.1.0
-  resolution: "astro-eslint-parser@npm:1.1.0"
+"astro-eslint-parser@npm:1.2.1":
+  version: 1.2.1
+  resolution: "astro-eslint-parser@npm:1.2.1"
   dependencies:
     "@astrojs/compiler": ^2.0.0
     "@typescript-eslint/scope-manager": ^7.0.0 || ^8.0.0
     "@typescript-eslint/types": ^7.0.0 || ^8.0.0
-    "@typescript-eslint/typescript-estree": ^7.0.0 || ^8.0.0
     astrojs-compiler-sync: ^1.0.0
     debug: ^4.3.4
-    entities: ^4.5.0
+    entities: ^6.0.0
     eslint-scope: ^8.0.1
     eslint-visitor-keys: ^4.0.0
     espree: ^10.0.0
-    globby: ^11.1.0
+    fast-glob: ^3.3.3
     is-glob: ^4.0.3
     semver: ^7.3.8
-  checksum: e1fb7a51522c3059e75467ab425558fc6bb957058f840e4a1f1496be575cff1edf1a760a66ea938bc6ac012b2e15c640fb7f712a2b96e838b723106063c70b54
+  checksum: 99420cafbe3864b549ae6baf1920aca6a2ac92745053c49855623ac10a15e65a1487566ccdaf6f8a4fb385af918df37e81ac0349594501823d1b4825b7911265
   languageName: node
   linkType: hard
 
@@ -3282,6 +3262,13 @@ __metadata:
   version: 4.5.0
   resolution: "entities@npm:4.5.0"
   checksum: 853f8ebd5b425d350bffa97dd6958143179a5938352ccae092c62d1267c4e392a039be1bae7d51b6e4ffad25f51f9617531fedf5237f15df302ccfb452cbf2d7
+  languageName: node
+  linkType: hard
+
+"entities@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "entities@npm:6.0.0"
+  checksum: 4e964b5549b0f1e7a88836527d38181aa7b2f87222ed2424e78309781b17212de684c84094435f53bea69a7e7e2505268fd96772af166adb686d086d64361435
   languageName: node
   linkType: hard
 
