@@ -140,9 +140,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/tailwind@npm:5.1.5":
-  version: 5.1.5
-  resolution: "@astrojs/tailwind@npm:5.1.5"
+"@astrojs/tailwind@npm:6.0.0":
+  version: 6.0.0
+  resolution: "@astrojs/tailwind@npm:6.0.0"
   dependencies:
     autoprefixer: ^10.4.20
     postcss: ^8.5.1
@@ -150,7 +150,7 @@ __metadata:
   peerDependencies:
     astro: ^3.0.0 || ^4.0.0 || ^5.0.0
     tailwindcss: ^3.0.24
-  checksum: 010068a8ceec1bbb810e57292a40f8453d4b55d51f02061fec4e2886b10f72fd98cc1626901f3a6b9681c2dc935f960da2173f2250703c6024f24917a877cbe7
+  checksum: e5246370da104f9b4777ca4aacbe7362dcc3d8b047a663cbebc6ef78831260b6d451d2709f2640b2f37216f2803ed263e9d198e2b057416a89d78efa71bfd0fa
   languageName: node
   linkType: hard
 
@@ -1053,7 +1053,7 @@ __metadata:
   dependencies:
     "@actions/core": 1.11.1
     "@astrojs/node": 9.0.2
-    "@astrojs/tailwind": 5.1.5
+    "@astrojs/tailwind": 6.0.0
     "@augu/eslint-config": 5.3.1
     "@augu/tsconfig": 1.2.0
     "@fontsource/cantarell": 5.1.1
