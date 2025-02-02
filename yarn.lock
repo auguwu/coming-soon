@@ -1080,7 +1080,7 @@ __metadata:
     prettier-plugin-tailwindcss: 0.6.11
     rimraf: 6.0.1
     signale: 1.4.0
-    tailwindcss: 4.0.1
+    tailwindcss: 4.0.3
     tsx: 3.12.3
     typescript: 5.7.3
   languageName: unknown
@@ -8524,10 +8524,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:4.0.1":
-  version: 4.0.1
-  resolution: "tailwindcss@npm:4.0.1"
-  checksum: 412cea7588c9fe946c572baa369412478268ec2e94bbcce367857b829a311fe0f3e8094ad21949327b1d9bd495bcbb964c876861a04c8470b660cb3bdc8be32a
+"tailwindcss@npm:4.0.3":
+  version: 4.0.3
+  resolution: "tailwindcss@npm:4.0.3"
+  checksum: 18a24ade85781a7979e485ea0c518ec39001818144676b69db3aa6f013a8c8ce76f876710c12212b5d8fa09a40aacf77c54937ef1f512d74cd3f65dc1ae14c8b
   languageName: node
   linkType: hard
 
