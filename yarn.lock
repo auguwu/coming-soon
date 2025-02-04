@@ -85,10 +85,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/internal-helpers@npm:0.5.0":
-  version: 0.5.0
-  resolution: "@astrojs/internal-helpers@npm:0.5.0"
-  checksum: 3e02fe30d52f34609518e1b07c9587925c2e9d6b5471273baba63c16c237c35140ef7c55469f1f4c7115063d0569f70f6839294f46f3adbc118553e7f64d2929
+"@astrojs/internal-helpers@npm:0.5.1":
+  version: 0.5.1
+  resolution: "@astrojs/internal-helpers@npm:0.5.1"
+  checksum: 3e9ad94f6efee2dc01054b87e7f854a024fb85851dd8f7ef86664581364161887d52a6a44101a8572f498f958f18c1f26250e03fc42980f80946e974f32449ab
   languageName: node
   linkType: hard
 
@@ -1066,7 +1066,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 8.23.0
     "@typescript-eslint/parser": 8.23.0
-    astro: 5.2.3
+    astro: 5.2.5
     astro-eslint-parser: 1.2.1
     astro-icon: 1.1.5
     autoprefixer: 10.4.20
@@ -2153,12 +2153,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:5.2.3":
-  version: 5.2.3
-  resolution: "astro@npm:5.2.3"
+"astro@npm:5.2.5":
+  version: 5.2.5
+  resolution: "astro@npm:5.2.5"
   dependencies:
     "@astrojs/compiler": ^2.10.3
-    "@astrojs/internal-helpers": 0.5.0
+    "@astrojs/internal-helpers": 0.5.1
     "@astrojs/markdown-remark": 6.1.0
     "@astrojs/telemetry": 3.2.0
     "@oslojs/encoding": ^1.1.0
@@ -2196,10 +2196,10 @@ __metadata:
     neotraverse: ^0.6.18
     p-limit: ^6.2.0
     p-queue: ^8.1.0
-    preferred-pm: ^4.1.0
+    preferred-pm: ^4.1.1
     prompts: ^2.4.2
     rehype: ^13.0.2
-    semver: ^7.7.0
+    semver: ^7.7.1
     sharp: ^0.33.3
     shiki: ^1.29.2
     tinyexec: ^0.3.2
@@ -2210,7 +2210,7 @@ __metadata:
     vfile: ^6.0.3
     vite: ^6.0.11
     vitefu: ^1.0.5
-    which-pm: ^3.0.0
+    which-pm: ^3.0.1
     xxhash-wasm: ^1.1.0
     yargs-parser: ^21.1.1
     yocto-spinner: ^0.2.0
@@ -2222,7 +2222,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 29970696bfe9e8cd7de27e62545325d5dd557d163f85bb6fc2dac46d718ccfbf0060b4c7e2d06a6caf9febd3a63b1ef795a9fc1999b296b23477cd87516bd705
+  checksum: 1264414b29ded7e60116aadf0dc3572d1a330f0abfbb0dab8254390cf8212b595d250f41d5c840dd985ff109de533f2d5fbe7fcd1522432e3b620a150eeddc7c
   languageName: node
   linkType: hard
 
@@ -7230,14 +7230,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"preferred-pm@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "preferred-pm@npm:4.1.0"
+"preferred-pm@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "preferred-pm@npm:4.1.1"
   dependencies:
     find-up-simple: ^1.0.0
     find-yarn-workspace-root2: 1.2.16
-    which-pm: ^3.0.0
-  checksum: 3f2ddd62bb6d89b2cd17ea42cf7b24d42a8ccd024958fb7340a9e9f1cbf358b1535b50924ef125ef1a295f6f653708fe66ff718aaef9656ebb16c6d06270df4f
+    which-pm: ^3.0.1
+  checksum: f187b3c76721d251de8a75bd0a33c9ab6ceb19d4defbb0f6eb509d47950edeb9b0748930cab8641df55e3ad9492794bee100de0fd9309da73168971efc328a97
   languageName: node
   linkType: hard
 
@@ -7904,12 +7904,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.7.0":
-  version: 7.7.0
-  resolution: "semver@npm:7.7.0"
+"semver@npm:^7.7.1":
+  version: 7.7.1
+  resolution: "semver@npm:7.7.1"
   bin:
     semver: bin/semver.js
-  checksum: a4eefdada9c40df120935b73b0b86080d22f375ed9b950403a4b6a90cc036e552d903ff3c7c3e865823c434ee6c6473908b13d64c84aa307423d3a998e654652
+  checksum: 586b825d36874007c9382d9e1ad8f93888d8670040add24a28e06a910aeebd673a2eb9e3bf169c6679d9245e66efb9057e0852e70d9daa6c27372aab1dda7104
   languageName: node
   linkType: hard
 
@@ -9277,12 +9277,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"which-pm@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "which-pm@npm:3.0.0"
+"which-pm@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "which-pm@npm:3.0.1"
   dependencies:
     load-yaml-file: ^0.2.0
-  checksum: bc0bc08a2a07af8bb3b759bc82fa5f712332261726412112f87b26d4e73e5e76f1bd6d462ef7f27ba06b7f8172ce5f08b12d44e2b27caa01d555231471849961
+  checksum: 9ffc84b78b470d7a2b2aba9f794bdddcdf25168ce77a498f1b18ff6eb4aae3ee3193758405fde4c57b87562ad877d52c5cef69c7164b0d344585aedfc9ecad08
   languageName: node
   linkType: hard
 
