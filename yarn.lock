@@ -120,16 +120,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/node@npm:9.1.0":
-  version: 9.1.0
-  resolution: "@astrojs/node@npm:9.1.0"
+"@astrojs/node@npm:9.1.1":
+  version: 9.1.1
+  resolution: "@astrojs/node@npm:9.1.1"
   dependencies:
     "@astrojs/internal-helpers": 0.5.1
     send: ^1.1.0
     server-destroy: ^1.0.1
   peerDependencies:
     astro: ^5.3.0
-  checksum: e3f1a71f2c5261886f47722e8f77ad86605e2d96f2febd6f44f78775b5067dd499a12bf5528c2c864be028de7a2280fa32e0a4acb526df44ffd391d222bd9e6c
+  checksum: df7f97f0beeae9467cceaae7bc3a41b8b9171eabc565e22a2223a3898aac01a5a2234f8b18dad75c77c094017d438fbd16ec6530273b2f770904f731c65dd32a
   languageName: node
   linkType: hard
 
@@ -1054,7 +1054,7 @@ __metadata:
   resolution: "@noel/coming-soon@workspace:."
   dependencies:
     "@actions/core": 1.11.1
-    "@astrojs/node": 9.1.0
+    "@astrojs/node": 9.1.1
     "@astrojs/tailwind": 6.0.0
     "@augu/eslint-config": 5.3.1
     "@augu/tsconfig": 1.2.0
@@ -1067,7 +1067,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 8.24.1
     "@typescript-eslint/parser": 8.24.1
-    astro: 5.3.0
+    astro: 5.3.1
     astro-eslint-parser: 1.2.1
     astro-icon: 1.1.5
     autoprefixer: 10.4.20
@@ -2154,9 +2154,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:5.3.0":
-  version: 5.3.0
-  resolution: "astro@npm:5.3.0"
+"astro@npm:5.3.1":
+  version: 5.3.1
+  resolution: "astro@npm:5.3.1"
   dependencies:
     "@astrojs/compiler": ^2.10.3
     "@astrojs/internal-helpers": 0.5.1
@@ -2183,7 +2183,6 @@ __metadata:
     es-module-lexer: ^1.6.0
     esbuild: ^0.24.2
     estree-walker: ^3.0.3
-    fast-glob: ^3.3.3
     flattie: ^1.1.1
     github-slugger: ^2.0.0
     html-escaper: 3.0.3
@@ -2192,11 +2191,11 @@ __metadata:
     kleur: ^4.1.5
     magic-string: ^0.30.17
     magicast: ^0.3.5
-    micromatch: ^4.0.8
     mrmime: ^2.0.0
     neotraverse: ^0.6.18
     p-limit: ^6.2.0
     p-queue: ^8.1.0
+    picomatch: ^4.0.2
     preferred-pm: ^4.1.1
     prompts: ^2.4.2
     rehype: ^13.0.2
@@ -2204,6 +2203,7 @@ __metadata:
     sharp: ^0.33.3
     shiki: ^1.29.2
     tinyexec: ^0.3.2
+    tinyglobby: ^0.2.12
     tsconfck: ^3.1.4
     ultrahtml: ^1.5.3
     unist-util-visit: ^5.0.0
@@ -2223,7 +2223,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 40d32834413bdbf6098ed52a7be9d202d7448687e8a9e7547d5f55edb2d6452c20360fe9f6e8a2e62626a7f77fbefafffef01a1945b5a40dc30a51d021bcc255
+  checksum: 41eb8bafbe7d663e578184d71e1be69d46291027c662059862a9b2a53bc85892f79f093b6b7b0b7692b5d8cdca7ede09c6a010a6fdbd305d6e17b9ffa88aaaf5
   languageName: node
   linkType: hard
 
@@ -4113,6 +4113,18 @@ __metadata:
   dependencies:
     pend: ~1.2.0
   checksum: c8585fd5713f4476eb8261150900d2cb7f6ff2d87f8feb306ccc8a1122efd152f1783bdb2b8dc891395744583436bfd8081d8e63ece0ec8687eeefea394d4ff2
+  languageName: node
+  linkType: hard
+
+"fdir@npm:^6.4.3":
+  version: 6.4.3
+  resolution: "fdir@npm:6.4.3"
+  peerDependencies:
+    picomatch: ^3 || ^4
+  peerDependenciesMeta:
+    picomatch:
+      optional: true
+  checksum: fa53e13c63e8c14add5b70fd47e28267dd5481ebbba4b47720ec25aae7d10a800ef0f2e33de350faaf63c10b3d7b64138925718832220d593f75e724846c736d
   languageName: node
   linkType: hard
 
@@ -8564,6 +8576,16 @@ __metadata:
   version: 0.3.2
   resolution: "tinyexec@npm:0.3.2"
   checksum: bd491923020610bdeadb0d8cf5d70e7cbad5a3201620fd01048c9bf3b31ffaa75c33254e1540e13b993ce4e8187852b0b5a93057bb598e7a57afa2ca2048a35c
+  languageName: node
+  linkType: hard
+
+"tinyglobby@npm:^0.2.12":
+  version: 0.2.12
+  resolution: "tinyglobby@npm:0.2.12"
+  dependencies:
+    fdir: ^6.4.3
+    picomatch: ^4.0.2
+  checksum: ef9357fa1b2b661afdccd315cb4995f5f36bce948faaace68aae85fe57bdd8f837883045c88efc50d3186bac6586e4ae2f31026b9a3aac061b884217e6092e23
   languageName: node
   linkType: hard
 
