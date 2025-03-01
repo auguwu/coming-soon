@@ -713,24 +713,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fontsource/cantarell@npm:5.1.1":
-  version: 5.1.1
-  resolution: "@fontsource/cantarell@npm:5.1.1"
-  checksum: d44f413a34b56633ed06621b058199c408d3eecdcad94d4220f482a648759001a63c1976ebcf463f5748457caa77af24a1376ca97a295f15161b79edf9da9220
+"@fontsource/cantarell@npm:5.2.0":
+  version: 5.2.0
+  resolution: "@fontsource/cantarell@npm:5.2.0"
+  checksum: 4cde181c2585f8711ea1da3626aa0484c7e9816b942a64e59d42440021d01cc38e20612d489475af0bc45947dc1e313904ab109b785e2936d58d557234450b9b
   languageName: node
   linkType: hard
 
-"@fontsource/inter@npm:5.1.1":
-  version: 5.1.1
-  resolution: "@fontsource/inter@npm:5.1.1"
-  checksum: 6b48404ba8d2682aa70a946cd5ed4cff79934176e1ea3a06f21cd4f92e124f39ab9b2cc764062cc5ac8ea410c4deaf4bb035dacaec5f9d3455cffffbace90743
+"@fontsource/inter@npm:5.2.0":
+  version: 5.2.0
+  resolution: "@fontsource/inter@npm:5.2.0"
+  checksum: 5354acd560fffc9190ef7ca81843137cada9a6d3e81b8eb23459382c5aec21226be4d66bb131acb43d73bddcfa7413cd1918b20e193cdc523fd61485913b4c73
   languageName: node
   linkType: hard
 
-"@fontsource/jetbrains-mono@npm:5.1.2":
-  version: 5.1.2
-  resolution: "@fontsource/jetbrains-mono@npm:5.1.2"
-  checksum: 2a38b353585f90b816b33c6fc75b159ba73d0132dfe86e0e293811deacdbc795a554b41cbda6981058a06b97490734d3ab3a9cf2279c22c1c8043ea83470c2b1
+"@fontsource/jetbrains-mono@npm:5.2.0":
+  version: 5.2.0
+  resolution: "@fontsource/jetbrains-mono@npm:5.2.0"
+  checksum: d014290a33af7f1dbac026ffd12b8e4d872d806f5cc4059a4fed4552b6c71911704fca267b05799eb766d56a5fd7115e9df20e0b242db29fc1a077236571477f
   languageName: node
   linkType: hard
 
@@ -1059,9 +1059,9 @@ __metadata:
     "@astrojs/tailwind": 6.0.0
     "@augu/eslint-config": 5.3.1
     "@augu/tsconfig": 1.2.0
-    "@fontsource/cantarell": 5.1.1
-    "@fontsource/inter": 5.1.1
-    "@fontsource/jetbrains-mono": 5.1.2
+    "@fontsource/cantarell": 5.2.0
+    "@fontsource/inter": 5.2.0
+    "@fontsource/jetbrains-mono": 5.2.0
     "@types/eslint": 9.6.1
     "@types/node": 22.13.8
     "@types/prettier": 3.0.0
