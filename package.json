@@ -20,7 +20,7 @@
         "@fontsource/cantarell": "5.2.5",
         "@fontsource/inter": "5.2.5",
         "@fontsource/jetbrains-mono": "5.2.5",
-        "astro": "5.4.1",
+        "astro": "5.4.2",
         "astro-icon": "1.1.5",
         "autoprefixer": "10.4.20",
         "tailwindcss": "4.0.9"
