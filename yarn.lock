@@ -71,10 +71,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/compiler@npm:^2.10.4":
-  version: 2.10.4
-  resolution: "@astrojs/compiler@npm:2.10.4"
-  checksum: 67bb3a19da08269805e51ae8db2e4df15a748384179947eb150e95db8cf2b2f898c5fc272c13425ca182694fc917bb9bfb47a92e88a9eed7cecc22b3ab996209
+"@astrojs/compiler@npm:^2.11.0":
+  version: 2.11.0
+  resolution: "@astrojs/compiler@npm:2.11.0"
+  checksum: 759d9bbae4acc7a2d8928f980cebe5ab235c6ff5acd5c23f381f139105c1590e9f5922346dd9ec794ada5f19b70ba6f5f84834c37fa4491d5958be72e8345ccf
   languageName: node
   linkType: hard
 
@@ -92,9 +92,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-remark@npm:6.2.1":
-  version: 6.2.1
-  resolution: "@astrojs/markdown-remark@npm:6.2.1"
+"@astrojs/markdown-remark@npm:6.3.0":
+  version: 6.3.0
+  resolution: "@astrojs/markdown-remark@npm:6.3.0"
   dependencies:
     "@astrojs/internal-helpers": 0.6.1
     "@astrojs/prism": 3.2.0
@@ -117,7 +117,7 @@ __metadata:
     unist-util-visit: ^5.0.0
     unist-util-visit-parents: ^6.0.1
     vfile: ^6.0.3
-  checksum: 9bdf795f786846b35f71139d5be4d56aaf39ba94aa80c69d6b60e1b3279e147995cb336edb44d55095fe7f088831a50fdc5e19b77a63a02710d83b3e337dea39
+  checksum: 873b668148550035929954a0b66c6412503d1ea5c4aff3c661573ca3e3c8ea372fb08be6018b03a2509f074104eb1a468a98277bfc2ac1c0b6a4aa358a71a11f
   languageName: node
   linkType: hard
 
@@ -1075,7 +1075,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 8.26.1
     "@typescript-eslint/parser": 8.26.1
-    astro: 5.4.3
+    astro: 5.5.2
     astro-eslint-parser: 1.2.1
     astro-icon: 1.1.5
     autoprefixer: 10.4.21
@@ -1782,6 +1782,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"acorn@npm:^8.14.1":
+  version: 8.14.1
+  resolution: "acorn@npm:8.14.1"
+  bin:
+    acorn: bin/acorn
+  checksum: 260d9bb6017a1b6e42d31364687f0258f78eb20210b36ef2baad38fd619d78d4e95ff7dde9b3dbe0d81f137f79a8d651a845363a26e6985997f7b71145dc5e94
+  languageName: node
+  linkType: hard
+
 "acorn@npm:^8.8.0":
   version: 8.8.2
   resolution: "acorn@npm:8.8.2"
@@ -2097,22 +2106,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:5.4.3":
-  version: 5.4.3
-  resolution: "astro@npm:5.4.3"
+"astro@npm:5.5.2":
+  version: 5.5.2
+  resolution: "astro@npm:5.5.2"
   dependencies:
-    "@astrojs/compiler": ^2.10.4
+    "@astrojs/compiler": ^2.11.0
     "@astrojs/internal-helpers": 0.6.1
-    "@astrojs/markdown-remark": 6.2.1
+    "@astrojs/markdown-remark": 6.3.0
     "@astrojs/telemetry": 3.2.0
     "@oslojs/encoding": ^1.1.0
     "@rollup/pluginutils": ^5.1.4
     "@types/cookie": ^0.6.0
-    acorn: ^8.14.0
+    acorn: ^8.14.1
     aria-query: ^5.3.2
     axobject-query: ^4.1.0
     boxen: 8.0.1
-    ci-info: ^4.1.0
+    ci-info: ^4.2.0
     clsx: ^2.1.1
     common-ancestor-path: ^1.0.1
     cookie: ^0.7.2
@@ -2152,7 +2161,7 @@ __metadata:
     unist-util-visit: ^5.0.0
     unstorage: ^1.15.0
     vfile: ^6.0.3
-    vite: ^6.2.0
+    vite: ^6.2.1
     vitefu: ^1.0.6
     xxhash-wasm: ^1.1.0
     yargs-parser: ^21.1.1
@@ -2165,7 +2174,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 9468ace68e8c200d2874cc221c04cbcee52fcab7493a286d870ac8d0ca73431311430fd3fc68aef02234691c10b212eac08b3357d0dcaeefad854cb61aa1b382
+  checksum: e5baec3ff4ddd811eaee926e63538840df99b69deb778b56968eafc4955c1b3b8bdd8f6c6a554fe16061d29772e516aef43fa0f4570d06cc933b25c5b153df26
   languageName: node
   linkType: hard
 
@@ -2584,6 +2593,13 @@ __metadata:
   version: 4.1.0
   resolution: "ci-info@npm:4.1.0"
   checksum: dcf286abdc1bb1c4218b91e4a617b49781b282282089b7188e1417397ea00c6b967848e2360fb9a6b10021bf18a627f20ef698f47c2c9c875aeffd1d2ea51d1e
+  languageName: node
+  linkType: hard
+
+"ci-info@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "ci-info@npm:4.2.0"
+  checksum: 0e3726721526f54c5b17cf44ab2ed69b842c756bcb4d2b26ce279e595a80a856aec9fb38a2986a2baca3de73d15895f3a01d2771c4aad93c898aae7e3ca0ceb1
   languageName: node
   linkType: hard
 
@@ -8998,9 +9014,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "vite@npm:6.2.0"
+"vite@npm:^6.2.1":
+  version: 6.2.1
+  resolution: "vite@npm:6.2.1"
   dependencies:
     esbuild: ^0.25.0
     fsevents: ~2.3.3
@@ -9046,7 +9062,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 0f2b6232fe94184885dd025609995874ac75279a85596a4053a283bd8bd0391f8ed3e7efb3e8f94073811a2b237c626e850990b04d2c7a1dc33f05d150f36bcd
+  checksum: d7379a9870c888681f7e4a861095e7f568ecd4cb99a5eed2dec65dc205ce863783d45c66a1a275868e23732087009533eadec999061c1ddef96aa8aaa0dcf6d2
   languageName: node
   linkType: hard
 
