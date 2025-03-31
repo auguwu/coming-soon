@@ -1075,7 +1075,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 8.28.0
     "@typescript-eslint/parser": 8.28.0
-    astro: 5.5.5
+    astro: 5.5.6
     astro-eslint-parser: 1.2.2
     astro-icon: 1.1.5
     autoprefixer: 10.4.21
@@ -2097,9 +2097,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:5.5.5":
-  version: 5.5.5
-  resolution: "astro@npm:5.5.5"
+"astro@npm:5.5.6":
+  version: 5.5.6
+  resolution: "astro@npm:5.5.6"
   dependencies:
     "@astrojs/compiler": ^2.11.0
     "@astrojs/internal-helpers": 0.6.1
@@ -2137,13 +2137,13 @@ __metadata:
     neotraverse: ^0.6.18
     p-limit: ^6.2.0
     p-queue: ^8.1.0
-    package-manager-detector: ^1.0.0
+    package-manager-detector: ^1.1.0
     picomatch: ^4.0.2
     prompts: ^2.4.2
     rehype: ^13.0.2
     semver: ^7.7.1
     sharp: ^0.33.3
-    shiki: ^3.0.0
+    shiki: ^3.2.1
     tinyexec: ^0.3.2
     tinyglobby: ^0.2.12
     tsconfck: ^3.1.5
@@ -2151,20 +2151,20 @@ __metadata:
     unist-util-visit: ^5.0.0
     unstorage: ^1.15.0
     vfile: ^6.0.3
-    vite: ^6.2.3
+    vite: ^6.2.4
     vitefu: ^1.0.6
     xxhash-wasm: ^1.1.0
     yargs-parser: ^21.1.1
     yocto-spinner: ^0.2.1
     zod: ^3.24.2
-    zod-to-json-schema: ^3.24.3
+    zod-to-json-schema: ^3.24.5
     zod-to-ts: ^1.2.0
   dependenciesMeta:
     sharp:
       optional: true
   bin:
     astro: astro.js
-  checksum: f1b3a2e1917203f2f23a855c363684cf7c63378c595dc32831a150453764288e4d71bb36e6e7c9ec30c7e1d26d8267070f8cf8b9d46c1877e71edd6ab08a9153
+  checksum: 1df61ffeeda9a287771827fe21fdaf7ffb7d9c7970af3388070e2fb19baaef0ff077ec527f00ef04ca170ab34af3563ac67ec5a72d6f419cecd61619d5c7d013
   languageName: node
   linkType: hard
 
@@ -6750,10 +6750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"package-manager-detector@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "package-manager-detector@npm:1.0.0"
-  checksum: 35821624c5f742217d9bd886cd866095faffd0342e42cca5b01da4dab4ce89f5f27d80d0a9521365bcf668274d94d13b33225d2313ab538dc9d5806b19920ee0
+"package-manager-detector@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "package-manager-detector@npm:1.1.0"
+  checksum: f9a8e8caf065078fec5334491e4ff6d4fb417ed75a862d95dc9d58d2c424bf6398a06d312a70fad20abf0b01128cacbe7bfc4397a4c99224f295849a177092e9
   languageName: node
   linkType: hard
 
@@ -7875,7 +7875,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shiki@npm:^3.0.0":
+"shiki@npm:^3.0.0, shiki@npm:^3.2.1":
   version: 3.2.1
   resolution: "shiki@npm:3.2.1"
   dependencies:
@@ -8926,9 +8926,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^6.2.3":
-  version: 6.2.3
-  resolution: "vite@npm:6.2.3"
+"vite@npm:^6.2.4":
+  version: 6.2.4
+  resolution: "vite@npm:6.2.4"
   dependencies:
     esbuild: ^0.25.0
     fsevents: ~2.3.3
@@ -8974,7 +8974,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 5ce6c0ce9fd3591e1eb21ffaac9b1395cbd03926399cdb0f2a333c08fd9cab17da47d5203b88b574675c4a6ad5a77dd4a88ad51ea400ad6d75d993d5f05c8b64
+  checksum: 1b3692e1b599481c06875b462e3613b19cd5f3f3890cd418b43d4b5c2dd575e1ea6ed540448c083f1d664c912c42f80d881bc6f3f0c823f0ad2323dc762c8d6b
   languageName: node
   linkType: hard
 
@@ -9227,12 +9227,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod-to-json-schema@npm:^3.24.3":
-  version: 3.24.3
-  resolution: "zod-to-json-schema@npm:3.24.3"
+"zod-to-json-schema@npm:^3.24.5":
+  version: 3.24.5
+  resolution: "zod-to-json-schema@npm:3.24.5"
   peerDependencies:
     zod: ^3.24.1
-  checksum: f395bb6ecef350a2347945e98f0f97e59f18606d9ee78dc5172d53af07954f42e515cf38d51d32d67f166838619a82604e62b5f18369194dffa7907719b7695f
+  checksum: dc4e5e4c06e9a5494e4b1d8c8363ac907f9d488f36c8e4923e1e5ac4f91f737722f99200cd92a409551e7456d960734d4cabd37935234ca95e290572468ffc08
   languageName: node
   linkType: hard
 
