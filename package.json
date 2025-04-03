@@ -23,7 +23,7 @@
         "astro": "5.6.0",
         "astro-icon": "1.1.5",
         "autoprefixer": "10.4.21",
-        "tailwindcss": "4.1.1"
+        "tailwindcss": "4.1.2"
     },
     "devDependencies": {
         "@actions/core": "1.11.1",
