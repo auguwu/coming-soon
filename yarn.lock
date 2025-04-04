@@ -1075,7 +1075,7 @@ __metadata:
     "@types/signale": 1.4.7
     "@typescript-eslint/eslint-plugin": 8.29.0
     "@typescript-eslint/parser": 8.29.0
-    astro: 5.6.0
+    astro: 5.6.1
     astro-eslint-parser: 1.2.2
     astro-icon: 1.1.5
     autoprefixer: 10.4.21
@@ -2097,9 +2097,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:5.6.0":
-  version: 5.6.0
-  resolution: "astro@npm:5.6.0"
+"astro@npm:5.6.1":
+  version: 5.6.1
+  resolution: "astro@npm:5.6.1"
   dependencies:
     "@astrojs/compiler": ^2.11.0
     "@astrojs/internal-helpers": 0.6.1
@@ -2147,7 +2147,7 @@ __metadata:
     tinyexec: ^0.3.2
     tinyglobby: ^0.2.12
     tsconfck: ^3.1.5
-    ultrahtml: ^1.5.3
+    ultrahtml: ^1.6.0
     unist-util-visit: ^5.0.0
     unstorage: ^1.15.0
     vfile: ^6.0.3
@@ -2164,7 +2164,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 9480e67ad0c9514593164e2af28c6d5bc927d9287a6a13edfd12b6219f5504ee982999f865703ad3d3aace602813ab72a807e61c232d9d60ada9d2a68904131c
+  checksum: 3fdf3200e34f188c4716f31afdbbbca30b4c487f54bdd040ac8793fcd43351d474e8a86c5f5058e2d655eb442006108e1259383b4d326745c6a041629741bf74
   languageName: node
   linkType: hard
 
@@ -8608,10 +8608,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ultrahtml@npm:^1.5.3":
-  version: 1.5.3
-  resolution: "ultrahtml@npm:1.5.3"
-  checksum: eff871bb116c28f972b4a229b4d177caa1102690bd7448b2e133a9ec0cbeb8bfdfb98ccf692bf9b5d7dff0a5819c1a36c59485592c93fac9253fe5e6814d7dbb
+"ultrahtml@npm:^1.6.0":
+  version: 1.6.0
+  resolution: "ultrahtml@npm:1.6.0"
+  checksum: 0eea43ae5ef4ad7a792b53ee66a531619183dc51e7f5e0349c58ecaa779b6e5d7c46339050b219a2cebe484a71b50d9ac0536d106104656aa41dfc0212902d8b
   languageName: node
   linkType: hard
 
