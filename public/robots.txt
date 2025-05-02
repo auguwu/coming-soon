@@ -32,5 +32,3 @@ Disallow: /
 # Allow everything else
 User-agent: *
 Allow: /
-
-Sitemap: https://floofy.dev/sitemap-index.xml
