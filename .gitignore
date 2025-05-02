@@ -651,6 +651,5 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-!.yarn/releases
-.yarn/cache
+.direnv/
 .astro/

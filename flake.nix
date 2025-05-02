@@ -18,30 +18,23 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+{
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
 
-name: CD
-on:
-    release:
-        types: [released]
-jobs:
-    docker:
-        name: 'Build / Docker'
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v4
-            - id: tag
-              uses: auguwu/git-tag-action@v2
-            - uses: docker/setup-buildx-action@v3
-            - uses: docker/login-action@v3
-              with:
-                  registry: registry.noel.pink
-                  username: noel
-                  password: ${{secrets.REGISTRY_PASSWORD}}
-            - uses: docker/build-push-action@v6
-              with:
-                  platforms: linux/amd64
-                  context: .
-                  file: Dockerfile
-                  push: true
-                  tags: |
-                      registry.noel.pink/noel/coming-soon:${{steps.tag.outputs.version}}
+  outputs = {nixpkgs, ...}: let
+    eachSystem = nixpkgs.lib.genAttrs nixpkgs.lib.systems.flakeExposed;
+
+    nixpkgsFor = system: import nixpkgs {inherit system;};
+  in {
+    formatter = eachSystem (system: (nixpkgsFor system).alejandra);
+    devShells = eachSystem (system: let
+      pkgs = nixpkgsFor system;
+    in {
+      default = pkgs.mkShell {
+        buildInputs = with pkgs; [
+          bun
+        ];
+      };
+    });
+  };
+}

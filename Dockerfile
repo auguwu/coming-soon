@@ -1,5 +1,5 @@
 # 🐻‍❄️✨ @noel/coming-soon: A simple "coming soon" site for my projects, made with Astro and Tailwind
-# Copyright (c) 2021-2023 Noel <cutie@floofy.dev>
+# Copyright (c) 2021-2025 Noel Towa <cutie@floofy.dev>
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -19,35 +19,33 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-FROM node:22-alpine AS builder
+FROM oven/bun:1.2-alpine AS build
 
 RUN apk update
-WORKDIR /_build
+WORKDIR /build
 
-ENV NODE_ENV=production
+COPY package.json .
+COPY bun.lock .
 
-COPY package.json /_build/package.json
-COPY .yarnrc.yml /_build/.yarnrc.yml
-COPY yarn.lock /_build/yarn.lock
-COPY .yarn /_build/.yarn
+RUN bun install --frozen-lockfile
 
-RUN yarn install --immutable
 COPY . .
+RUN bun run build
 
-RUN yarn build
+FROM oven/bun:1.2-alpine
 
-FROM node:22-alpine
+RUN apk update && apk add --no-cache bash tini curl
+WORKDIR /app/noel/site
 
-RUN apk update && apk add --no-cache tini
-WORKDIR /app/noel/coming-soon
-
-COPY --from=builder /_build/node_modules /app/noel/coming-soon/node_modules
-COPY --from=builder /_build/dist         /app/noel/coming-soon/dist
+COPY --from=build /build/node_modules /app/noel/site/node_modules
+COPY --from=build /build/dist         /app/noel/site/dist
 
 RUN addgroup -g 1001 noel && \
     adduser -DSH -u 1001 -G noel noel && \
-    chown -R noel:noel /app/noel/coming-soon
+    chown -R noel:noel /app/noel/site
+
+EXPOSE 4321
 
 USER noel
 ENTRYPOINT ["tini", "-s"]
-CMD ["node", "dist/server/entry.mjs"]
+CMD ["bun", "dist/server/entry.mjs"]

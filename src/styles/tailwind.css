@@ -1,6 +1,6 @@
 /*
- * 🐻‍❄️✨ @noel/coming-soon: A simple "coming soon" site for my projects, made with Astro and Tailwind
- * Copyright (c) 2021-2023 Noel <cutie@floofy.dev>
+ * 🐾 floofy.dev: Noel's personal website, blog, and documentation site made with Astro
+ * Copyright (c) 2018-2025 Noel Towa <cutie@floofy.dev>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -23,11 +23,24 @@
 
 @import '@fontsource/jetbrains-mono';
 @import '@fontsource/cantarell';
-@import '@fontsource/inter';
+@import '@fontsource/geist';
 
-@tailwind components;
-@tailwind base;
-@tailwind utilities;
+@import 'tailwindcss';
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/preflight.css' layer(base);
+@import 'tailwindcss/utilities.css' layer(utilities);
+
+@theme {
+    /* fonts */
+    --font-sans:
+        Geist, ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+        'Noto Color Emoji';
+
+    --font-serif: Cantarell, ui-serif, Georgia, Cambria, 'Times New Rowan', Times, serif;
+    --font-mono:
+        'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
+        monospace;
+}
 
 ::-moz-selection {
     background: #d961a3;
@@ -44,14 +57,5 @@
 }
 
 html {
-    scroll-behavior: smooth;
-}
-
-body {
-    background-blend-mode: overlay;
-    background-attachment: fixed;
-    background-position: center;
-    background-image: url(https://cdn.floofy.dev/images/reira.jpg);
-    background-color: #262336;
-    background-size: cover;
+    @apply font-sans;
 }

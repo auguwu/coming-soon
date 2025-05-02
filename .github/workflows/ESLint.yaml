@@ -1,5 +1,5 @@
 # 🐻‍❄️✨ @noel/coming-soon: A simple "coming soon" site for my projects, made with Astro and Tailwind
-# Copyright (c) 2021-2023 Noel <cutie@floofy.dev>
+# Copyright (c) 2021-2025 Noel Towa <cutie@floofy.dev>
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -19,9 +19,9 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-name: ESLint
+name: CI
 on:
-    workflow_dispatch:
+    workflow_dispatch: {}
     push:
         branches:
             - master
@@ -34,15 +34,11 @@ on:
             - '**.md'
             - 'LICENSE'
             - 'renovate.json'
-
     pull_request:
-        types: [opened, synchronize]
         branches:
             - master
         paths-ignore:
             - '.vscode/**'
-            - '.husky/**'
-            - '.eslintignore'
             - '.gitignore'
             - '**.md'
             - 'LICENSE'
@@ -51,21 +47,8 @@ jobs:
     lint:
         runs-on: ubuntu-latest
         steps:
-            - name: Checkout the repository
-              uses: actions/checkout@v4
-
-            - name: Uses Node.js 19
-              uses: actions/setup-node@v4
-              with:
-                  node-version: 19.x
-
-            - name: Setup Yarn and node-modules cache
-              id: yarn-cache
-              uses: auguwu/node-pm-action@master
-
-            - name: Install dependencies
-              if: steps.yarn-cache.outputs.cache-hit != 'true' || steps.yarn-cache.outputs.node-modules-cache-hit != 'true'
-              run: yarn install --immutable
-
-            - name: Lint project with ESLint
-              run: yarn lint
+            - uses: actions/checkout@v4
+            - uses: oven-sh/setup-bun@v2
+            - run: bun install --frozen
+            - run: bun check
+            - run: bun lint

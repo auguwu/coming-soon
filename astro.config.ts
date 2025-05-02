@@ -1,6 +1,6 @@
 /*
  * 🐻‍❄️✨ @noel/coming-soon: A simple "coming soon" site for my projects, made with Astro and Tailwind
- * Copyright (c) 2021-2023 Noel <cutie@floofy.dev>
+ * Copyright (c) 2021-2025 Noel Towa <cutie@floofy.dev>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -22,11 +22,13 @@
  */
 
 import { defineConfig } from 'astro/config';
-import tailwind from '@astrojs/tailwind';
+import tailwindcss from '@tailwindcss/vite';
 import node from '@astrojs/node';
 
 export default defineConfig({
-    integrations: [tailwind()],
     adapter: node({ mode: 'standalone' }),
-    output: 'server'
+    output: 'server',
+    vite: {
+        plugins: [tailwindcss()]
+    }
 });

@@ -1,6 +1,6 @@
 /*
  * 🐻‍❄️✨ @noel/coming-soon: A simple "coming soon" site for my projects, made with Astro and Tailwind
- * Copyright (c) 2021-2023 Noel <cutie@floofy.dev>
+ * Copyright (c) 2021-2025 Noel Towa <cutie@floofy.dev>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -21,9 +21,15 @@
  * SOFTWARE.
  */
 
-module.exports = {
-    plugins: {
-        autoprefixer: {},
-        tailwindcss: {}
+// @ts-check
+
+import { fileURLToPath } from 'node:url';
+import noel from '@augu/eslint-config';
+
+export default noel({
+    astro: { typescript: true },
+    stylistic: true,
+    typescript: {
+        tsconfig: fileURLToPath(new URL('./tsconfig.json', import.meta.url))
     }
-};
+});

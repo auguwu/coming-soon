@@ -2,7 +2,7 @@
 import '../styles/tailwind.css';
 
 const currentYear = new Date().getFullYear();
-const PIXIV_SOURCE = 'https://www.pixiv.net/en/artworks/102739569';
+const PIXIV_SOURCE = 'https://www.pixiv.net/en/artworks/102281611';
 ---
 
 <html lang="en">
@@ -10,7 +10,7 @@ const PIXIV_SOURCE = 'https://www.pixiv.net/en/artworks/102739569';
         <title>✨ Are you ready? ✨</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="shortcut icon" href="https://cdn.floofy.dev/images/August.png" />
+        <link rel="shortcut icon" href="/avatars/furry.jpg" />
         <meta
             property="og:description"
             content="Sorry, this site is currently a work in progress! Stay tuned for updates!"
@@ -19,7 +19,7 @@ const PIXIV_SOURCE = 'https://www.pixiv.net/en/artworks/102739569';
         <meta name="description" content="Sorry, this site is currently a work in progress! Stay tuned for updates!" />
         <meta name="theme-color" content="#896ae0" />
         <meta property="og:title" content="✨ Are you ready? ✨" />
-        <meta property="og:image" content="https://cdn.floofy.dev/images/August.png" />
+        <meta property="og:image" content="/avatars/furry.jpg" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={import.meta.env.BASE_URL} />
         <meta name="language" content="English" />
@@ -35,10 +35,22 @@ const PIXIV_SOURCE = 'https://www.pixiv.net/en/artworks/102739569';
         <footer class="bottom-0 left-0 -mt-16 text-center">
             <p class="font-sans text-xl">
                 Copyright (c) 2021-{currentYear}
-                <a href="https://floofy.dev" target="_blank">Noel</a> &bull;
-                <a href="https://github.com/auguwu/coming-soon" target="_blank">Source Code</a> &bull;
-                <a href={PIXIV_SOURCE} target="_blank">Background Source</a>
+                <a href="https://floofy.dev" target="_blank" class="underline">Noel Towa</a> &bull;
+                <a href="https://github.com/auguwu/coming-soon" target="_blank" class="underline">Source Code</a> &bull;
+                <a href={PIXIV_SOURCE} target="_blank" class="underline">Background Source</a>
             </p>
         </footer>
     </body>
 </html>
+
+<style>
+    body {
+        background-blend-mode: overlay;
+        background-attachment: fixed;
+        background-position: center;
+        background-image: url('/bg.png');
+        background-color: #262336;
+        background-size: cover;
+        color: #fff;
+    }
+</style>
