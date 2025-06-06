@@ -20,7 +20,7 @@
         "@fontsource/cantarell": "5.2.5",
         "@fontsource/geist": "5.2.6",
         "@fontsource/jetbrains-mono": "5.2.5",
-        "astro": "5.8.2"
+        "astro": "5.9.0"
     },
     "devDependencies": {
         "@augu/eslint-config": "5.3.1",
