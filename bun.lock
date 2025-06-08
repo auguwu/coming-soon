@@ -5,9 +5,9 @@
       "name": "@noel/coming-soon",
       "dependencies": {
         "@astrojs/node": "9.2.2",
-        "@fontsource/cantarell": "5.2.5",
+        "@fontsource/cantarell": "5.2.6",
         "@fontsource/geist": "5.2.6",
-        "@fontsource/jetbrains-mono": "5.2.5",
+        "@fontsource/jetbrains-mono": "5.2.6",
         "astro": "5.9.1",
       },
       "devDependencies": {
@@ -141,11 +141,11 @@
 
     "@fastify/busboy": ["@fastify/busboy@2.1.1", "", {}, "sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA=="],
 
-    "@fontsource/cantarell": ["@fontsource/cantarell@5.2.5", "", {}, "sha512-lCq/0bvFnzRkGPgNTf0yomhQNeN/P2Ys3HiE+l0H9taSjO/wDWc658DJevOfoZMeDlXUb13VqT9q7pFLhTm8hg=="],
+    "@fontsource/cantarell": ["@fontsource/cantarell@5.2.6", "", {}, "sha512-wrjRqEucLgcZsB44+WC/zfBh7RJrUuIwdP/PUy1jCo9yxBPiO5T3zgWk+rpYjH5tGV1nGWExV4ImW+PyvdZ+lA=="],
 
     "@fontsource/geist": ["@fontsource/geist@5.2.6", "", {}, "sha512-HKRFUn4fApQr9iGaVLUWG5vs+QYFqhKa5X7AFpT6Gey0Kx0ibvpFceMbMDDdlzzqPiGkvCuvYRUN55rvqXgibg=="],
 
-    "@fontsource/jetbrains-mono": ["@fontsource/jetbrains-mono@5.2.5", "", {}, "sha512-TPZ9b/uq38RMdrlZZkl0RwN8Ju9JxuqMETrw76pUQFbGtE1QbwQaNsLlnUrACNNBNbd0NZRXiJJSkC8ajPgbew=="],
+    "@fontsource/jetbrains-mono": ["@fontsource/jetbrains-mono@5.2.6", "", {}, "sha512-nz//dBr99hXZmHp10wgNI00qThWImkzRR5PQjvRM+rpmuHO5rYBJCqPPWufidCvmkkryXx/GOP/lgqsM3R3Org=="],
 
     "@humanfs/core": ["@humanfs/core@0.19.1", "", {}, "sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA=="],
 
