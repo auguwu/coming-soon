@@ -27,7 +27,7 @@
         "@augu/tsconfig": "1.2.0",
         "@stylistic/eslint-plugin": "5.2.0",
         "@tailwindcss/vite": "4.1.11",
-        "@types/node": "24.0.14",
+        "@types/node": "24.0.15",
         "astro-eslint-parser": "1.2.2",
         "eslint-config-prettier": "10.1.8",
         "eslint-formatter-codeframe": "7.32.1",
