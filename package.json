@@ -29,7 +29,7 @@
         "@tailwindcss/vite": "4.1.11",
         "@types/node": "24.0.14",
         "astro-eslint-parser": "1.2.2",
-        "eslint-config-prettier": "10.1.5",
+        "eslint-config-prettier": "10.1.8",
         "eslint-formatter-codeframe": "7.32.1",
         "eslint-plugin-astro": "1.3.1",
         "prettier": "3.6.2",
