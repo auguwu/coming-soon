@@ -18,8 +18,8 @@
     "dependencies": {
         "@astrojs/node": "9.4.3",
         "@fontsource/cantarell": "5.2.7",
-        "@fontsource/geist": "5.2.6",
-        "@fontsource/jetbrains-mono": "5.2.6",
+        "@fontsource/geist": "5.2.7",
+        "@fontsource/jetbrains-mono": "5.2.7",
         "astro": "5.13.7"
     },
     "devDependencies": {
