@@ -16,11 +16,11 @@
         "dev": "astro dev"
     },
     "dependencies": {
-        "@astrojs/node": "9.4.3",
+        "@astrojs/node": "9.4.4",
         "@fontsource/cantarell": "5.2.8",
         "@fontsource/geist": "5.2.8",
         "@fontsource/jetbrains-mono": "5.2.8",
-        "astro": "5.13.9"
+        "astro": "5.13.10"
     },
     "devDependencies": {
         "@augu/eslint-config": "5.3.1",
