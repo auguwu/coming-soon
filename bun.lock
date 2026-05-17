@@ -7,7 +7,7 @@
       "dependencies": {
         "@astrojs/node": "10.1.1",
         "@fontsource/cantarell": "5.2.8",
-        "@fontsource/geist": "5.2.8",
+        "@fontsource/geist": "5.2.9",
         "@fontsource/jetbrains-mono": "5.2.8",
         "astro": "6.3.3",
       },
@@ -148,7 +148,7 @@
 
     "@fontsource/cantarell": ["@fontsource/cantarell@5.2.8", "", {}, "sha512-MQKwrtpAmd5disYpoTcxliqQjzn/5msazpycrS57ppNNV8HKDP3RYpVTcEw8nYvWVoXwqSOkU2/RHmo3VqckkQ=="],
 
-    "@fontsource/geist": ["@fontsource/geist@5.2.8", "", {}, "sha512-pI54klK6vz8fVpAVyV+iODGLEzw73cs1XJqV9PIXgW8MYMmBcwK6lKKaWqJrNHwEx8ppz9cuhussb6arXQ/PVQ=="],
+    "@fontsource/geist": ["@fontsource/geist@5.2.9", "", {}, "sha512-6QMur8g+3/9Uvfv/5chLJGBc9bYVzWijFrWEl0uZnitxp6wEPqKCJd9/GBlOk4dg/QSe96a3TUKEgmscFpE+4g=="],
 
     "@fontsource/jetbrains-mono": ["@fontsource/jetbrains-mono@5.2.8", "", {}, "sha512-6w8/SG4kqvIMu7xd7wt6x3idn1Qux3p9N62s6G3rfldOUYHpWcc2FKrqf+Vo44jRvqWj2oAtTHrZXEP23oSKwQ=="],
 
