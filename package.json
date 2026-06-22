@@ -28,7 +28,7 @@
         "@stylistic/eslint-plugin": "5.10.0",
         "@tailwindcss/vite": "4.3.1",
         "@types/node": "26.0.0",
-        "astro-eslint-parser": "1.4.0",
+        "astro-eslint-parser": "2.0.0",
         "eslint-config-prettier": "10.1.8",
         "eslint-formatter-codeframe": "7.32.2",
         "eslint-plugin-astro": "1.7.0",
