@@ -25,7 +25,7 @@
     "devDependencies": {
         "@augu/eslint-config": "5.3.1",
         "@augu/tsconfig": "1.2.0",
-        "@stylistic/eslint-plugin": "5.10.0",
+        "@stylistic/eslint-plugin": "6.0.1",
         "@tailwindcss/vite": "4.3.3",
         "@types/node": "26.6.5",
         "astro-eslint-parser": "3.2.0",
